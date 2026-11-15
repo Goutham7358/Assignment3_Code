@@ -135,7 +135,7 @@ def write_report_tables(summary, leaders):
              f" & {full[flag + '_pct']:.2f}" for flag, label in conditions]
     write_tex_table("route_results_table.tex", r"Condition & Observations & Share (\%)", lines, "lrr")
 
-    labels = ["Full sample", "Exact endpoint matches", "Through July 2026", "December 2025"]
+    labels = ["Full sample", "Exact endpoint matches", "December 2025"]
     lines = []
     for label, row in zip(labels, summary):
         n = row["observations"]
@@ -184,7 +184,6 @@ def main():
         raise ValueError("Route coverage changed; review the report scope first")
     subsets = [("full_sample", results),
                ("exact_endpoint_matches", [r for r in results if r["endpoint_counts_match"]]),
-               ("through_july_2026", [r for r in results if r["month"] <= "2026-07"]),
                ("december_2025", [r for r in results if r["month"] == "2025-12"])]
     summary = [summarise(label, rows) for label, rows in subsets]
     monthly = [summarise(month, [r for r in results if r["month"] == month])

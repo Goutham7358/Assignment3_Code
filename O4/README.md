@@ -37,14 +37,14 @@ python3 O4/Main_Analysis/route_concentration.py
 
 This standard-library script reads `data/processed/routes/route_monthly.csv` and `group_route_monthly.csv`. It calculates shares from integer scheduled-flight counts; the first file supplies retained observations and endpoint-match flags. It does not re-extract PDFs or require EDA outputs. To rebuild those inputs from the original schedules, use the extraction, preparation and verification commands in the Route EDA section below.
 
-The terminal output reports the full sample, exact endpoint matches, the common July 2026 cutoff and December 2025. The main result is 1,143/1,150 observations with HHI >1,800 (99.39%). IndiGo supplies >=60% of scheduled flights in 79 observations (6.87%); none has IndiGo as sole operator. These are selected major airport pairs, not India's entire network.
+The terminal output reports the full sample, exact endpoint matches and December 2025. The main result is 1,143/1,150 observations with HHI >1,800 (99.39%). IndiGo supplies >=60% of scheduled flights in 79 observations (6.87%); none has IndiGo as sole operator. These are selected major airport pairs, not India's entire network.
 
 Generated files under `O4/output/tables/`:
 
 | File | Contents |
 |---|---|
 | `route_results_monthly.csv` | 1,150 observations: group HHI, CR2, gap, fringe, IndiGo share, leading groups, ties and nine condition flags |
-| `route_results_summary.csv` | Four sample definitions, their denominators, condition counts/percentages and medians |
+| `route_results_summary.csv` | Three sample definitions, their denominators, condition counts/percentages and medians |
 | `route_results_by_month.csv` | 66 monthly summaries; `observations` is available pairs in that month |
 | `route_results_by_pair.csv` | The same summaries for each of the 20 selected pairs |
 | `route_leading_pairs.csv` | Frequencies of unique leading pairs, with boundary ties separate |
@@ -61,7 +61,7 @@ The flags are HHI >1,800; CR2 >=80%; gap >20 pp; fringe <=20%; IndiGo share >=60
 
 Leading groups are ranked separately for each observation. If ranks two and three have equal counts, there is no unique top-two pair: 58 such observations receive a separate category. The `largest_group`/`second_largest_group` fields use alphabetical order to break ties for display; `first_place_groups` and `second_place_groups` preserve all tied names. Unique-pair flags and counts do not use an arbitrary tie-break. There are 730 unique IndiGo-AI pairs, of which 95 also meet the CR2/gap conditions. A tie affects the names, not any numerical concentration measure.
 
-The exact-match subset has 303 observations; the July cutoff has 1,112, and December 2025 has 19 available pairs. Subsets overlap. Endpoint agreement is a consistency check, not proof that every filing exists. In December 2025, Chennai-Hyderabad is the only pair above the 60% IndiGo flag (78.10%); this approved-schedule measure does not describe flights actually operated during disruption.
+The exact-match subset has 303 observations, and December 2025 has 19 available pairs. Subsets overlap. Endpoint agreement is a consistency check, not proof that every filing exists. In December 2025, Chennai-Hyderabad is the only pair above the 60% IndiGo flag (78.10%); this approved-schedule measure does not describe flights actually operated during disruption.
 
 Independent SQL aggregation of the airline-level prepared CSV confirms all 1,150 totals, leading-group identities, five numerical measures and nine flags. All 66 monthly and 20 pair-level denominators and condition counts were checked against those observations. A standalone copy with only the script and two inputs reproduced all 11 outputs byte-for-byte from a different working directory.
 
