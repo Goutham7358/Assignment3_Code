@@ -1,0 +1,19 @@
+{
+  "input": "data/raw/carrier_monthly.csv",
+  "source_sha256": "30412b650b47b9d8ba50917365b29f120f2da458403533829d65fd11b64c09be",
+  "raw_rows": 3482,
+  "excluded_rows": {
+    "other_service_types": 1773,
+    "zero_passengers": 132
+  },
+  "retained_airline_months": 1577,
+  "observed_months": 138,
+  "first_month": "2015-01-01",
+  "last_month": "2026-07-01",
+  "missing_months": [
+    "2020-04-01"
+  ],
+  "duplicate_airline_months": 0,
+  "passenger_unit": "passenger journeys",
+  "ownership_convention": "Assignment 2, Section 2; see data/SOURCE.md"
+}

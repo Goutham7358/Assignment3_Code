@@ -10,7 +10,7 @@
 - SHA-256: `30412b650b47b9d8ba50917365b29f120f2da458403533829d65fd11b64c09be`.
 - Upstream licence: MIT; the supplied notice is preserved in `LICENSE.txt`.
 
-`carrier_monthly.csv` is copied unchanged from the existing economics project. It is already a cleaned distribution of DGCA workbooks, rather than an original DGCA workbook or a dataset newly cleaned in this repository.
+`raw/carrier_monthly.csv` is copied unchanged from the existing economics project. It is already a cleaned distribution of DGCA workbooks, rather than an original DGCA workbook or a dataset newly cleaned in this repository.
 
 ## What one row means
 
@@ -27,7 +27,20 @@ For the agreed national analysis, keep `service_type == "scheduled_domestic"` an
 | `year`, `month` | Calendar period |
 | `passengers` | Passenger journeys carried; not unique people |
 
-The first script will calculate passenger shares after applying the study's dated ownership grouping. The two largest groups must be identified afresh each month, rather than assuming the same two groups throughout the series.
+`source/prepare_national.py` retains positive scheduled-domestic passenger observations, checks unique airline-months, and adds an ISO month and ownership-group label. It writes `processed/national_airline_monthly.csv` (1,577 rows) and an audit file. It excludes 1,773 rows for other service types and 132 scheduled-domestic rows with zero passengers. No observations are interpolated or winsorised.
+
+The ownership convention is the one submitted in Assignment 2:
+
+- Air India and Air India Express are combined throughout.
+- Jet Airways and JetLite are combined throughout.
+- From January 2022, Vistara, AirAsia India and AIX Connect join the Air India Group. Before that month the Tata joint ventures remain separate.
+- Other airline labels are retained.
+
+This is the study's monthly grouping convention, not a reconstruction of every ownership interest. In particular, the January 2022 series movement includes reclassification.
+
+`O4/eda_national.py` sums passengers within these groups and calculates each group's share of that month's total. It ranks groups afresh each month. A tie is resolved alphabetically for the displayed names; this does not change CR2 or the gap. CR2 is the sum of the two highest shares. The gap is the highest share minus the second-highest share. Both use unrounded values.
+
+The prepared CSV contains `date` (first day of the month, ISO format), `airline` (source brand), `ownership_group` (study grouping), and `passengers` (integer passenger journeys). ASK and RPK are not used or altered in this first preparation step.
 
 ## Other fields and limits
 
