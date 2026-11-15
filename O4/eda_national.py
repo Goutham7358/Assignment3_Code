@@ -79,11 +79,16 @@ def draw_figure(monthly):
         gap.append(row["share_gap_pp"] if row else np.nan)
         month = date(month.year + month.month // 12, month.month % 12 + 1, 1)
 
-    plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10})
-    fig, axes = plt.subplots(2, 1, figsize=(8, 6.2), sharex=True)
-    fig.subplots_adjust(left=0.11, right=0.93, top=0.83, bottom=0.18, hspace=0.43)
-    fig.suptitle("National concentration and size asymmetry", fontsize=15, x=0.11, ha="left", y=0.97)
-    fig.text(0.11, 0.91, "India's scheduled domestic passengers, January 2015-July 2026", fontsize=10)
+    # Computer Modern is bundled with Matplotlib and matches the report's serif style.
+    plt.rcParams.update({
+        "font.family": "serif", "font.serif": ["cmr10"], "font.size": 11,
+        "mathtext.fontset": "cm", "axes.formatter.use_mathtext": True,
+        "axes.unicode_minus": False, "pdf.fonttype": 42,
+    })
+    fig, axes = plt.subplots(2, 1, figsize=(8, 5.5), sharex=True)
+    fig.subplots_adjust(left=0.12, right=0.93, top=0.87, bottom=0.14, hspace=0.50)
+    fig.suptitle("Scheduled domestic passengers, January 2015-July 2026",
+                 fontsize=12, x=0.12, ha="left", y=0.97)
 
     series = [
         (cr2, "A. Top two groups' combined share (CR2)", "Passenger share (%)", "#23648a"),
@@ -91,8 +96,8 @@ def draw_figure(monthly):
     ]
     for ax, (values, title, ylabel, color) in zip(axes, series):
         ax.plot(dates, values, color=color, linewidth=1.8)
-        ax.set_title(title, loc="left", fontsize=11, pad=9)
-        ax.set_ylabel(ylabel, fontsize=9)
+        ax.set_title(title, loc="left", fontsize=12, pad=9)
+        ax.set_ylabel(ylabel, fontsize=11)
         ax.set_ylim(0, 100)
         ax.set_yticks(range(0, 101, 20))
         ax.grid(axis="y", color="#e1e5e8", linewidth=0.6)
@@ -102,18 +107,16 @@ def draw_figure(monthly):
         ax.axvline(date(2022, 1, 1), color="#71777b", linestyle="--", linewidth=0.9)
         ax.plot(dates[-1], values[-1], "o", color=color, markersize=3)
         ax.annotate(f"{values[-1]:.1f}", (dates[-1], values[-1]),
-                    xytext=(5, 0), textcoords="offset points", va="center", color=color, fontsize=9)
-    axes[0].annotate("Grouping changes\nJan 2022", (date(2022, 1, 1), 25),
-                     xytext=(5, 0), textcoords="offset points", fontsize=8, color="#555b60")
+                    xytext=(5, 0), textcoords="offset points", va="center", color=color, fontsize=10)
+    axes[0].annotate("Ownership regrouping\nJanuary 2022", (date(2022, 1, 1), 20),
+                     xytext=(5, 0), textcoords="offset points", fontsize=10, color="#555b60")
+    axes[1].annotate("April 2020 missing", (date(2020, 4, 1), 85),
+                     xytext=(-5, 0), textcoords="offset points", ha="right", fontsize=10, color="#555b60")
     axes[1].xaxis.set_major_locator(mdates.YearLocator(2))
     axes[1].xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
     axes[1].set_xlim(dates[0], date(2027, 1, 1))
-    axes[1].set_xlabel("Month", fontsize=9)
-    fig.text(0.11, 0.075,
-             "Source: DGCA monthly traffic via mkubicek/india-aviation-stats; authors' calculations.\n"
-             "Groups follow Assignment 2. Dashed line: ownership regrouping in January 2022.\n"
-             "Grey band and line break: April 2020 is missing; no value is imputed.",
-             fontsize=8, linespacing=1.5, va="center")
+    axes[1].set_xlabel("Month", fontsize=11)
+    # Source attribution appears once in the report caption and in data/SOURCE.md.
     for extension in ["png", "pdf"]:
         metadata = {"Creator": "O4/eda_national.py"}
         if extension == "pdf":

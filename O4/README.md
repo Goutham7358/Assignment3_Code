@@ -33,6 +33,8 @@ The scripts find data relative to their own location, so they can also be run fr
 
 The EDA script saves files rather than opening a plotting window. Open `output/figures/national_cr2_share_gap.png` to see the chart; the PDF version is suitable for LaTeX.
 
+The chart uses Computer Modern serif lettering bundled with Matplotlib, matching the report's Latin Modern style. Source attribution is given once below the report caption; the complete dataset provenance is in `data/SOURCE.md`.
+
 ## Outputs and definitions
 
 | File under `output/` | Contents |
