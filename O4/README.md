@@ -71,11 +71,13 @@ Independent SQL aggregation of the airline-level prepared CSV confirms all 1,150
 python3 O4/Main_Analysis/route_focus_period.py
 ```
 
-This additional calculation compares December 2024-July 2026 in both datasets. It keeps the original full-period H6 results intact. It reads the prepared CSVs through the national and route calculation functions above and uses only the standard library. It does not modify the report or generate LaTeX tables.
+This additional calculation compares December 2024-July 2026 in both datasets. It keeps the original full-period H6 results intact. It reads the prepared CSVs through the national and route calculation functions above and uses only the standard library. It saves numerical CSVs and LaTeX table/calculation bodies; copying them into the report and building the PDF is a separate step.
 
 The 20-pair sample is the submitted O4 sample; the busiest 10 are a supplementary check using the first ten ranks in the same fixed 2025 passenger ranking. The retained focus samples contain 350/400 possible observations for the top 20 and 184/200 for the top 10. All 20 months are represented, with missing pairs omitted separately each month. Each retained pair-month has equal weight.
 
 Five CSVs are saved in `O4/output/tables/`: `route_focus_observations.csv` (350 observations with leading-group and signed IndiGo-minus-AI measures), `route_focus_summary.csv` (top 10 and top 20), `route_focus_by_month.csv` (40 monthly summaries), `route_focus_by_pair.csv` (20 pair summaries), and `national_route_focus_comparison.csv` (national and both route samples).
+
+Three generated LaTeX files use those same calculated values: `national_route_focus_table.tex` contains the matched-period comparison for Section 5.2; `route_focus_coverage_table.tex` lists the retained pairs in every focus-period month; `route_focus_counts.tex` shows the joint-condition percentages for the appendix. The latter two are used in Appendix C.4. All five numerical CSVs are unchanged by adding the report outputs; a standalone run reproduces all eight focus-period files byte-for-byte.
 
 The comparison separates shared dominance from asymmetry. In the top 10, IndiGo and AI are the leading pair in 184/184 observations; median CR2 is 89.37% and median gap is 7.69 pp. IndiGo leads uniquely in 86, AI in 94, with four first-place ties. Only 9/184 meet the unique-pair, CR2 >=80% and gap >20 pp conditions with IndiGo leading. Nationally, the corresponding conditions hold in 20/20 months, with median gap 37.35 pp. Matching periods therefore corroborates two-group concentration on the busiest pairs, while showing a more balanced division of scheduled frequency. National shares remain passenger-based and route shares frequency-based.
 

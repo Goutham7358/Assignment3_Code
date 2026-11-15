@@ -3,7 +3,7 @@
 from statistics import median
 
 from national_concentration import calculate_monthly
-from route_concentration import OUTPUT, calculate_routes, summarise, write_csv
+from route_concentration import OUTPUT, calculate_routes, summarise, write_csv, write_tex_table
 
 
 FIRST, LAST = "2024-12", "2026-07"
@@ -30,6 +30,44 @@ def focus_summary(label, rows):
     for field in ["ai_share_pct", "indigo_minus_ai_pp"]:
         result[field + "_median"] = median(r[field] for r in rows)
     return result
+
+
+def write_report_tables(comparison, summary, monthly):
+    lines = []
+    for field, label in [
+        ("specified_pair_count", "IndiGo and AI Group: top-two pair"),
+        ("cr2_median_pct", r"Median CR2 (\%)"),
+        ("gap_median_pp", "Median leader--rival gap (pp)"),
+        ("fringe_median_pct", r"Median fringe share (\%)"),
+        ("indigo_led_joint_count", "IndiGo-led pair, CR2 and gap jointly"),
+    ]:
+        values = []
+        for row in comparison:
+            value = (f"{row[field]}/{row['observations']}" if field.endswith("count")
+                     else f"{row[field]:.2f}")
+            values.append(value)
+        lines.append(label + " & " + " & ".join(values))
+    write_tex_table("national_route_focus_table.tex", "Measure & National & Top 10 pairs & Top 20 pairs",
+                    lines, "lrrr")
+
+    counts = {r["sample"]: r["observations"] for r in monthly}
+    months = sorted(key.split(":")[1] for key in counts if key.startswith("top10:"))
+    lines = [f"{month} & {counts['top10:' + month]}/10 & {counts['top20:' + month]}/20"
+             for month in months]
+    lines.extend([r"\midrule", f"Total pair-months & {summary[0]['observations']}/200"
+                  f" & {summary[1]['observations']}/400"])
+    write_tex_table("route_focus_coverage_table.tex", "Month & Top 10 retained & Top 20 retained",
+                    lines, "lrr")
+
+    top10, top20 = summary
+    lines = [r"\begin{align*}"]
+    for i, (row, label) in enumerate([(top10, "Top 10"), (top20, "Top 20")]):
+        n, qualified = row["observations"], row["indigo_led_joint_count"]
+        lines.append(rf"\text{{{label}, IndiGo-led joint share}}"
+                     rf" &= 100\times{qualified}/{n} \approx {100 * qualified / n:.2f}\%"
+                     + (r", \\" if i == 0 else "."))
+    lines.append(r"\end{align*}")
+    (OUTPUT / "route_focus_counts.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def main():
@@ -76,6 +114,7 @@ def main():
             "indigo_led_joint_count": s["indigo_led_joint_count"],
         })
     write_csv("national_route_focus_comparison.csv", comparison)
+    write_report_tables(comparison, summary, monthly)
 
     print("Matched focus period: December 2024-July 2026 (20 months)")
     for row in comparison:
@@ -92,7 +131,7 @@ def main():
     print(f"\nTop 10: {len(top10)}/200 possible pair-months retained;"
           f" top 20: {len(rows)}/400.")
     print("Pairs use their fixed 2025 passenger ranking; missing observations are excluded.")
-    print("Saved five CSVs. The report is unchanged.")
+    print("Saved five CSVs and three LaTeX files in O4/output/tables/.")
 
 
 if __name__ == "__main__":
