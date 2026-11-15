@@ -6,7 +6,7 @@ The report is maintained separately in [Economics_Assignment3_Template](https://
 
 ## Current status
 
-O4's individual EDA content is ready for review: three figures, the December capacity-input table, and a four-measure national descriptive summary. National and route main-analysis results now include condition counts, report tables and appendix worked examples. Route outputs also include monthly IndiGo exposure, leading pairs with ties identified, and subset comparisons. The capacity-buffer comparison and formal hypothesis assessments remain pending. Preparation code, prepared CSVs and numerical outputs are included. The route workflow can rebuild its CSVs from the saved original DGCA PDFs. See [O4's instructions and checklist](O4/README.md) for run commands.
+O4's individual EDA and three main-analysis units are ready for review: national concentration, route concentration and IndiGo dependence, and the December capacity-buffer comparison. Each has numerical outputs, report tables and appendix workings. Route outputs include matched focus-period comparisons, monthly exposure, leading pairs with ties identified, and subset comparisons. Economic interpretation and formal hypothesis assessments remain pending. Preparation code and prepared CSVs are included; the route workflow can rebuild its CSVs from the saved original DGCA PDFs. See [O4's instructions and checklist](O4/README.md) for run commands.
 
 The first figure has two panels:
 
@@ -52,6 +52,7 @@ Install the packages in `requirements.txt` first if needed. PDF extraction and c
 | `O4/Main_Analysis/national_concentration.py` | National concentration results, monthly condition flags and appendix worked example |
 | `O4/Main_Analysis/route_concentration.py` | Route concentration, IndiGo exposure, leading pairs, subset comparisons and appendix worked example |
 | `O4/Main_Analysis/route_focus_period.py` | Matched December 2024-July 2026 comparison for national data and the busiest 10/20 pairs |
+| `O4/Main_Analysis/capacity_buffer.py` | Rivals' unused-capacity ratios for December 2024/2025, their changes and appendix workings |
 | `O4/output/` | Figure, numerical tables and software versions |
 | `requirements.txt` | Python plotting dependency |
 
@@ -71,4 +72,4 @@ Run instructions and output definitions are in [O4/README.md](O4/README.md). Sou
 
 ## AI assistance
 
-OpenAI Codex assisted with repository setup, documentation, national and route preparation/EDA code, adaptation of the existing PDF parser, national and route main-analysis code and tables, calculation checks, and report text. The analysis follows the method submitted in Assignment 2, with the two TruJet-related route-month exclusions documented in the route source notes. The team must review the calculations and interpretations before submission and include the methods-and-tools disclosure required by the course.
+OpenAI Codex assisted with repository setup, documentation, national and route preparation/EDA code, adaptation of the existing PDF parser, national, route and capacity-buffer main-analysis code and tables, calculation checks, and report text. The analysis follows the method submitted in Assignment 2, with the two TruJet-related route-month exclusions documented in the route source notes. The team must review the calculations and interpretations before submission and include the methods-and-tools disclosure required by the course.

@@ -25,7 +25,7 @@ Conditions are evaluated before display rounding. `specified_pair` means IndiGo 
 
 Every observed month has equal weight. April 2020 is missing; December 2024-July 2026 has all 20 months. The script stops if the pinned national coverage changes. The January 2022 ownership regrouping remains part of the submitted convention. Counts describe the observed periods and do not establish permanent dominance.
 
-The national result is complete: all three H5 conditions occur in 48/138 full-series months and 20/20 focus-period months. The formal hypothesis verdict and economic discussion will be written in Section 6. Route results are described below; the capacity-buffer analysis remains pending.
+The national result is complete: all three H5 conditions occur in 48/138 full-series months and 20/20 focus-period months. Route and capacity-buffer results are described below. The formal hypothesis verdicts and economic discussion remain for Section 6.
 
 All 138 months' identities, six measures and six flags were checked independently using SQL aggregation of the unchanged raw snapshot, including integer-count comparisons for the CR2, gap and fringe cutoffs. All existing EDA measures agree. A standalone copy containing only this script and its prepared CSV reproduces the six outputs byte-for-byte from a different working directory.
 
@@ -82,6 +82,33 @@ Three generated LaTeX files use those same calculated values: `national_route_fo
 The comparison separates shared dominance from asymmetry. In the top 10, IndiGo and AI are the leading pair in 184/184 observations; median CR2 is 89.37% and median gap is 7.69 pp. IndiGo leads uniquely in 86, AI in 94, with four first-place ties. Only 9/184 meet the unique-pair, CR2 >=80% and gap >20 pp conditions with IndiGo leading. Nationally, the corresponding conditions hold in 20/20 months, with median gap 37.35 pp. Matching periods therefore corroborates two-group concentration on the busiest pairs, while showing a more balanced division of scheduled frequency. National shares remain passenger-based and route shares frequency-based.
 
 `indigo_led_joint` adds the requirement that IndiGo ranks first to the existing pair/CR2/gap conditions. `indigo_minus_ai_pp` is signed and can be negative; the usual `share_gap_pp` is largest minus second-largest and is nonnegative. These are different comparisons. Ties for first are recorded separately, never assigned to an airline for leadership counts. Focus results were checked against an independent SQL aggregation of airline counts. A standalone run reproduced all five CSVs byte-for-byte.
+
+## Main analysis: rivals' capacity buffer
+
+```sh
+python3 O4/Main_Analysis/capacity_buffer.py
+```
+
+This standard-library script reads `data/processed/capacity_airline_monthly.csv` directly. If rebuilding the input, first run `python3 data/source/prepare_capacity.py`. It uses the same positive-passenger scheduled-domestic filter as the EDA, requires valid inputs for every selected airline and checks duplicate airline-months. It stops on invalid data instead of silently excluding or imputing it. Source decimal strings are read using `Decimal` so that ASK minus RPK and sums retain the reported precision.
+
+For each December, it subtracts RPK from ASK for every rival airline brand, sums those differences and divides by IndiGo's total RPK, multiplying by 100. Air India and Air India Express are each counted once. IndiGo is excluded from the numerator. There are nine retained rival brands in December 2024 and eight in December 2025; all 19 selected records, including the two IndiGo records, have valid inputs.
+
+Six outputs are saved in `O4/output/tables/`:
+
+| File | Contents |
+|---|---|
+| `capacity_buffer_airline.csv` | All 19 selected airline ASK/RPK records, roles, unused amounts and unit conversions |
+| `capacity_buffer_summary.csv` | Two monthly aggregates, rival-brand counts, IndiGo RPK and buffer percentages |
+| `capacity_buffer_change.csv` | December 2025 minus December 2024: unused-capacity difference, relative change and buffer change in pp |
+| `capacity_buffer_table.tex` | Section 5.3 table body with components, ratios and changes |
+| `capacity_buffer_airlines_table.tex` | Rival-by-rival unused capacity for the appendix |
+| `capacity_buffer_workings.tex` | Numerical substitutions and percentage-change calculations |
+
+Source amounts are in thousands of seat-km or passenger-km. Dividing by 1,000,000 converts them to billions. The buffer is `100 * rivals_unused / indigo_rpk`; it is not unused capacity divided by rivals' ASK or by cancelled traffic. Ratios use unrounded amounts. The buffer falls from 9.7905% to 8.1865%, a change of -1.6040 pp. Rival unused capacity falls from 0.892215468 to 0.671937316 billion seat-km, or 24.69%.
+
+The airline table uses a dash when a brand has no retained positive-passenger record in a comparison month; it does not insert an invented zero. Flagged earlier records remain outside these December samples. National monthly unused seat-km cannot establish route/date-specific spare seats or actual accommodation of disrupted passengers. The formal H7 assessment remains for Section 6.
+
+An independent SQL calculation from the unchanged raw snapshot checks both months' ASK, RPK, unused capacity, IndiGo denominators, airline counts and ratios. Every airline's difference was also checked against the source decimals. A standalone run with only this script and its prepared CSV reproduced all six outputs byte-for-byte.
 
 ## Progress
 
