@@ -6,7 +6,7 @@ The report is maintained separately in [Economics_Assignment3_Template](https://
 
 ## Current status
 
-O4's individual EDA and three main-analysis units are ready for review: national concentration, route concentration and IndiGo dependence, and the December capacity-buffer comparison. Each has numerical outputs, report tables and appendix workings. Route outputs include matched focus-period comparisons, monthly exposure, leading pairs with ties identified, and subset comparisons. Economic interpretation and formal hypothesis assessments remain pending. Preparation code and prepared CSVs are included; the route workflow can rebuild its CSVs from the saved original DGCA PDFs. See [O4's instructions and checklist](O4/README.md) for run commands.
+O4's individual EDA, three main-analysis units, economic interpretation and hypothesis assessment are drafted for review. The main units cover national concentration, route concentration and IndiGo dependence, and the December capacity-buffer comparison. Each has numerical outputs, report tables and appendix workings. Route outputs include matched focus-period comparisons, monthly exposure, leading pairs with ties identified, and subset comparisons. A separate script generates the H5-H7 outcome table. Limitations and final supporting material remain to be completed. Preparation code and prepared CSVs are included; the route workflow can rebuild its CSVs from the saved original DGCA PDFs. See [O4's instructions and checklist](O4/README.md) for run commands.
 
 The first figure has two panels:
 
@@ -53,6 +53,7 @@ Install the packages in `requirements.txt` first if needed. PDF extraction and c
 | `O4/Main_Analysis/route_concentration.py` | Route concentration, IndiGo exposure, leading pairs, subset comparisons and appendix worked example |
 | `O4/Main_Analysis/route_focus_period.py` | Matched December 2024-July 2026 comparison for national data and the busiest 10/20 pairs |
 | `O4/Main_Analysis/capacity_buffer.py` | Rivals' unused-capacity ratios for December 2024/2025, their changes and appendix workings |
+| `O4/Main_Analysis/hypothesis_summary.py` | H5-H7 condition checks and the Section 6.2 outcome table |
 | `O4/output/` | Figure, numerical tables and software versions |
 | `requirements.txt` | Python plotting dependency |
 

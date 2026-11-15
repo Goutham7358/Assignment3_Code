@@ -25,7 +25,7 @@ Conditions are evaluated before display rounding. `specified_pair` means IndiGo 
 
 Every observed month has equal weight. April 2020 is missing; December 2024-July 2026 has all 20 months. The script stops if the pinned national coverage changes. The January 2022 ownership regrouping remains part of the submitted convention. Counts describe the observed periods and do not establish permanent dominance.
 
-The national result is complete: all three H5 conditions occur in 48/138 full-series months and 20/20 focus-period months. Route and capacity-buffer results are described below. The formal hypothesis verdicts and economic discussion remain for Section 6.
+The national result is complete: all three H5 conditions occur in 48/138 full-series months and 20/20 focus-period months. Route and capacity-buffer results are described below. The economic discussion and formal hypothesis review are now drafted in Section 6; the generated outcome table is documented below.
 
 All 138 months' identities, six measures and six flags were checked independently using SQL aggregation of the unchanged raw snapshot, including integer-count comparisons for the CR2, gap and fringe cutoffs. All existing EDA measures agree. A standalone copy containing only this script and its prepared CSV reproduces the six outputs byte-for-byte from a different working directory.
 
@@ -106,9 +106,25 @@ Six outputs are saved in `O4/output/tables/`:
 
 Source amounts are in thousands of seat-km or passenger-km. Dividing by 1,000,000 converts them to billions. The buffer is `100 * rivals_unused / indigo_rpk`; it is not unused capacity divided by rivals' ASK or by cancelled traffic. Ratios use unrounded amounts. The buffer falls from 9.7905% to 8.1865%, a change of -1.6040 pp. Rival unused capacity falls from 0.892215468 to 0.671937316 billion seat-km, or 24.69%.
 
-The airline table uses a dash when a brand has no retained positive-passenger record in a comparison month; it does not insert an invented zero. Flagged earlier records remain outside these December samples. National monthly unused seat-km cannot establish route/date-specific spare seats or actual accommodation of disrupted passengers. The formal H7 assessment remains for Section 6.
+The airline table uses a dash when a brand has no retained positive-passenger record in a comparison month; it does not insert an invented zero. Flagged earlier records remain outside these December samples. National monthly unused seat-km cannot establish route/date-specific spare seats or actual accommodation of disrupted passengers. The formal H7 assessment is included in the Section 6.2 summary below.
 
 An independent SQL calculation from the unchanged raw snapshot checks both months' ASK, RPK, unused capacity, IndiGo denominators, airline counts and ratios. Every airline's difference was also checked against the source decimals. A standalone run with only this script and its prepared CSV reproduced all six outputs byte-for-byte.
+
+## O4 hypothesis summary
+
+```sh
+python3 O4/Main_Analysis/hypothesis_summary.py
+```
+
+This standard-library script calls the national, route and capacity-buffer calculation functions directly on their prepared CSVs. It does not depend on saved EDA or main-results outputs. The source scripts' data checks remain active. It also requires all 20 H5 months and observations for the 20-pair route sample.
+
+The script prints each outcome and saves `O4/output/tables/hypothesis_results.csv` and `hypothesis_results_table.tex`. The CSV records the original expected relationships, outcomes, H5/H6 qualifying counts and denominators, and H7's unrounded before/after ratios and pp change. Blank count fields for H7 are not missing route data; H7 compares two monthly ratios. The LaTeX body needs the report's `booktabs` and `array` packages.
+
+- H5 requires the specified pair, CR2 >=80% and gap >20 pp in every month from December 2024 to July 2026: 20/20 meet the conditions.
+- H6 requires HHI >1,800 in strictly more than half of the full retained route sample: 1,143/1,150 (99.39%). It does not require every route to have an asymmetric IndiGo-AI duopoly.
+- H7 requires the December 2025 buffer ratio to be strictly lower than December 2024: 8.1865% versus 9.7905%, a change of -1.6040 pp.
+
+All three are supported in the observed data. These are descriptive condition checks, not statistical significance tests or causal estimates. Their outcomes are checked against the existing independently verified monthly/route/capacity outputs. A standalone copy reproduces both files byte-for-byte.
 
 ## Progress
 
@@ -125,7 +141,7 @@ An independent SQL calculation from the unchanged raw snapshot checks both month
 - [x] Describe route coverage and the distribution of route concentration in a second two-panel figure, with numerical tables and local Section 4.2 text.
 - [x] Describe capacity inputs for December 2024 and December 2025 in Section 4.3, with a generated table and airline-level inputs.
 
-These are EDA tasks. National condition counts are now reported by the separate main-analysis script above; formal hypothesis assessments remain for the discussion.
+These are EDA tasks. National condition counts are now reported by the separate main-analysis script above; formal hypothesis assessments are now drafted in the discussion.
 
 Code changes are committed and pushed after each completed unit. The Overleaf-linked report is updated locally; committing and pushing it remains deferred until the user requests consolidation.
 

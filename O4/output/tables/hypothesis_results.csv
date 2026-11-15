@@ -1,0 +1,4 @@
+hypothesis,expected_relationship,outcome,qualifying_observations,observed_months_or_pair_months,before_buffer_pct,after_buffer_pct,buffer_change_pp,evidence
+H5,"IndiGo and AI Group are the two largest in every month, Dec 2024-Jul 2026, with CR2 >=80% and gap >20 pp",Supported,20,20,,,,20/20 months; minimum CR2 89.13%; minimum gap 30.01 pp
+H6,"Ownership-adjusted frequency HHI >1,800 in more than half the available observations for the selected 20 pairs",Supported,1143,1150,,,,"1,143/1,150 pair-months (99.39%) exceed 1,800"
+H7,Rivals' unused capacity relative to IndiGo RPK is lower in Dec 2025 than Dec 2024,Supported,,,9.790523174892450959349293738,8.186495481473584819456923991,-1.604027693418866139892369747,9.7905% to 8.1865%; change -1.6040 pp
