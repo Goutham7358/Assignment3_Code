@@ -62,6 +62,8 @@ def calculate_monthly():
             "largest_share_pct": shares[0], "second_largest_share_pct": shares[1],
             "cr2_pct": shares[0] + shares[1],
             "share_gap_pp": shares[0] - shares[1],
+            "ownership_hhi": sum(share ** 2 for share in shares),
+            "fringe_share_pct": 100 - shares[0] - shares[1],
         })
     return monthly, group_shares
 
@@ -151,7 +153,10 @@ def main():
     write_csv(OUTPUT / "tables/national_group_shares.csv", group_shares)
     write_csv(OUTPUT / "tables/national_leading_pair_periods.csv", leading_pair_periods(monthly))
     summary = []
-    for column, unit in [("cr2_pct", "percent"), ("share_gap_pp", "percentage points")]:
+    for column, unit in [
+        ("ownership_hhi", "HHI points"), ("cr2_pct", "percent"),
+        ("share_gap_pp", "percentage points"), ("fringe_share_pct", "percent"),
+    ]:
         values = [row[column] for row in monthly]
         summary.append({
             "measure": column, "unit": unit, "observed_months": len(values),
@@ -159,6 +164,21 @@ def main():
             "sample_standard_deviation": stdev(values), "minimum": min(values), "maximum": max(values),
         })
     write_csv(OUTPUT / "tables/national_eda_summary.csv", summary)
+    labels = {
+        "ownership_hhi": "Ownership HHI (points)", "cr2_pct": r"CR2 (\%)",
+        "share_gap_pp": "Share gap (pp)", "fringe_share_pct": r"Fringe share (\%)",
+    }
+    lines = [
+        r"\begin{tabular}{@{}lrrrrr@{}}", r"\toprule",
+        r"Measure & Mean & Median & Std. dev. & Minimum & Maximum \\", r"\midrule",
+    ]
+    for row in summary:
+        numbers = [f"{row[field]:,.2f}" for field in [
+            "mean", "median", "sample_standard_deviation", "minimum", "maximum"
+        ]]
+        lines.append(labels[row["measure"]] + " & " + " & ".join(numbers) + r" \\")
+    lines.extend([r"\bottomrule", r"\end{tabular}"])
+    (OUTPUT / "tables/national_summary_table.tex").write_text("\n".join(lines) + "\n")
     draw_figure(monthly)
     versions = {"python": platform.python_version(), "matplotlib": matplotlib.__version__, "numpy": np.__version__}
     (OUTPUT / "software_versions.json").write_text(json.dumps(versions, indent=2) + "\n", encoding="utf-8")

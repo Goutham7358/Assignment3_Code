@@ -2,7 +2,7 @@
 
 Data preparation lives here. O4's analysis scripts read prepared CSV files, rather than reading source PDFs or downloading data.
 
-To generate all three figures from the included prepared data, run `python3 O4/EDA/generate_figures.py` from the repository root. The steps below are for rebuilding the prepared data itself.
+To generate all EDA figures and tables from the included prepared data, run `python3 O4/EDA/generate_figures.py` from the repository root. The steps below rebuild the prepared data itself.
 
 ## National data: implemented
 
@@ -20,6 +20,14 @@ Outputs:
 - `data/processed/national_preparation.json`: source fingerprint, exclusions, row counts and missing months.
 
 The preparation script uses only Python's standard library. See `data/SOURCE.md` for the ownership convention, data dictionary and upstream attribution.
+
+## Capacity data: implemented
+
+```sh
+python3 data/source/prepare_capacity.py
+```
+
+This reads the same unchanged national source snapshot and writes `data/processed/capacity_airline_monthly.csv` and `capacity_preparation.json`. It preserves the source ASK/RPK decimal strings in thousand-km units. All 1,577 passenger-airline records remain; two records with zero ASK and RPK are flagged instead of imputed. `O4/EDA/eda_capacity.py` reads this prepared CSV for the December comparison.
 
 ## Route data: implemented
 

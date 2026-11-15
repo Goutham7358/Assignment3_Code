@@ -6,7 +6,7 @@ The report is maintained separately in [Economics_Assignment3_Template](https://
 
 ## Current status
 
-The national and route EDA figures are complete. Both have preparation code, prepared CSVs, plotting code and numerical outputs. The route workflow includes the original DGCA PDF archive and can rebuild its CSVs offline. See [O4's instructions and checklist](O4/README.md) for run commands and the remaining EDA tasks. The capacity-input comparison and the remaining national descriptive summary are still pending.
+O4's individual EDA content is ready for review: three figures, the December capacity-input table, and a four-measure national descriptive summary. Preparation code, prepared CSVs and numerical outputs are included. The route workflow can rebuild its CSVs from the saved original DGCA PDFs. See [O4's instructions and checklist](O4/README.md) for run commands. Main-analysis results and hypothesis assessments remain to be written.
 
 The first figure has two panels:
 
@@ -27,7 +27,7 @@ The third figure uses those same HHI values to show each airport pair over time.
 
 ## Files
 
-Generate all three figures from the included prepared CSVs:
+Generate all EDA figures and tables from the included prepared CSVs:
 
 ```sh
 python3 O4/EDA/generate_figures.py
@@ -47,7 +47,8 @@ Install the packages in `requirements.txt` first if needed. PDF extraction and c
 | `data/LICENSE.txt` | Upstream licence accompanying the dataset |
 | `O4/EDA/eda_national.py` | Monthly group calculations, summary statistics and chart |
 | `O4/EDA/eda_routes.py` | Route coverage, HHI distribution and pair-by-month heatmap |
-| `O4/EDA/generate_figures.py` | One command to generate all three EDA figures from prepared CSVs |
+| `O4/EDA/eda_capacity.py` | December 2024/2025 capacity-input table and its airline-level inputs |
+| `O4/EDA/generate_figures.py` | One command to generate all EDA figures and tables from prepared CSVs |
 | `O4/output/` | Figure, numerical tables and software versions |
 | `requirements.txt` | Python plotting dependency |
 

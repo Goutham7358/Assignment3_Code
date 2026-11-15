@@ -4,30 +4,30 @@
 
 - [x] Preserve and document the national source snapshot.
 - [x] Prepare a separate national airline-month CSV with the submitted ownership groups.
-- [x] Calculate monthly group shares, CR2 and the leader-rival gap.
-- [x] Save the numerical values behind the chart and summary statistics for these two measures.
+- [x] Calculate monthly group shares, CR2, the leader-rival gap, ownership HHI and fringe share.
+- [x] Save the numerical values behind the chart and summary statistics for all four concentration measures.
 - [x] Draw the first two-panel trend figure and check its appearance.
 - [x] Check all 138 monthly totals and CR2 values against the earlier project; independently check CR2 and gaps using a separate SQL aggregation of the source data.
 - [x] Rerun from a standalone copy, with prepared files removed and a different working directory; reproduce all prepared files, numerical CSVs and the PNG byte-for-byte.
 - [x] Add the figure and descriptive text to Section 4 of the report; compile and visually check the updated page.
-- [ ] Complete the remaining national descriptive summary, including HHI and fringe share, coordinating overlap with O1.
+- [x] Complete the national descriptive summary, including HHI and fringe share, for Appendix B. Coordinate overlap with O1 at team integration.
 - [x] Migrate and verify the route PDF-to-CSV preparation workflow, including the TruJet issue.
 - [x] Describe route coverage and the distribution of route concentration in a second two-panel figure, with numerical tables and local Section 4.2 text.
-- [ ] Describe the capacity inputs for December 2024 and December 2025.
+- [x] Describe capacity inputs for December 2024 and December 2025 in Section 4.3, with a generated table and airline-level inputs.
 
 These are EDA tasks. The hypothesis criteria and support assessments will be reported in the main analysis and discussion later.
 
 Code changes are committed and pushed after each completed EDA step. The Overleaf-linked report is currently updated locally; committing and pushing it is deferred until the EDA is ready for review as a whole.
 
-## Generate all EDA figures
+## Generate all EDA figures and tables
 
-The plotting scripts are in `O4/EDA/`. From the repository root, one command reads the included prepared CSVs and generates Figures 1-3 and their numerical tables:
+The EDA scripts are in `O4/EDA/`. From the repository root, one command reads the included prepared CSVs and generates Figures 1-3, the national descriptive summary, and the capacity-input table:
 
 ```sh
 python3 O4/EDA/generate_figures.py
 ```
 
-`eda_national.py` makes Figure 1 and the leading-pair summary. `eda_routes.py` makes Figure 2 and Figure 3. The entry script calls both. Outputs remain in `O4/output/`, so the figure filenames and links remain stable. Plotting does not reread source PDFs or change the prepared data.
+`eda_national.py` makes Figure 1, the leading-pair summary and national descriptive statistics. `eda_routes.py` makes Figures 2-3. `eda_capacity.py` makes the December capacity-input table. The entry script calls all three. Outputs remain in `O4/output/`. EDA does not reread source PDFs or change the prepared data.
 
 ## Set up Python and run the national analysis
 
@@ -55,9 +55,10 @@ The chart uses Computer Modern serif lettering bundled with Matplotlib, matching
 | `tables/national_group_shares.csv` | Each ownership group's passengers, monthly total, rank and passenger share |
 | `tables/national_concentration_monthly.csv` | Monthly total, group count, top-two names/shares, CR2 and gap |
 | `tables/national_leading_pair_periods.csv` | Runs of the same leading pair, with first/last month and observed-month count |
-| `tables/national_eda_summary.csv` | Count, mean, median, sample standard deviation, minimum and maximum of CR2 and gap |
+| `tables/national_eda_summary.csv` | Count, mean, median, sample standard deviation, minimum and maximum of ownership HHI, CR2, gap and fringe |
+| `tables/national_summary_table.tex` | Generated LaTeX table body for the Appendix B summary |
 
-In the monthly table, `cr2_pct` is the two largest group shares added together (percent). `share_gap_pp` is the largest minus second-largest share (percentage points). `_share_pct` fields are passenger percentages. `date` is the first day of each calendar month. Names and ranks are determined each month. Values are saved without display rounding.
+In the monthly table, `ownership_hhi` sums squared ownership-group percentage shares. `cr2_pct` adds the two largest shares (percent), `share_gap_pp` subtracts the second from the first (percentage points), and `fringe_share_pct` is 100 minus CR2. Other `_share_pct` fields are passenger percentages. `date` is the first day of each month. Names and ranks are determined each month. Values are saved without display rounding.
 
 Summary statistics weight each observed month equally. They are not passenger-weighted averages or pooled-period passenger shares. April 2020 is absent from the numerical data and is displayed as a gap in the chart. No hypothesis threshold lines or pass/fail classifications are included in this EDA figure.
 
@@ -102,3 +103,24 @@ There are 66 observed months with 12-20 retained pairs each; 14 months include a
 The preparation preserves the existing quality screen and excludes HYD-MAA in February-March 2022 consistently with O3. All 49,951 selected-route extracted rows match the earlier project's extraction, and all 1,150 retained observations agree with its flight totals and indices. A separate SQL aggregation checks every ownership-group HHI. The workflow also checks 228 schedule PDF fingerprints, two supporting parliamentary replies and the Delhi-Pune worked example. The sample change from 1,152 to 1,150 is fully explained by the two exclusions.
 
 A standalone copy, run from a different working directory with the intermediate and prepared route data removed, reproduced the original 19 extraction, preparation, verification and figure/table outputs byte-for-byte from the PDFs. After adding the heatmap, a separate standalone plotting run from the three prepared input CSVs reproduced all nine route EDA figure/table files byte-for-byte, including the unchanged histogram.
+
+## Capacity inputs: Section 4.3
+
+To rebuild the capacity preparation and table:
+
+```sh
+python3 data/source/prepare_capacity.py
+python3 O4/EDA/eda_capacity.py
+```
+
+The first command preserves the same 1,577 positive-passenger scheduled-domestic airline-months as the national panel, keeps source ASK/RPK values in their original thousand-km units, and flags invalid capacity observations. It saves `data/processed/capacity_airline_monthly.csv` and a preparation audit. The two zero-ASK/RPK records remain flagged; neither is in the December comparison.
+
+The second command requires valid inputs for every selected airline and produces:
+
+- `output/tables/capacity_airline_inputs.csv`: the 19 airline records used in December 2024 and December 2025.
+- `output/tables/capacity_inputs.csv`: ASK and RPK summed for IndiGo and all other airlines, separately for each month, retaining both thousand-km source units and billion-km display units.
+- `output/tables/capacity_inputs_table.tex`: the generated four-row LaTeX table body, displayed to three decimal places.
+
+ASK measures offered seat-km; RPK measures passenger-km carried. Dividing source values by 1,000,000 converts thousands to billions. Other airlines means every retained airline except IndiGo; brands are counted once and totals are not averages. This table introduces the inputs only. The unused-capacity ratio and H7 assessment belong to the main analysis and discussion.
+
+All 138 monthly ownership HHI/fringe values and the four capacity aggregates were independently checked against SQL calculations from the unchanged raw snapshot. A standalone run prepared capacity data from the raw CSV and reproduced all 22 EDA/capacity-preparation outputs byte-for-byte. Existing figure files and the original monthly concentration fields are unchanged.

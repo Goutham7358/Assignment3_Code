@@ -1,0 +1,20 @@
+date,airline,ownership_group,passengers,ask_thousand_seat_km,rpk_thousand_passenger_km,capacity_status
+2024-12-01,Air India,Air India Group,2604182,3293117.682,2756865.649,valid
+2024-12-01,Air India Express,Air India Group,1342308,1544459.389,1342337.928,valid
+2024-12-01,Akasa Air,Akasa Air,686835,870198.059,811906.922,valid
+2024-12-01,Alliance Air,Alliance Air,99952,52226.36,40571.823,valid
+2024-12-01,Fly91,Fly91,24230,13398.442,11086.546,valid
+2024-12-01,Flybig,Flybig,1137,1289.644,269.312,valid
+2024-12-01,IndiGo,IndiGo,9615322,10053140.0,9113052.0,valid
+2024-12-01,India One Air,India One Air,3131,1145.007,996.998,valid
+2024-12-01,SpiceJet,SpiceJet,489394,565677.548,494633.485,valid
+2024-12-01,Star Air,Star Air,59861,43249.0,33877.0,valid
+2025-12-01,Air India,Air India Group,2389728,2829741.296,2544302.838,valid
+2025-12-01,Air India Express,Air India Group,1839572,2065492.87,1836271.023,valid
+2025-12-01,Akasa Air,Akasa Air,739061,899677.12,857367.266,valid
+2025-12-01,Alliance Air,Alliance Air,57030,34576.143,24556.386,valid
+2025-12-01,Fly91,Fly91,37111,19590.611,16863.72,valid
+2025-12-01,IndiGo,IndiGo,8522591,9311861.0,8207875.0,valid
+2025-12-01,India One Air,India One Air,3308,1204.875,1012.272,valid
+2025-12-01,SpiceJet,SpiceJet,614339,693901.455,606842.549,valid
+2025-12-01,Star Air,Star Air,103743,74494.0,59525.0,valid

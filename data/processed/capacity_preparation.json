@@ -1,0 +1,20 @@
+{
+  "source_sha256": "30412b650b47b9d8ba50917365b29f120f2da458403533829d65fd11b64c09be",
+  "retained_passenger_airline_months": 1577,
+  "valid_capacity_observations": 1575,
+  "flagged_observations": [
+    {
+      "date": "2018-09-01",
+      "airline": "Air Odisha",
+      "status": "zero_ask_and_rpk_with_positive_passengers"
+    },
+    {
+      "date": "2020-03-01",
+      "airline": "Air Deccan",
+      "status": "zero_ask_and_rpk_with_positive_passengers"
+    }
+  ],
+  "handling": "Flagged records remain in the CSV. Capacity analyses must handle them explicitly; they are not imputed.",
+  "ask_unit": "thousand seat-km",
+  "rpk_unit": "thousand passenger-km"
+}

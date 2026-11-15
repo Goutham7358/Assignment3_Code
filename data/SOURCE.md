@@ -46,6 +46,8 @@ The prepared CSV contains `date` (first day of the month, ISO format), `airline`
 
 ## Other fields and limits
 
-The file also contains passenger-kilometres, seat-kilometres, load factors and freight measures. Passenger-km and seat-km are reported in thousands. There are positive-passenger records with zero passenger-km/seat-km for Air Odisha in September 2018 and Air Deccan in March 2020; capacity analyses will need to document their treatment.
+The file also contains passenger-kilometres, seat-kilometres, load factors and freight measures. Passenger-km and seat-km are reported in thousands. `source/prepare_capacity.py` preserves these source values in a separate prepared CSV, without changing the passenger-share panel. Air Odisha (September 2018) and Air Deccan (March 2020) have positive passengers but zero ASK/RPK; their records remain flagged and are not imputed. Neither is in the December 2024/2025 comparison.
+
+`processed/capacity_airline_monthly.csv` has `date`, `airline`, `ownership_group` and `passengers`, plus `ask_thousand_seat_km`, `rpk_thousand_passenger_km` and `capacity_status`. There are 1,577 records: 1,575 valid and two flagged `zero_ask_and_rpk_with_positive_passengers`. Negative/non-finite or inconsistent capacity values are not treated as usable. The EDA script stops if a selected comparison-month record is flagged, rather than silently dropping it.
 
 This file has no airline-by-route breakdown, fares or marginal costs. National concentration measures cannot establish route passenger shares, pricing power or consumer harm.
