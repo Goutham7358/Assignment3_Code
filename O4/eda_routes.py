@@ -62,12 +62,12 @@ def draw_figure(coverage, hhi):
 
     bins = np.arange(0, 10001, 500)
     axes[1].hist(hhi, bins=bins, color="#ad591f", edgecolor="white", linewidth=0.6)
-    axes[1].set_title("B. Distribution of route-month concentration", loc="left", fontsize=12, pad=10)
+    axes[1].set_title("B. Distribution of concentration across observations", loc="left", fontsize=12, pad=10)
     axes[1].set_xlabel("Ownership-group frequency HHI", fontsize=11)
-    axes[1].set_ylabel("Route-months", fontsize=11)
+    axes[1].set_ylabel("Number of observations", fontsize=11)
     axes[1].set_xlim(0, 10000)
     axes[1].set_xticks(range(0, 10001, 2000))
-    axes[1].annotate(f"{len(hhi):,} route-months", (0.98, 0.9),
+    axes[1].annotate(f"{len(hhi):,} observations", (0.98, 0.9),
                      xycoords="axes fraction", ha="right", fontsize=10, color="#555b60")
     for ax in axes:
         ax.spines[["top", "right"]].set_visible(False)

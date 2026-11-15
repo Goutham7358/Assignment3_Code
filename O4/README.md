@@ -74,7 +74,7 @@ Poppler's `pdftotext` must be on the PATH for the first command. Python preparat
 `output/figures/route_coverage_hhi.png` and `.pdf` contain two panels:
 
 1. Retained airport pairs in each of the 90 calendar months from April 2019 through September 2026. Zero means no usable observation, not zero flights.
-2. A histogram of ownership-group frequency HHI across the 1,150 retained pair-months. Every pair-month receives equal weight; unavailable HHIs are omitted rather than set to zero.
+2. A histogram of ownership-group frequency HHI across 1,150 observations. One observation is one airport pair in one calendar month: the same pair in two different months counts twice. The horizontal axis contains HHI intervals of 500 points; the vertical axis counts observations in each interval. For example, 278 observations have HHI from 3,500 up to 4,000. The bar heights sum to 1,150. Every observation receives equal weight; unavailable HHIs are omitted rather than set to zero.
 
 The chart values are in `output/tables/route_coverage_by_month.csv` and `route_hhi_histogram.csv`. `route_coverage_by_pair.csv` gives each pair's observation count and period, and `route_eda_summary.csv` reports the pooled descriptive statistics. The histogram bins have width 500; intervals include the left edge and exclude the right edge, except the last interval, which includes 10,000. Quartiles use linear interpolation.
 
