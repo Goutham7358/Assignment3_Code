@@ -1,0 +1,4 @@
+sample,observations,observation_unit,specified_pair_count,cr2_median_pct,gap_median_pp,fringe_median_pct,indigo_led_joint_count
+national_focus,20,national month; passenger shares,20,90.90604632321208,37.34948113435444,9.093953676787931,20
+top10_focus,184,airport pair/month; scheduled-frequency shares,184,89.37142857142857,7.6923076923076925,10.628571428571428,9
+top20_focus,350,airport pair/month; scheduled-frequency shares,328,89.5489541049711,11.91817848634781,10.451045895028892,50

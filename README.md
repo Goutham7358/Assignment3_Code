@@ -51,6 +51,7 @@ Install the packages in `requirements.txt` first if needed. PDF extraction and c
 | `O4/EDA/generate_figures.py` | One command to generate all EDA figures and tables from prepared CSVs |
 | `O4/Main_Analysis/national_concentration.py` | National concentration results, monthly condition flags and appendix worked example |
 | `O4/Main_Analysis/route_concentration.py` | Route concentration, IndiGo exposure, leading pairs, subset comparisons and appendix worked example |
+| `O4/Main_Analysis/route_focus_period.py` | Matched December 2024-July 2026 comparison for national data and the busiest 10/20 pairs |
 | `O4/output/` | Figure, numerical tables and software versions |
 | `requirements.txt` | Python plotting dependency |
 
