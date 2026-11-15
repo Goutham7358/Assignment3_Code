@@ -21,6 +21,10 @@ The second figure shows available airport pairs by month and the distribution of
 
 ![Route coverage and the distribution of ownership-group frequency HHI](O4/output/figures/route_coverage_hhi.png)
 
+The third figure uses those same HHI values to show each airport pair over time. Grey cells indicate unavailable observations. It complements the pooled histogram, which is retained.
+
+![Ownership-group frequency HHI by airport pair and month](O4/output/figures/route_hhi_heatmap.png)
+
 ## Files
 
 | File or folder | Contents |
@@ -34,7 +38,7 @@ The second figure shows available airport pairs by month and the distribution of
 | `data/ROUTE_SOURCES.md` | Route sources, preparation, sample changes and data dictionary |
 | `data/LICENSE.txt` | Upstream licence accompanying the dataset |
 | `O4/eda_national.py` | Monthly group calculations, summary statistics and chart |
-| `O4/eda_routes.py` | Route coverage and HHI distribution chart |
+| `O4/eda_routes.py` | Route coverage, HHI distribution and pair-by-month heatmap |
 | `O4/output/` | Figure, numerical tables and software versions |
 | `requirements.txt` | Python plotting dependency |
 

@@ -1,4 +1,4 @@
-"""Plot route-data coverage and the distribution of ownership-group HHI."""
+"""Plot route coverage, the pooled HHI distribution and pair-specific HHI over time."""
 
 import csv
 import os
@@ -17,6 +17,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 import numpy as np
 
 
@@ -81,6 +82,64 @@ def draw_figure(coverage, hhi):
     plt.close(fig)
 
 
+def draw_heatmap(observations, coverage_rows):
+    pairs = sorted(read_csv(DATA / "top20_routes.csv"), key=lambda row: int(row["rank_2025"]))
+    months = sorted({row["month"] for row in coverage_rows})
+    row_number = {row["route"]: index for index, row in enumerate(pairs)}
+    column_number = {month: index for index, month in enumerate(months)}
+    values = np.full((len(pairs), len(months)), np.nan)
+    for row in observations:
+        i, j = row_number[row["route"]], column_number[row["month"]]
+        if not np.isnan(values[i, j]):
+            raise ValueError("Duplicate observation in the route heatmap.")
+        values[i, j] = float(row["group_frequency_hhi"])
+
+    # Blank CSV cells and grey plot cells both mean no usable observation.
+    matrix_rows = []
+    for i, pair in enumerate(pairs):
+        output = {"route": pair["route"]}
+        for j, month in enumerate(months):
+            output[month] = "" if np.isnan(values[i, j]) else float(values[i, j])
+        matrix_rows.append(output)
+    write_csv(OUTPUT / "tables/route_hhi_heatmap.csv", matrix_rows)
+
+    cities = {
+        "AMD": "Ahmedabad", "BLR": "Bengaluru", "BOM": "Mumbai",
+        "CCU": "Kolkata", "DEL": "Delhi", "GAU": "Guwahati",
+        "GOI": "Goa (Dabolim)", "HYD": "Hyderabad", "MAA": "Chennai",
+        "PNQ": "Pune", "SXR": "Srinagar",
+    }
+    labels = [f"{cities[pair['airport_a']]}-{cities[pair['airport_b']]}" for pair in pairs]
+    fig, ax = plt.subplots(figsize=(8, 7))
+    fig.subplots_adjust(left=0.28, right=0.88, bottom=0.15, top=0.89)
+    colours = plt.get_cmap("viridis").copy()
+    colours.set_bad("#e2e2e2")
+    image = ax.imshow(np.ma.masked_invalid(values), aspect="auto", interpolation="nearest",
+                      cmap=colours, vmin=0, vmax=10000)
+    ax.set_yticks(range(len(pairs)), labels=labels, fontsize=11)
+    year_ticks = [index for index, month in enumerate(months) if month.endswith("-01")]
+    ax.set_xticks(year_ticks, labels=[months[index][:4] for index in year_ticks], fontsize=11)
+    ax.set_xlabel("Month", fontsize=11, labelpad=8)
+    for index in year_ticks:
+        ax.axvline(index - 0.5, color="white", linewidth=0.5, alpha=0.65)
+    for index in range(1, len(pairs)):
+        ax.axhline(index - 0.5, color="white", linewidth=0.3)
+    ax.tick_params(axis="both", length=0, pad=6)
+    colourbar = fig.colorbar(image, ax=ax, fraction=0.035, pad=0.035)
+    colourbar.set_ticks(range(0, 10001, 2000))
+    colourbar.set_label("Ownership-group frequency HHI", fontsize=11, labelpad=8)
+    fig.suptitle("Airport-pair concentration over time", x=0.28, ha="left", y=0.98, fontsize=13)
+    fig.text(0.28, 0.94, "April 2019-September 2026", fontsize=11)
+    fig.legend(handles=[Patch(facecolor="#e2e2e2", label="No usable observation")],
+               loc="lower center", bbox_to_anchor=(0.56, 0.015), frameon=False, fontsize=10)
+    for extension in ["png", "pdf"]:
+        metadata = {"Creator": "O4/eda_routes.py"}
+        if extension == "pdf":
+            metadata.update({"CreationDate": None, "ModDate": None})
+        fig.savefig(OUTPUT / f"figures/route_hhi_heatmap.{extension}", dpi=220, metadata=metadata)
+    plt.close(fig)
+
+
 def main():
     for folder in ["figures", "tables"]:
         (OUTPUT / folder).mkdir(parents=True, exist_ok=True)
@@ -114,6 +173,7 @@ def main():
     write_csv(OUTPUT / "tables/route_hhi_histogram.csv", histogram)
     write_csv(OUTPUT / "tables/route_eda_summary.csv", summary)
     draw_figure(coverage, hhi)
+    draw_heatmap(routes, coverage_rows)
     print(f"Saved route EDA for {len(routes):,} route-months across {len(per_month)} observed months.")
     print("HHI median:", round(median(hhi), 2), "interquartile range:", round(q25, 2), "to", round(q75, 2))
 
