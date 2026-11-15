@@ -66,6 +66,23 @@ def calculate_monthly():
     return monthly, group_shares
 
 
+def leading_pair_periods(monthly):
+    """Summarise runs of the same top two groups among observed months."""
+    periods = []
+    for row in monthly:
+        pair = (row["largest_group"], row["second_largest_group"])
+        if not periods or pair != (periods[-1]["largest_group"], periods[-1]["second_largest_group"]):
+            periods.append({
+                "first_month": row["date"][:7], "last_month": row["date"][:7],
+                "largest_group": pair[0], "second_largest_group": pair[1],
+                "observed_months": 0,
+            })
+        periods[-1]["last_month"] = row["date"][:7]
+        periods[-1]["observed_months"] += 1
+    # A period can span the missing April 2020; its identity is unknown then.
+    return periods
+
+
 def draw_figure(monthly):
     by_month = {row["date"]: row for row in monthly}
     # A complete date axis with NaN at missing months breaks the plotted line.
@@ -132,6 +149,7 @@ def main():
     monthly, group_shares = calculate_monthly()
     write_csv(OUTPUT / "tables/national_concentration_monthly.csv", monthly)
     write_csv(OUTPUT / "tables/national_group_shares.csv", group_shares)
+    write_csv(OUTPUT / "tables/national_leading_pair_periods.csv", leading_pair_periods(monthly))
     summary = []
     for column, unit in [("cr2_pct", "percent"), ("share_gap_pp", "percentage points")]:
         values = [row[column] for row in monthly]

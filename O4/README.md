@@ -44,6 +44,7 @@ The chart uses Computer Modern serif lettering bundled with Matplotlib, matching
 | `figures/national_cr2_share_gap.png` and `.pdf` | CR2 and share-gap trend panels |
 | `tables/national_group_shares.csv` | Each ownership group's passengers, monthly total, rank and passenger share |
 | `tables/national_concentration_monthly.csv` | Monthly total, group count, top-two names/shares, CR2 and gap |
+| `tables/national_leading_pair_periods.csv` | Runs of the same leading pair, with first/last month and observed-month count |
 | `tables/national_eda_summary.csv` | Count, mean, median, sample standard deviation, minimum and maximum of CR2 and gap |
 
 In the monthly table, `cr2_pct` is the two largest group shares added together (percent). `share_gap_pp` is the largest minus second-largest share (percentage points). `_share_pct` fields are passenger percentages. `date` is the first day of each calendar month. Names and ranks are determined each month. Values are saved without display rounding.
@@ -53,6 +54,8 @@ Summary statistics weight each observed month equally. They are not passenger-we
 ## First descriptive observations
 
 The series contains 138 observed months from January 2015 to July 2026. CR2 rises from 60.7% to 91.3%, and the share gap rises from 12.5 to 43.4 percentage points. The leading pair is IndiGo and Jet Airways Group at the start, and IndiGo and Air India Group at the end. The two panels therefore track the leading groups in each month, rather than assuming an unchanged pair throughout.
+
+IndiGo is first in all 138 observed months. Second place is Jet Airways Group (January 2015-January 2019, 49 months), SpiceJet (February 2019-April 2021, 26 observed months), Air India Group (May-August 2021, four months), Vistara (September 2021, one month), Go First (October-December 2021, three months), and Air India Group again (January 2022-July 2026, 55 months). These are five distinct pairs across six periods. April 2020 is unobserved, so its identity is not inferred. An independent SQL aggregation of the unchanged source confirms every month's top-two identities.
 
 Across observed months, CR2 ranges from 56.1% to 92.3%; the gap ranges from 11.1 to 49.9 percentage points. The January 2022 movement includes the study's ownership regrouping and should not be attributed entirely to changes in airline passenger volumes.
 
