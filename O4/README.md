@@ -1,4 +1,33 @@
-# O4 exploratory analysis
+# O4 analysis
+
+## Main analysis: national concentration
+
+From the repository root, run:
+
+```sh
+python3 O4/Main_Analysis/national_concentration.py
+```
+
+This step uses only the Python standard library. It reads `data/processed/national_airline_monthly.csv`, aggregates passengers by ownership group and ranks the groups separately each month. It does not require the EDA scripts or their outputs. Run `python3 data/source/prepare_national.py` first if rebuilding the prepared input from the preserved raw CSV.
+
+The script prints a results table in the terminal and saves six files in `O4/output/tables/`:
+
+| File | Contents |
+|---|---|
+| `national_results_monthly.csv` | All 138 monthly measures, leading-group identities and condition flags |
+| `national_results_summary.csv` | Counts, denominators, percentages and ranges for the full series and December 2024-July 2026 |
+| `national_results_table.tex` | Compact table body for Section 5 |
+| `national_worked_example.csv` | July 2026 group passenger counts, shares and HHI contributions |
+| `national_worked_groups.tex` | Group-input table for the appendix worked example |
+| `national_worked_calculations.tex` | Numerical calculations for that example |
+
+Conditions are evaluated before display rounding. `specified_pair` means IndiGo and Air India Group occupy the top two ranks, in either order. `h5_joint` combines that pair with CR2 >=80% and gap >20 percentage points, as specified in Assignment 2. HHI >1,800 and fringe <=20% are supporting descriptions: CR2 and fringe are complements, and CR2 >=80% already implies HHI >=3,200. The gap threshold is study-defined. These are descriptive conditions, not statistical significance tests or a legal definition of duopoly.
+
+Every observed month has equal weight. April 2020 is missing; December 2024-July 2026 has all 20 months. The script stops if the pinned national coverage changes. The January 2022 ownership regrouping remains part of the submitted convention. Counts describe the observed periods and do not establish permanent dominance.
+
+The national result is complete: all three H5 conditions occur in 48/138 full-series months and 20/20 focus-period months. The formal hypothesis verdict and economic discussion will be written in Section 6. Route results and the capacity-buffer analysis remain pending.
+
+All 138 months' identities, six measures and six flags were checked independently using SQL aggregation of the unchanged raw snapshot, including integer-count comparisons for the CR2, gap and fringe cutoffs. All existing EDA measures agree. A standalone copy containing only this script and its prepared CSV reproduces the six outputs byte-for-byte from a different working directory.
 
 ## Progress
 
@@ -15,9 +44,9 @@
 - [x] Describe route coverage and the distribution of route concentration in a second two-panel figure, with numerical tables and local Section 4.2 text.
 - [x] Describe capacity inputs for December 2024 and December 2025 in Section 4.3, with a generated table and airline-level inputs.
 
-These are EDA tasks. The hypothesis criteria and support assessments will be reported in the main analysis and discussion later.
+These are EDA tasks. National condition counts are now reported by the separate main-analysis script above; formal hypothesis assessments remain for the discussion.
 
-Code changes are committed and pushed after each completed EDA step. The Overleaf-linked report is currently updated locally; committing and pushing it is deferred until the EDA is ready for review as a whole.
+Code changes are committed and pushed after each completed unit. The Overleaf-linked report is updated locally; committing and pushing it remains deferred until the user requests consolidation.
 
 ## Generate all EDA figures and tables
 

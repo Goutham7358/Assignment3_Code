@@ -6,7 +6,7 @@ The report is maintained separately in [Economics_Assignment3_Template](https://
 
 ## Current status
 
-O4's individual EDA content is ready for review: three figures, the December capacity-input table, and a four-measure national descriptive summary. Preparation code, prepared CSVs and numerical outputs are included. The route workflow can rebuild its CSVs from the saved original DGCA PDFs. See [O4's instructions and checklist](O4/README.md) for run commands. Main-analysis results and hypothesis assessments remain to be written.
+O4's individual EDA content is ready for review: three figures, the December capacity-input table, and a four-measure national descriptive summary. The first main-analysis step, national concentration, now includes monthly condition counts, a Section 5 table and an appendix worked example. Route main results, the capacity-buffer comparison and formal hypothesis assessments remain pending. Preparation code, prepared CSVs and numerical outputs are included. The route workflow can rebuild its CSVs from the saved original DGCA PDFs. See [O4's instructions and checklist](O4/README.md) for run commands.
 
 The first figure has two panels:
 
@@ -49,6 +49,7 @@ Install the packages in `requirements.txt` first if needed. PDF extraction and c
 | `O4/EDA/eda_routes.py` | Route coverage, HHI distribution and pair-by-month heatmap |
 | `O4/EDA/eda_capacity.py` | December 2024/2025 capacity-input table and its airline-level inputs |
 | `O4/EDA/generate_figures.py` | One command to generate all EDA figures and tables from prepared CSVs |
+| `O4/Main_Analysis/national_concentration.py` | National concentration results, monthly condition flags and appendix worked example |
 | `O4/output/` | Figure, numerical tables and software versions |
 | `requirements.txt` | Python plotting dependency |
 
@@ -68,4 +69,4 @@ Run instructions and output definitions are in [O4/README.md](O4/README.md). Sou
 
 ## AI assistance
 
-OpenAI Codex assisted with repository setup, documentation, national and route preparation/EDA code, adaptation of the existing PDF parser, calculation checks, and descriptive report text. The analysis follows the method submitted in Assignment 2, with the two TruJet-related route-month exclusions documented in the route source notes. The team must review the calculations and interpretations before submission and include the methods-and-tools disclosure required by the course.
+OpenAI Codex assisted with repository setup, documentation, national and route preparation/EDA code, adaptation of the existing PDF parser, national main-analysis code and tables, calculation checks, and report text. The analysis follows the method submitted in Assignment 2, with the two TruJet-related route-month exclusions documented in the route source notes. The team must review the calculations and interpretations before submission and include the methods-and-tools disclosure required by the course.
