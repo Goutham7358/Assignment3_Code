@@ -29,7 +29,7 @@ OUTPUT = Path(__file__).resolve().parent / "output"
 
 def write_csv(path, rows):
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=rows[0].keys())
+        writer = csv.DictWriter(handle, fieldnames=rows[0].keys(), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -115,8 +115,11 @@ def draw_figure(monthly):
              "Grey band and line break: April 2020 is missing; no value is imputed.",
              fontsize=8, linespacing=1.5, va="center")
     for extension in ["png", "pdf"]:
+        metadata = {"Creator": "O4/eda_national.py"}
+        if extension == "pdf":
+            metadata.update({"CreationDate": None, "ModDate": None})
         fig.savefig(OUTPUT / f"figures/national_cr2_share_gap.{extension}", dpi=220,
-                    metadata={"Creator": "O4/eda_national.py"})
+                    metadata=metadata)
     plt.close(fig)
 
 
