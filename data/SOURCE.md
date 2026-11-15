@@ -1,5 +1,7 @@
 # Airline traffic data
 
+This page covers the national passenger file. Route schedules, selection data and preparation are documented in [ROUTE_SOURCES.md](ROUTE_SOURCES.md).
+
 ## Source and version
 
 - Original authority: Directorate General of Civil Aviation (DGCA), Government of India.

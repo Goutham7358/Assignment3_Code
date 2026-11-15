@@ -1,0 +1,28 @@
+{
+  "first_month": "2019-04",
+  "last_month": "2026-09",
+  "candidate_calendar_months": 90,
+  "observed_months": 66,
+  "route_months": 1150,
+  "selected_pairs": 20,
+  "minimum_routes_per_observed_month": 12,
+  "source_pdfs_contributing_departure_rows": 92,
+  "maximum_routes_per_observed_month": 20,
+  "months_with_all20": 14,
+  "exact_endpoint_match_route_months": 303,
+  "pre_screen_route_months": 1404,
+  "documented_route_month_exclusions": [
+    [
+      "2022-02",
+      "HYD-MAA"
+    ],
+    [
+      "2022-03",
+      "HYD-MAA"
+    ]
+  ],
+  "duplicate_departure_days_collapsed_before_screen": 1724,
+  "endpoint_tolerance_pct": 5,
+  "minimum_routes_per_month_rule": 10,
+  "share_basis": "approved scheduled departure frequency; both directions combined"
+}

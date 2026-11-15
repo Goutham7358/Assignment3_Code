@@ -1,0 +1,1801 @@
+month,route,rank_2025,full_month_source_coverage,retained,reason
+2019-04,BOM-DEL,1,True,True,
+2019-04,BLR-DEL,2,True,True,
+2019-04,BLR-BOM,3,True,True,
+2019-04,DEL-HYD,4,True,True,
+2019-04,DEL-PNQ,5,True,True,
+2019-04,CCU-DEL,6,True,True,
+2019-04,AMD-DEL,7,True,True,
+2019-04,BLR-HYD,8,True,True,
+2019-04,DEL-MAA,9,True,True,
+2019-04,BOM-CCU,10,True,True,
+2019-04,BOM-HYD,11,True,True,
+2019-04,BLR-CCU,12,True,True,
+2019-04,BOM-MAA,13,True,True,
+2019-04,AMD-BOM,14,True,True,
+2019-04,BLR-PNQ,15,True,True,
+2019-04,DEL-SXR,16,True,True,
+2019-04,HYD-MAA,17,True,True,
+2019-04,DEL-GAU,18,True,True,
+2019-04,BOM-GOI,19,True,True,
+2019-04,BLR-MAA,20,True,True,
+2019-05,BOM-DEL,1,True,True,
+2019-05,BLR-DEL,2,True,True,
+2019-05,BLR-BOM,3,True,False,airline endpoint-count difference exceeds 5 percent
+2019-05,DEL-HYD,4,True,True,
+2019-05,DEL-PNQ,5,True,True,
+2019-05,CCU-DEL,6,True,True,
+2019-05,AMD-DEL,7,True,True,
+2019-05,BLR-HYD,8,True,True,
+2019-05,DEL-MAA,9,True,True,
+2019-05,BOM-CCU,10,True,True,
+2019-05,BOM-HYD,11,True,True,
+2019-05,BLR-CCU,12,True,True,
+2019-05,BOM-MAA,13,True,True,
+2019-05,AMD-BOM,14,True,True,
+2019-05,BLR-PNQ,15,True,True,
+2019-05,DEL-SXR,16,True,True,
+2019-05,HYD-MAA,17,True,True,
+2019-05,DEL-GAU,18,True,True,
+2019-05,BOM-GOI,19,True,True,
+2019-05,BLR-MAA,20,True,True,
+2019-06,BOM-DEL,1,True,True,
+2019-06,BLR-DEL,2,True,True,
+2019-06,BLR-BOM,3,True,True,
+2019-06,DEL-HYD,4,True,True,
+2019-06,DEL-PNQ,5,True,True,
+2019-06,CCU-DEL,6,True,True,
+2019-06,AMD-DEL,7,True,True,
+2019-06,BLR-HYD,8,True,True,
+2019-06,DEL-MAA,9,True,True,
+2019-06,BOM-CCU,10,True,True,
+2019-06,BOM-HYD,11,True,True,
+2019-06,BLR-CCU,12,True,True,
+2019-06,BOM-MAA,13,True,True,
+2019-06,AMD-BOM,14,True,True,
+2019-06,BLR-PNQ,15,True,True,
+2019-06,DEL-SXR,16,True,True,
+2019-06,HYD-MAA,17,True,True,
+2019-06,DEL-GAU,18,True,True,
+2019-06,BOM-GOI,19,True,True,
+2019-06,BLR-MAA,20,True,True,
+2019-07,BOM-DEL,1,True,True,
+2019-07,BLR-DEL,2,True,True,
+2019-07,BLR-BOM,3,True,True,
+2019-07,DEL-HYD,4,True,True,
+2019-07,DEL-PNQ,5,True,True,
+2019-07,CCU-DEL,6,True,True,
+2019-07,AMD-DEL,7,True,True,
+2019-07,BLR-HYD,8,True,True,
+2019-07,DEL-MAA,9,True,True,
+2019-07,BOM-CCU,10,True,True,
+2019-07,BOM-HYD,11,True,True,
+2019-07,BLR-CCU,12,True,True,
+2019-07,BOM-MAA,13,True,True,
+2019-07,AMD-BOM,14,True,True,
+2019-07,BLR-PNQ,15,True,True,
+2019-07,DEL-SXR,16,True,True,
+2019-07,HYD-MAA,17,True,True,
+2019-07,DEL-GAU,18,True,True,
+2019-07,BOM-GOI,19,True,True,
+2019-07,BLR-MAA,20,True,True,
+2019-08,BOM-DEL,1,True,True,
+2019-08,BLR-DEL,2,True,True,
+2019-08,BLR-BOM,3,True,True,
+2019-08,DEL-HYD,4,True,True,
+2019-08,DEL-PNQ,5,True,True,
+2019-08,CCU-DEL,6,True,True,
+2019-08,AMD-DEL,7,True,True,
+2019-08,BLR-HYD,8,True,True,
+2019-08,DEL-MAA,9,True,True,
+2019-08,BOM-CCU,10,True,True,
+2019-08,BOM-HYD,11,True,True,
+2019-08,BLR-CCU,12,True,True,
+2019-08,BOM-MAA,13,True,True,
+2019-08,AMD-BOM,14,True,True,
+2019-08,BLR-PNQ,15,True,True,
+2019-08,DEL-SXR,16,True,True,
+2019-08,HYD-MAA,17,True,True,
+2019-08,DEL-GAU,18,True,True,
+2019-08,BOM-GOI,19,True,True,
+2019-08,BLR-MAA,20,True,True,
+2019-09,BOM-DEL,1,True,True,
+2019-09,BLR-DEL,2,True,True,
+2019-09,BLR-BOM,3,True,True,
+2019-09,DEL-HYD,4,True,True,
+2019-09,DEL-PNQ,5,True,True,
+2019-09,CCU-DEL,6,True,True,
+2019-09,AMD-DEL,7,True,True,
+2019-09,BLR-HYD,8,True,True,
+2019-09,DEL-MAA,9,True,True,
+2019-09,BOM-CCU,10,True,True,
+2019-09,BOM-HYD,11,True,True,
+2019-09,BLR-CCU,12,True,True,
+2019-09,BOM-MAA,13,True,True,
+2019-09,AMD-BOM,14,True,True,
+2019-09,BLR-PNQ,15,True,True,
+2019-09,DEL-SXR,16,True,True,
+2019-09,HYD-MAA,17,True,True,
+2019-09,DEL-GAU,18,True,True,
+2019-09,BOM-GOI,19,True,True,
+2019-09,BLR-MAA,20,True,True,
+2019-10,BOM-DEL,1,True,True,
+2019-10,BLR-DEL,2,True,True,
+2019-10,BLR-BOM,3,True,True,
+2019-10,DEL-HYD,4,True,True,
+2019-10,DEL-PNQ,5,True,True,
+2019-10,CCU-DEL,6,True,True,
+2019-10,AMD-DEL,7,True,True,
+2019-10,BLR-HYD,8,True,True,
+2019-10,DEL-MAA,9,True,True,
+2019-10,BOM-CCU,10,True,True,
+2019-10,BOM-HYD,11,True,True,
+2019-10,BLR-CCU,12,True,True,
+2019-10,BOM-MAA,13,True,True,
+2019-10,AMD-BOM,14,True,True,
+2019-10,BLR-PNQ,15,True,True,
+2019-10,DEL-SXR,16,True,True,
+2019-10,HYD-MAA,17,True,True,
+2019-10,DEL-GAU,18,True,True,
+2019-10,BOM-GOI,19,True,True,
+2019-10,BLR-MAA,20,True,True,
+2019-11,BOM-DEL,1,True,True,
+2019-11,BLR-DEL,2,True,True,
+2019-11,BLR-BOM,3,True,True,
+2019-11,DEL-HYD,4,True,True,
+2019-11,DEL-PNQ,5,True,True,
+2019-11,CCU-DEL,6,True,True,
+2019-11,AMD-DEL,7,True,True,
+2019-11,BLR-HYD,8,True,True,
+2019-11,DEL-MAA,9,True,True,
+2019-11,BOM-CCU,10,True,True,
+2019-11,BOM-HYD,11,True,True,
+2019-11,BLR-CCU,12,True,True,
+2019-11,BOM-MAA,13,True,True,
+2019-11,AMD-BOM,14,True,True,
+2019-11,BLR-PNQ,15,True,True,
+2019-11,DEL-SXR,16,True,True,
+2019-11,HYD-MAA,17,True,True,
+2019-11,DEL-GAU,18,True,True,
+2019-11,BOM-GOI,19,True,True,
+2019-11,BLR-MAA,20,True,True,
+2019-12,BOM-DEL,1,True,True,
+2019-12,BLR-DEL,2,True,True,
+2019-12,BLR-BOM,3,True,True,
+2019-12,DEL-HYD,4,True,True,
+2019-12,DEL-PNQ,5,True,True,
+2019-12,CCU-DEL,6,True,True,
+2019-12,AMD-DEL,7,True,True,
+2019-12,BLR-HYD,8,True,True,
+2019-12,DEL-MAA,9,True,True,
+2019-12,BOM-CCU,10,True,True,
+2019-12,BOM-HYD,11,True,True,
+2019-12,BLR-CCU,12,True,True,
+2019-12,BOM-MAA,13,True,True,
+2019-12,AMD-BOM,14,True,True,
+2019-12,BLR-PNQ,15,True,True,
+2019-12,DEL-SXR,16,True,True,
+2019-12,HYD-MAA,17,True,True,
+2019-12,DEL-GAU,18,True,True,
+2019-12,BOM-GOI,19,True,True,
+2019-12,BLR-MAA,20,True,True,
+2020-01,BOM-DEL,1,True,True,
+2020-01,BLR-DEL,2,True,True,
+2020-01,BLR-BOM,3,True,True,
+2020-01,DEL-HYD,4,True,True,
+2020-01,DEL-PNQ,5,True,True,
+2020-01,CCU-DEL,6,True,True,
+2020-01,AMD-DEL,7,True,True,
+2020-01,BLR-HYD,8,True,True,
+2020-01,DEL-MAA,9,True,True,
+2020-01,BOM-CCU,10,True,True,
+2020-01,BOM-HYD,11,True,True,
+2020-01,BLR-CCU,12,True,True,
+2020-01,BOM-MAA,13,True,True,
+2020-01,AMD-BOM,14,True,True,
+2020-01,BLR-PNQ,15,True,True,
+2020-01,DEL-SXR,16,True,True,
+2020-01,HYD-MAA,17,True,True,
+2020-01,DEL-GAU,18,True,True,
+2020-01,BOM-GOI,19,True,True,
+2020-01,BLR-MAA,20,True,True,
+2020-02,BOM-DEL,1,True,True,
+2020-02,BLR-DEL,2,True,True,
+2020-02,BLR-BOM,3,True,True,
+2020-02,DEL-HYD,4,True,True,
+2020-02,DEL-PNQ,5,True,True,
+2020-02,CCU-DEL,6,True,True,
+2020-02,AMD-DEL,7,True,True,
+2020-02,BLR-HYD,8,True,True,
+2020-02,DEL-MAA,9,True,True,
+2020-02,BOM-CCU,10,True,True,
+2020-02,BOM-HYD,11,True,True,
+2020-02,BLR-CCU,12,True,True,
+2020-02,BOM-MAA,13,True,True,
+2020-02,AMD-BOM,14,True,True,
+2020-02,BLR-PNQ,15,True,True,
+2020-02,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2020-02,HYD-MAA,17,True,True,
+2020-02,DEL-GAU,18,True,True,
+2020-02,BOM-GOI,19,True,True,
+2020-02,BLR-MAA,20,True,True,
+2020-03,BOM-DEL,1,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BLR-DEL,2,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BLR-BOM,3,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,DEL-HYD,4,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,DEL-PNQ,5,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,CCU-DEL,6,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,AMD-DEL,7,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BLR-HYD,8,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,DEL-MAA,9,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BOM-CCU,10,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BOM-HYD,11,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BLR-CCU,12,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BOM-MAA,13,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,AMD-BOM,14,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BLR-PNQ,15,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,DEL-SXR,16,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,HYD-MAA,17,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,DEL-GAU,18,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BOM-GOI,19,False,False,pandemic suspension/restart: original season plan not usable
+2020-03,BLR-MAA,20,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BOM-DEL,1,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BLR-DEL,2,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BLR-BOM,3,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,DEL-HYD,4,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,DEL-PNQ,5,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,CCU-DEL,6,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,AMD-DEL,7,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BLR-HYD,8,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,DEL-MAA,9,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BOM-CCU,10,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BOM-HYD,11,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BLR-CCU,12,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BOM-MAA,13,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,AMD-BOM,14,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BLR-PNQ,15,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,DEL-SXR,16,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,HYD-MAA,17,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,DEL-GAU,18,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BOM-GOI,19,False,False,pandemic suspension/restart: original season plan not usable
+2020-04,BLR-MAA,20,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BOM-DEL,1,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BLR-DEL,2,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BLR-BOM,3,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,DEL-HYD,4,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,DEL-PNQ,5,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,CCU-DEL,6,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,AMD-DEL,7,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BLR-HYD,8,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,DEL-MAA,9,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BOM-CCU,10,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BOM-HYD,11,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BLR-CCU,12,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BOM-MAA,13,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,AMD-BOM,14,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BLR-PNQ,15,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,DEL-SXR,16,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,HYD-MAA,17,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,DEL-GAU,18,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BOM-GOI,19,False,False,pandemic suspension/restart: original season plan not usable
+2020-05,BLR-MAA,20,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BOM-DEL,1,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BLR-DEL,2,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BLR-BOM,3,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,DEL-HYD,4,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,DEL-PNQ,5,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,CCU-DEL,6,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,AMD-DEL,7,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BLR-HYD,8,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,DEL-MAA,9,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BOM-CCU,10,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BOM-HYD,11,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BLR-CCU,12,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BOM-MAA,13,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,AMD-BOM,14,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BLR-PNQ,15,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,DEL-SXR,16,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,HYD-MAA,17,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,DEL-GAU,18,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BOM-GOI,19,False,False,pandemic suspension/restart: original season plan not usable
+2020-06,BLR-MAA,20,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BOM-DEL,1,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BLR-DEL,2,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BLR-BOM,3,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,DEL-HYD,4,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,DEL-PNQ,5,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,CCU-DEL,6,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,AMD-DEL,7,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BLR-HYD,8,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,DEL-MAA,9,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BOM-CCU,10,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BOM-HYD,11,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BLR-CCU,12,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BOM-MAA,13,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,AMD-BOM,14,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BLR-PNQ,15,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,DEL-SXR,16,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,HYD-MAA,17,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,DEL-GAU,18,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BOM-GOI,19,False,False,pandemic suspension/restart: original season plan not usable
+2020-07,BLR-MAA,20,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BOM-DEL,1,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BLR-DEL,2,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BLR-BOM,3,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,DEL-HYD,4,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,DEL-PNQ,5,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,CCU-DEL,6,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,AMD-DEL,7,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BLR-HYD,8,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,DEL-MAA,9,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BOM-CCU,10,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BOM-HYD,11,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BLR-CCU,12,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BOM-MAA,13,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,AMD-BOM,14,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BLR-PNQ,15,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,DEL-SXR,16,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,HYD-MAA,17,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,DEL-GAU,18,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BOM-GOI,19,False,False,pandemic suspension/restart: original season plan not usable
+2020-08,BLR-MAA,20,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BOM-DEL,1,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BLR-DEL,2,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BLR-BOM,3,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,DEL-HYD,4,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,DEL-PNQ,5,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,CCU-DEL,6,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,AMD-DEL,7,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BLR-HYD,8,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,DEL-MAA,9,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BOM-CCU,10,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BOM-HYD,11,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BLR-CCU,12,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BOM-MAA,13,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,AMD-BOM,14,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BLR-PNQ,15,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,DEL-SXR,16,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,HYD-MAA,17,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,DEL-GAU,18,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BOM-GOI,19,False,False,pandemic suspension/restart: original season plan not usable
+2020-09,BLR-MAA,20,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BOM-DEL,1,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BLR-DEL,2,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BLR-BOM,3,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,DEL-HYD,4,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,DEL-PNQ,5,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,CCU-DEL,6,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,AMD-DEL,7,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BLR-HYD,8,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,DEL-MAA,9,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BOM-CCU,10,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BOM-HYD,11,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BLR-CCU,12,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BOM-MAA,13,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,AMD-BOM,14,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BLR-PNQ,15,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,DEL-SXR,16,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,HYD-MAA,17,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,DEL-GAU,18,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BOM-GOI,19,False,False,pandemic suspension/restart: original season plan not usable
+2020-10,BLR-MAA,20,False,False,pandemic suspension/restart: original season plan not usable
+2020-11,BOM-DEL,1,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,BLR-DEL,2,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,BLR-BOM,3,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,DEL-HYD,4,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-11,DEL-PNQ,5,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-11,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,BLR-HYD,8,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-11,DEL-MAA,9,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,BLR-CCU,12,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-11,BOM-MAA,13,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-11,AMD-BOM,14,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-11,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,HYD-MAA,17,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-11,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2020-11,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,BOM-DEL,1,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,BLR-DEL,2,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,BLR-BOM,3,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,DEL-HYD,4,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-12,DEL-PNQ,5,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-12,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,BLR-HYD,8,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-12,DEL-MAA,9,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,BLR-CCU,12,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-12,BOM-MAA,13,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-12,AMD-BOM,14,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-12,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,HYD-MAA,17,True,False,fewer than ten routes pass the monthly source-quality screen
+2020-12,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2020-12,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,BOM-DEL,1,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,BLR-DEL,2,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,BLR-BOM,3,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,DEL-HYD,4,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-01,DEL-PNQ,5,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-01,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,BLR-HYD,8,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-01,DEL-MAA,9,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,BLR-CCU,12,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-01,BOM-MAA,13,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-01,AMD-BOM,14,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-01,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,HYD-MAA,17,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-01,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2021-01,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,BOM-DEL,1,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,BLR-DEL,2,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,BLR-BOM,3,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,DEL-HYD,4,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-02,DEL-PNQ,5,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-02,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,BLR-HYD,8,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-02,DEL-MAA,9,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,BLR-CCU,12,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-02,BOM-MAA,13,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-02,AMD-BOM,14,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-02,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,HYD-MAA,17,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-02,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2021-02,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,BOM-DEL,1,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,BLR-DEL,2,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,BLR-BOM,3,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,DEL-HYD,4,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-03,DEL-PNQ,5,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-03,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,BLR-HYD,8,False,False,Star Air Summer 2021 omits Hyderabad departure table
+2021-03,DEL-MAA,9,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,BLR-CCU,12,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-03,BOM-MAA,13,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-03,AMD-BOM,14,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-03,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,DEL-SXR,16,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-03,HYD-MAA,17,False,False,TruJet Summer 2021 filing unavailable
+2021-03,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2021-03,BLR-MAA,20,True,False,fewer than ten routes pass the monthly source-quality screen
+2021-04,BOM-DEL,1,True,True,
+2021-04,BLR-DEL,2,True,True,
+2021-04,BLR-BOM,3,True,True,
+2021-04,DEL-HYD,4,True,False,airline endpoint-count difference exceeds 5 percent
+2021-04,DEL-PNQ,5,True,True,
+2021-04,CCU-DEL,6,True,True,
+2021-04,AMD-DEL,7,True,True,
+2021-04,BLR-HYD,8,False,False,Star Air Summer 2021 omits Hyderabad departure table
+2021-04,DEL-MAA,9,True,True,
+2021-04,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2021-04,BOM-HYD,11,True,True,
+2021-04,BLR-CCU,12,True,False,airline endpoint-count difference exceeds 5 percent
+2021-04,BOM-MAA,13,True,True,
+2021-04,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2021-04,BLR-PNQ,15,True,True,
+2021-04,DEL-SXR,16,True,True,
+2021-04,HYD-MAA,17,False,False,TruJet Summer 2021 filing unavailable
+2021-04,DEL-GAU,18,True,True,
+2021-04,BOM-GOI,19,True,True,
+2021-04,BLR-MAA,20,True,True,
+2021-05,BOM-DEL,1,True,True,
+2021-05,BLR-DEL,2,True,True,
+2021-05,BLR-BOM,3,True,True,
+2021-05,DEL-HYD,4,True,True,
+2021-05,DEL-PNQ,5,True,True,
+2021-05,CCU-DEL,6,True,True,
+2021-05,AMD-DEL,7,True,True,
+2021-05,BLR-HYD,8,False,False,Star Air Summer 2021 omits Hyderabad departure table
+2021-05,DEL-MAA,9,True,True,
+2021-05,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2021-05,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2021-05,BLR-CCU,12,True,True,
+2021-05,BOM-MAA,13,True,True,
+2021-05,AMD-BOM,14,True,True,
+2021-05,BLR-PNQ,15,True,True,
+2021-05,DEL-SXR,16,True,True,
+2021-05,HYD-MAA,17,False,False,TruJet Summer 2021 filing unavailable
+2021-05,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2021-05,BOM-GOI,19,True,True,
+2021-05,BLR-MAA,20,True,True,
+2021-06,BOM-DEL,1,True,True,
+2021-06,BLR-DEL,2,True,True,
+2021-06,BLR-BOM,3,True,True,
+2021-06,DEL-HYD,4,True,True,
+2021-06,DEL-PNQ,5,True,True,
+2021-06,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2021-06,AMD-DEL,7,True,True,
+2021-06,BLR-HYD,8,False,False,Star Air Summer 2021 omits Hyderabad departure table
+2021-06,DEL-MAA,9,True,True,
+2021-06,BOM-CCU,10,True,True,
+2021-06,BOM-HYD,11,True,True,
+2021-06,BLR-CCU,12,True,True,
+2021-06,BOM-MAA,13,True,True,
+2021-06,AMD-BOM,14,True,True,
+2021-06,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2021-06,DEL-SXR,16,True,True,
+2021-06,HYD-MAA,17,False,False,TruJet Summer 2021 filing unavailable
+2021-06,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2021-06,BOM-GOI,19,True,True,
+2021-06,BLR-MAA,20,True,True,
+2021-07,BOM-DEL,1,True,True,
+2021-07,BLR-DEL,2,True,True,
+2021-07,BLR-BOM,3,True,True,
+2021-07,DEL-HYD,4,True,True,
+2021-07,DEL-PNQ,5,True,False,airline endpoint-count difference exceeds 5 percent
+2021-07,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2021-07,AMD-DEL,7,True,True,
+2021-07,BLR-HYD,8,False,False,Star Air Summer 2021 omits Hyderabad departure table
+2021-07,DEL-MAA,9,True,True,
+2021-07,BOM-CCU,10,True,True,
+2021-07,BOM-HYD,11,True,True,
+2021-07,BLR-CCU,12,True,True,
+2021-07,BOM-MAA,13,True,True,
+2021-07,AMD-BOM,14,True,True,
+2021-07,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2021-07,DEL-SXR,16,True,True,
+2021-07,HYD-MAA,17,False,False,TruJet Summer 2021 filing unavailable
+2021-07,DEL-GAU,18,True,True,
+2021-07,BOM-GOI,19,True,True,
+2021-07,BLR-MAA,20,True,True,
+2021-08,BOM-DEL,1,True,True,
+2021-08,BLR-DEL,2,True,True,
+2021-08,BLR-BOM,3,True,True,
+2021-08,DEL-HYD,4,True,True,
+2021-08,DEL-PNQ,5,True,True,
+2021-08,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2021-08,AMD-DEL,7,True,True,
+2021-08,BLR-HYD,8,False,False,Star Air Summer 2021 omits Hyderabad departure table
+2021-08,DEL-MAA,9,True,True,
+2021-08,BOM-CCU,10,True,True,
+2021-08,BOM-HYD,11,True,True,
+2021-08,BLR-CCU,12,True,True,
+2021-08,BOM-MAA,13,True,True,
+2021-08,AMD-BOM,14,True,True,
+2021-08,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2021-08,DEL-SXR,16,True,True,
+2021-08,HYD-MAA,17,False,False,TruJet Summer 2021 filing unavailable
+2021-08,DEL-GAU,18,True,True,
+2021-08,BOM-GOI,19,True,True,
+2021-08,BLR-MAA,20,True,True,
+2021-09,BOM-DEL,1,True,True,
+2021-09,BLR-DEL,2,True,True,
+2021-09,BLR-BOM,3,True,True,
+2021-09,DEL-HYD,4,True,True,
+2021-09,DEL-PNQ,5,True,True,
+2021-09,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2021-09,AMD-DEL,7,True,True,
+2021-09,BLR-HYD,8,False,False,Star Air Summer 2021 omits Hyderabad departure table
+2021-09,DEL-MAA,9,True,True,
+2021-09,BOM-CCU,10,True,True,
+2021-09,BOM-HYD,11,True,True,
+2021-09,BLR-CCU,12,True,True,
+2021-09,BOM-MAA,13,True,True,
+2021-09,AMD-BOM,14,True,True,
+2021-09,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2021-09,DEL-SXR,16,True,True,
+2021-09,HYD-MAA,17,False,False,TruJet Summer 2021 filing unavailable
+2021-09,DEL-GAU,18,True,True,
+2021-09,BOM-GOI,19,True,True,
+2021-09,BLR-MAA,20,True,True,
+2021-10,BOM-DEL,1,True,True,
+2021-10,BLR-DEL,2,True,True,
+2021-10,BLR-BOM,3,True,True,
+2021-10,DEL-HYD,4,True,True,
+2021-10,DEL-PNQ,5,True,True,
+2021-10,CCU-DEL,6,True,False,airline endpoint-count difference exceeds 5 percent
+2021-10,AMD-DEL,7,True,True,
+2021-10,BLR-HYD,8,False,False,Star Air Summer 2021 omits Hyderabad departure table
+2021-10,DEL-MAA,9,True,True,
+2021-10,BOM-CCU,10,True,True,
+2021-10,BOM-HYD,11,True,True,
+2021-10,BLR-CCU,12,True,True,
+2021-10,BOM-MAA,13,True,True,
+2021-10,AMD-BOM,14,True,True,
+2021-10,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2021-10,DEL-SXR,16,True,True,
+2021-10,HYD-MAA,17,False,False,TruJet Summer 2021 filing unavailable
+2021-10,DEL-GAU,18,True,True,
+2021-10,BOM-GOI,19,True,True,
+2021-10,BLR-MAA,20,True,True,
+2021-11,BOM-DEL,1,True,True,
+2021-11,BLR-DEL,2,True,True,
+2021-11,BLR-BOM,3,True,True,
+2021-11,DEL-HYD,4,True,True,
+2021-11,DEL-PNQ,5,True,True,
+2021-11,CCU-DEL,6,True,True,
+2021-11,AMD-DEL,7,True,True,
+2021-11,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2021-11,DEL-MAA,9,True,True,
+2021-11,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2021-11,BOM-HYD,11,True,True,
+2021-11,BLR-CCU,12,True,True,
+2021-11,BOM-MAA,13,True,True,
+2021-11,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2021-11,BLR-PNQ,15,True,True,
+2021-11,DEL-SXR,16,True,True,
+2021-11,HYD-MAA,17,True,True,
+2021-11,DEL-GAU,18,True,True,
+2021-11,BOM-GOI,19,True,True,
+2021-11,BLR-MAA,20,True,True,
+2021-12,BOM-DEL,1,True,True,
+2021-12,BLR-DEL,2,True,True,
+2021-12,BLR-BOM,3,True,True,
+2021-12,DEL-HYD,4,True,True,
+2021-12,DEL-PNQ,5,True,True,
+2021-12,CCU-DEL,6,True,True,
+2021-12,AMD-DEL,7,True,True,
+2021-12,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2021-12,DEL-MAA,9,True,True,
+2021-12,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2021-12,BOM-HYD,11,True,True,
+2021-12,BLR-CCU,12,True,True,
+2021-12,BOM-MAA,13,True,True,
+2021-12,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2021-12,BLR-PNQ,15,True,True,
+2021-12,DEL-SXR,16,True,True,
+2021-12,HYD-MAA,17,True,True,
+2021-12,DEL-GAU,18,True,True,
+2021-12,BOM-GOI,19,True,True,
+2021-12,BLR-MAA,20,True,True,
+2022-01,BOM-DEL,1,True,True,
+2022-01,BLR-DEL,2,True,True,
+2022-01,BLR-BOM,3,True,True,
+2022-01,DEL-HYD,4,True,True,
+2022-01,DEL-PNQ,5,True,True,
+2022-01,CCU-DEL,6,True,True,
+2022-01,AMD-DEL,7,True,True,
+2022-01,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2022-01,DEL-MAA,9,True,True,
+2022-01,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2022-01,BOM-HYD,11,True,True,
+2022-01,BLR-CCU,12,True,True,
+2022-01,BOM-MAA,13,True,True,
+2022-01,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2022-01,BLR-PNQ,15,True,True,
+2022-01,DEL-SXR,16,True,True,
+2022-01,HYD-MAA,17,True,True,
+2022-01,DEL-GAU,18,True,True,
+2022-01,BOM-GOI,19,True,True,
+2022-01,BLR-MAA,20,True,True,
+2022-02,BOM-DEL,1,True,True,
+2022-02,BLR-DEL,2,True,True,
+2022-02,BLR-BOM,3,True,True,
+2022-02,DEL-HYD,4,True,True,
+2022-02,DEL-PNQ,5,True,True,
+2022-02,CCU-DEL,6,True,True,
+2022-02,AMD-DEL,7,True,True,
+2022-02,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2022-02,DEL-MAA,9,True,True,
+2022-02,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2022-02,BOM-HYD,11,True,True,
+2022-02,BLR-CCU,12,True,True,
+2022-02,BOM-MAA,13,True,True,
+2022-02,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2022-02,BLR-PNQ,15,True,True,
+2022-02,DEL-SXR,16,True,True,
+2022-02,HYD-MAA,17,True,False,TruJet suspension: archived full-month plan is not usable; exclude entire route-month
+2022-02,DEL-GAU,18,True,True,
+2022-02,BOM-GOI,19,True,True,
+2022-02,BLR-MAA,20,True,True,
+2022-03,BOM-DEL,1,True,True,
+2022-03,BLR-DEL,2,True,True,
+2022-03,BLR-BOM,3,True,True,
+2022-03,DEL-HYD,4,True,True,
+2022-03,DEL-PNQ,5,True,True,
+2022-03,CCU-DEL,6,True,True,
+2022-03,AMD-DEL,7,True,True,
+2022-03,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2022-03,DEL-MAA,9,True,True,
+2022-03,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2022-03,BOM-HYD,11,True,True,
+2022-03,BLR-CCU,12,True,True,
+2022-03,BOM-MAA,13,True,True,
+2022-03,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2022-03,BLR-PNQ,15,True,True,
+2022-03,DEL-SXR,16,True,True,
+2022-03,HYD-MAA,17,True,False,TruJet suspension: archived full-month plan is not usable; exclude entire route-month
+2022-03,DEL-GAU,18,True,True,
+2022-03,BOM-GOI,19,True,True,
+2022-03,BLR-MAA,20,True,True,
+2022-04,BOM-DEL,1,True,True,
+2022-04,BLR-DEL,2,True,True,
+2022-04,BLR-BOM,3,True,True,
+2022-04,DEL-HYD,4,True,True,
+2022-04,DEL-PNQ,5,True,True,
+2022-04,CCU-DEL,6,True,True,
+2022-04,AMD-DEL,7,True,True,
+2022-04,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2022-04,DEL-MAA,9,True,False,airline endpoint-count difference exceeds 5 percent
+2022-04,BOM-CCU,10,True,True,
+2022-04,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2022-04,BLR-CCU,12,True,True,
+2022-04,BOM-MAA,13,True,True,
+2022-04,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2022-04,BLR-PNQ,15,True,True,
+2022-04,DEL-SXR,16,True,True,
+2022-04,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2022-04,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2022-04,BOM-GOI,19,True,True,
+2022-04,BLR-MAA,20,True,True,
+2022-05,BOM-DEL,1,True,True,
+2022-05,BLR-DEL,2,True,True,
+2022-05,BLR-BOM,3,True,True,
+2022-05,DEL-HYD,4,True,True,
+2022-05,DEL-PNQ,5,True,True,
+2022-05,CCU-DEL,6,True,True,
+2022-05,AMD-DEL,7,True,True,
+2022-05,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2022-05,DEL-MAA,9,True,False,airline endpoint-count difference exceeds 5 percent
+2022-05,BOM-CCU,10,True,True,
+2022-05,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2022-05,BLR-CCU,12,True,True,
+2022-05,BOM-MAA,13,True,True,
+2022-05,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2022-05,BLR-PNQ,15,True,True,
+2022-05,DEL-SXR,16,True,True,
+2022-05,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2022-05,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2022-05,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2022-05,BLR-MAA,20,True,True,
+2022-06,BOM-DEL,1,True,True,
+2022-06,BLR-DEL,2,True,True,
+2022-06,BLR-BOM,3,True,True,
+2022-06,DEL-HYD,4,True,True,
+2022-06,DEL-PNQ,5,True,False,airline endpoint-count difference exceeds 5 percent
+2022-06,CCU-DEL,6,True,True,
+2022-06,AMD-DEL,7,True,True,
+2022-06,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2022-06,DEL-MAA,9,True,False,airline endpoint-count difference exceeds 5 percent
+2022-06,BOM-CCU,10,True,True,
+2022-06,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2022-06,BLR-CCU,12,True,True,
+2022-06,BOM-MAA,13,True,True,
+2022-06,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2022-06,BLR-PNQ,15,True,True,
+2022-06,DEL-SXR,16,True,True,
+2022-06,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2022-06,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2022-06,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2022-06,BLR-MAA,20,True,True,
+2022-07,BOM-DEL,1,True,True,
+2022-07,BLR-DEL,2,True,True,
+2022-07,BLR-BOM,3,True,True,
+2022-07,DEL-HYD,4,True,True,
+2022-07,DEL-PNQ,5,True,False,airline endpoint-count difference exceeds 5 percent
+2022-07,CCU-DEL,6,True,True,
+2022-07,AMD-DEL,7,True,True,
+2022-07,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2022-07,DEL-MAA,9,True,False,airline endpoint-count difference exceeds 5 percent
+2022-07,BOM-CCU,10,True,True,
+2022-07,BOM-HYD,11,True,False,airline endpoint-count difference exceeds 5 percent
+2022-07,BLR-CCU,12,True,True,
+2022-07,BOM-MAA,13,True,True,
+2022-07,AMD-BOM,14,True,False,airline endpoint-count difference exceeds 5 percent
+2022-07,BLR-PNQ,15,True,True,
+2022-07,DEL-SXR,16,True,True,
+2022-07,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2022-07,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2022-07,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2022-07,BLR-MAA,20,True,True,
+2022-08,BOM-DEL,1,False,False,initial Akasa season filing unavailable
+2022-08,BLR-DEL,2,False,False,initial Akasa season filing unavailable
+2022-08,BLR-BOM,3,False,False,initial Akasa season filing unavailable
+2022-08,DEL-HYD,4,False,False,initial Akasa season filing unavailable
+2022-08,DEL-PNQ,5,False,False,initial Akasa season filing unavailable
+2022-08,CCU-DEL,6,False,False,initial Akasa season filing unavailable
+2022-08,AMD-DEL,7,False,False,initial Akasa season filing unavailable
+2022-08,BLR-HYD,8,False,False,initial Akasa season filing unavailable
+2022-08,DEL-MAA,9,False,False,initial Akasa season filing unavailable
+2022-08,BOM-CCU,10,False,False,initial Akasa season filing unavailable
+2022-08,BOM-HYD,11,False,False,initial Akasa season filing unavailable
+2022-08,BLR-CCU,12,False,False,initial Akasa season filing unavailable
+2022-08,BOM-MAA,13,False,False,initial Akasa season filing unavailable
+2022-08,AMD-BOM,14,False,False,initial Akasa season filing unavailable
+2022-08,BLR-PNQ,15,False,False,initial Akasa season filing unavailable
+2022-08,DEL-SXR,16,False,False,initial Akasa season filing unavailable
+2022-08,HYD-MAA,17,False,False,initial Akasa season filing unavailable
+2022-08,DEL-GAU,18,False,False,initial Akasa season filing unavailable
+2022-08,BOM-GOI,19,False,False,initial Akasa season filing unavailable
+2022-08,BLR-MAA,20,False,False,initial Akasa season filing unavailable
+2022-09,BOM-DEL,1,False,False,initial Akasa season filing unavailable
+2022-09,BLR-DEL,2,False,False,initial Akasa season filing unavailable
+2022-09,BLR-BOM,3,False,False,initial Akasa season filing unavailable
+2022-09,DEL-HYD,4,False,False,initial Akasa season filing unavailable
+2022-09,DEL-PNQ,5,False,False,initial Akasa season filing unavailable
+2022-09,CCU-DEL,6,False,False,initial Akasa season filing unavailable
+2022-09,AMD-DEL,7,False,False,initial Akasa season filing unavailable
+2022-09,BLR-HYD,8,False,False,initial Akasa season filing unavailable
+2022-09,DEL-MAA,9,False,False,initial Akasa season filing unavailable
+2022-09,BOM-CCU,10,False,False,initial Akasa season filing unavailable
+2022-09,BOM-HYD,11,False,False,initial Akasa season filing unavailable
+2022-09,BLR-CCU,12,False,False,initial Akasa season filing unavailable
+2022-09,BOM-MAA,13,False,False,initial Akasa season filing unavailable
+2022-09,AMD-BOM,14,False,False,initial Akasa season filing unavailable
+2022-09,BLR-PNQ,15,False,False,initial Akasa season filing unavailable
+2022-09,DEL-SXR,16,False,False,initial Akasa season filing unavailable
+2022-09,HYD-MAA,17,False,False,initial Akasa season filing unavailable
+2022-09,DEL-GAU,18,False,False,initial Akasa season filing unavailable
+2022-09,BOM-GOI,19,False,False,initial Akasa season filing unavailable
+2022-09,BLR-MAA,20,False,False,initial Akasa season filing unavailable
+2022-10,BOM-DEL,1,False,False,initial Akasa season filing unavailable
+2022-10,BLR-DEL,2,False,False,initial Akasa season filing unavailable
+2022-10,BLR-BOM,3,False,False,initial Akasa season filing unavailable
+2022-10,DEL-HYD,4,False,False,initial Akasa season filing unavailable
+2022-10,DEL-PNQ,5,False,False,initial Akasa season filing unavailable
+2022-10,CCU-DEL,6,False,False,initial Akasa season filing unavailable
+2022-10,AMD-DEL,7,False,False,initial Akasa season filing unavailable
+2022-10,BLR-HYD,8,False,False,initial Akasa season filing unavailable
+2022-10,DEL-MAA,9,False,False,initial Akasa season filing unavailable
+2022-10,BOM-CCU,10,False,False,initial Akasa season filing unavailable
+2022-10,BOM-HYD,11,False,False,initial Akasa season filing unavailable
+2022-10,BLR-CCU,12,False,False,initial Akasa season filing unavailable
+2022-10,BOM-MAA,13,False,False,initial Akasa season filing unavailable
+2022-10,AMD-BOM,14,False,False,initial Akasa season filing unavailable
+2022-10,BLR-PNQ,15,False,False,initial Akasa season filing unavailable
+2022-10,DEL-SXR,16,False,False,initial Akasa season filing unavailable
+2022-10,HYD-MAA,17,False,False,initial Akasa season filing unavailable
+2022-10,DEL-GAU,18,False,False,initial Akasa season filing unavailable
+2022-10,BOM-GOI,19,False,False,initial Akasa season filing unavailable
+2022-10,BLR-MAA,20,False,False,initial Akasa season filing unavailable
+2022-11,BOM-DEL,1,True,True,
+2022-11,BLR-DEL,2,True,True,
+2022-11,BLR-BOM,3,True,True,
+2022-11,DEL-HYD,4,True,True,
+2022-11,DEL-PNQ,5,True,True,
+2022-11,CCU-DEL,6,True,True,
+2022-11,AMD-DEL,7,True,True,
+2022-11,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2022-11,DEL-MAA,9,True,True,
+2022-11,BOM-CCU,10,True,True,
+2022-11,BOM-HYD,11,True,True,
+2022-11,BLR-CCU,12,True,True,
+2022-11,BOM-MAA,13,True,True,
+2022-11,AMD-BOM,14,True,True,
+2022-11,BLR-PNQ,15,True,True,
+2022-11,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2022-11,HYD-MAA,17,True,True,
+2022-11,DEL-GAU,18,True,True,
+2022-11,BOM-GOI,19,True,True,
+2022-11,BLR-MAA,20,True,True,
+2022-12,BOM-DEL,1,True,True,
+2022-12,BLR-DEL,2,True,True,
+2022-12,BLR-BOM,3,True,True,
+2022-12,DEL-HYD,4,True,True,
+2022-12,DEL-PNQ,5,True,True,
+2022-12,CCU-DEL,6,True,True,
+2022-12,AMD-DEL,7,True,True,
+2022-12,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2022-12,DEL-MAA,9,True,True,
+2022-12,BOM-CCU,10,True,True,
+2022-12,BOM-HYD,11,True,True,
+2022-12,BLR-CCU,12,True,True,
+2022-12,BOM-MAA,13,True,True,
+2022-12,AMD-BOM,14,True,True,
+2022-12,BLR-PNQ,15,True,True,
+2022-12,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2022-12,HYD-MAA,17,True,True,
+2022-12,DEL-GAU,18,True,True,
+2022-12,BOM-GOI,19,True,True,
+2022-12,BLR-MAA,20,True,True,
+2023-01,BOM-DEL,1,True,True,
+2023-01,BLR-DEL,2,True,True,
+2023-01,BLR-BOM,3,True,True,
+2023-01,DEL-HYD,4,True,True,
+2023-01,DEL-PNQ,5,True,True,
+2023-01,CCU-DEL,6,True,True,
+2023-01,AMD-DEL,7,True,True,
+2023-01,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2023-01,DEL-MAA,9,True,True,
+2023-01,BOM-CCU,10,True,True,
+2023-01,BOM-HYD,11,True,True,
+2023-01,BLR-CCU,12,True,True,
+2023-01,BOM-MAA,13,True,True,
+2023-01,AMD-BOM,14,True,True,
+2023-01,BLR-PNQ,15,True,True,
+2023-01,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2023-01,HYD-MAA,17,True,True,
+2023-01,DEL-GAU,18,True,True,
+2023-01,BOM-GOI,19,True,True,
+2023-01,BLR-MAA,20,True,True,
+2023-02,BOM-DEL,1,True,True,
+2023-02,BLR-DEL,2,True,True,
+2023-02,BLR-BOM,3,True,True,
+2023-02,DEL-HYD,4,True,True,
+2023-02,DEL-PNQ,5,True,True,
+2023-02,CCU-DEL,6,True,True,
+2023-02,AMD-DEL,7,True,True,
+2023-02,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2023-02,DEL-MAA,9,True,True,
+2023-02,BOM-CCU,10,True,True,
+2023-02,BOM-HYD,11,True,True,
+2023-02,BLR-CCU,12,True,True,
+2023-02,BOM-MAA,13,True,True,
+2023-02,AMD-BOM,14,True,True,
+2023-02,BLR-PNQ,15,True,True,
+2023-02,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2023-02,HYD-MAA,17,True,True,
+2023-02,DEL-GAU,18,True,True,
+2023-02,BOM-GOI,19,True,True,
+2023-02,BLR-MAA,20,True,True,
+2023-03,BOM-DEL,1,True,True,
+2023-03,BLR-DEL,2,True,True,
+2023-03,BLR-BOM,3,True,True,
+2023-03,DEL-HYD,4,True,True,
+2023-03,DEL-PNQ,5,True,True,
+2023-03,CCU-DEL,6,True,True,
+2023-03,AMD-DEL,7,True,True,
+2023-03,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2023-03,DEL-MAA,9,True,True,
+2023-03,BOM-CCU,10,True,True,
+2023-03,BOM-HYD,11,True,True,
+2023-03,BLR-CCU,12,True,True,
+2023-03,BOM-MAA,13,True,True,
+2023-03,AMD-BOM,14,True,True,
+2023-03,BLR-PNQ,15,True,True,
+2023-03,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2023-03,HYD-MAA,17,True,True,
+2023-03,DEL-GAU,18,True,True,
+2023-03,BOM-GOI,19,True,True,
+2023-03,BLR-MAA,20,True,True,
+2023-04,BOM-DEL,1,True,True,
+2023-04,BLR-DEL,2,True,True,
+2023-04,BLR-BOM,3,True,True,
+2023-04,DEL-HYD,4,True,True,
+2023-04,DEL-PNQ,5,True,True,
+2023-04,CCU-DEL,6,True,True,
+2023-04,AMD-DEL,7,True,True,
+2023-04,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2023-04,DEL-MAA,9,True,True,
+2023-04,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2023-04,BOM-HYD,11,True,True,
+2023-04,BLR-CCU,12,True,False,airline endpoint-count difference exceeds 5 percent
+2023-04,BOM-MAA,13,True,True,
+2023-04,AMD-BOM,14,True,True,
+2023-04,BLR-PNQ,15,True,True,
+2023-04,DEL-SXR,16,True,True,
+2023-04,HYD-MAA,17,True,True,
+2023-04,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2023-04,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2023-04,BLR-MAA,20,True,True,
+2023-05,BOM-DEL,1,True,True,
+2023-05,BLR-DEL,2,True,True,
+2023-05,BLR-BOM,3,True,True,
+2023-05,DEL-HYD,4,True,True,
+2023-05,DEL-PNQ,5,True,True,
+2023-05,CCU-DEL,6,True,True,
+2023-05,AMD-DEL,7,True,True,
+2023-05,BLR-HYD,8,True,True,
+2023-05,DEL-MAA,9,True,True,
+2023-05,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2023-05,BOM-HYD,11,True,True,
+2023-05,BLR-CCU,12,True,True,
+2023-05,BOM-MAA,13,True,True,
+2023-05,AMD-BOM,14,True,True,
+2023-05,BLR-PNQ,15,True,True,
+2023-05,DEL-SXR,16,True,True,
+2023-05,HYD-MAA,17,True,True,
+2023-05,DEL-GAU,18,True,True,
+2023-05,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2023-05,BLR-MAA,20,True,True,
+2023-06,BOM-DEL,1,True,True,
+2023-06,BLR-DEL,2,True,True,
+2023-06,BLR-BOM,3,True,True,
+2023-06,DEL-HYD,4,True,True,
+2023-06,DEL-PNQ,5,True,True,
+2023-06,CCU-DEL,6,True,True,
+2023-06,AMD-DEL,7,True,True,
+2023-06,BLR-HYD,8,True,True,
+2023-06,DEL-MAA,9,True,True,
+2023-06,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2023-06,BOM-HYD,11,True,True,
+2023-06,BLR-CCU,12,True,True,
+2023-06,BOM-MAA,13,True,True,
+2023-06,AMD-BOM,14,True,True,
+2023-06,BLR-PNQ,15,True,True,
+2023-06,DEL-SXR,16,True,True,
+2023-06,HYD-MAA,17,True,True,
+2023-06,DEL-GAU,18,True,True,
+2023-06,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2023-06,BLR-MAA,20,True,True,
+2023-07,BOM-DEL,1,True,True,
+2023-07,BLR-DEL,2,True,True,
+2023-07,BLR-BOM,3,True,True,
+2023-07,DEL-HYD,4,True,True,
+2023-07,DEL-PNQ,5,True,True,
+2023-07,CCU-DEL,6,True,True,
+2023-07,AMD-DEL,7,True,True,
+2023-07,BLR-HYD,8,True,True,
+2023-07,DEL-MAA,9,True,True,
+2023-07,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2023-07,BOM-HYD,11,True,True,
+2023-07,BLR-CCU,12,True,True,
+2023-07,BOM-MAA,13,True,True,
+2023-07,AMD-BOM,14,True,True,
+2023-07,BLR-PNQ,15,True,True,
+2023-07,DEL-SXR,16,True,True,
+2023-07,HYD-MAA,17,True,True,
+2023-07,DEL-GAU,18,True,True,
+2023-07,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2023-07,BLR-MAA,20,True,True,
+2023-08,BOM-DEL,1,True,True,
+2023-08,BLR-DEL,2,True,True,
+2023-08,BLR-BOM,3,True,True,
+2023-08,DEL-HYD,4,True,True,
+2023-08,DEL-PNQ,5,True,True,
+2023-08,CCU-DEL,6,True,True,
+2023-08,AMD-DEL,7,True,True,
+2023-08,BLR-HYD,8,True,True,
+2023-08,DEL-MAA,9,True,True,
+2023-08,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2023-08,BOM-HYD,11,True,True,
+2023-08,BLR-CCU,12,True,True,
+2023-08,BOM-MAA,13,True,True,
+2023-08,AMD-BOM,14,True,True,
+2023-08,BLR-PNQ,15,True,True,
+2023-08,DEL-SXR,16,True,True,
+2023-08,HYD-MAA,17,True,True,
+2023-08,DEL-GAU,18,True,True,
+2023-08,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2023-08,BLR-MAA,20,True,True,
+2023-09,BOM-DEL,1,True,True,
+2023-09,BLR-DEL,2,True,True,
+2023-09,BLR-BOM,3,True,True,
+2023-09,DEL-HYD,4,True,True,
+2023-09,DEL-PNQ,5,True,True,
+2023-09,CCU-DEL,6,True,True,
+2023-09,AMD-DEL,7,True,True,
+2023-09,BLR-HYD,8,True,True,
+2023-09,DEL-MAA,9,True,True,
+2023-09,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2023-09,BOM-HYD,11,True,True,
+2023-09,BLR-CCU,12,True,True,
+2023-09,BOM-MAA,13,True,True,
+2023-09,AMD-BOM,14,True,True,
+2023-09,BLR-PNQ,15,True,True,
+2023-09,DEL-SXR,16,True,True,
+2023-09,HYD-MAA,17,True,True,
+2023-09,DEL-GAU,18,True,True,
+2023-09,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2023-09,BLR-MAA,20,True,True,
+2023-10,BOM-DEL,1,True,True,
+2023-10,BLR-DEL,2,True,True,
+2023-10,BLR-BOM,3,True,True,
+2023-10,DEL-HYD,4,True,True,
+2023-10,DEL-PNQ,5,True,True,
+2023-10,CCU-DEL,6,True,True,
+2023-10,AMD-DEL,7,True,True,
+2023-10,BLR-HYD,8,True,True,
+2023-10,DEL-MAA,9,True,True,
+2023-10,BOM-CCU,10,True,False,airline endpoint-count difference exceeds 5 percent
+2023-10,BOM-HYD,11,True,True,
+2023-10,BLR-CCU,12,True,True,
+2023-10,BOM-MAA,13,True,True,
+2023-10,AMD-BOM,14,True,True,
+2023-10,BLR-PNQ,15,True,True,
+2023-10,DEL-SXR,16,True,True,
+2023-10,HYD-MAA,17,True,True,
+2023-10,DEL-GAU,18,True,True,
+2023-10,BOM-GOI,19,True,False,airline endpoint-count difference exceeds 5 percent
+2023-10,BLR-MAA,20,True,True,
+2023-11,BOM-DEL,1,True,True,
+2023-11,BLR-DEL,2,True,True,
+2023-11,BLR-BOM,3,True,True,
+2023-11,DEL-HYD,4,True,True,
+2023-11,DEL-PNQ,5,True,True,
+2023-11,CCU-DEL,6,True,True,
+2023-11,AMD-DEL,7,True,True,
+2023-11,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2023-11,DEL-MAA,9,True,True,
+2023-11,BOM-CCU,10,True,True,
+2023-11,BOM-HYD,11,True,True,
+2023-11,BLR-CCU,12,True,True,
+2023-11,BOM-MAA,13,True,True,
+2023-11,AMD-BOM,14,True,True,
+2023-11,BLR-PNQ,15,True,True,
+2023-11,DEL-SXR,16,True,True,
+2023-11,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2023-11,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2023-11,BOM-GOI,19,True,True,
+2023-11,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2023-12,BOM-DEL,1,True,True,
+2023-12,BLR-DEL,2,True,True,
+2023-12,BLR-BOM,3,True,True,
+2023-12,DEL-HYD,4,True,True,
+2023-12,DEL-PNQ,5,True,True,
+2023-12,CCU-DEL,6,True,True,
+2023-12,AMD-DEL,7,True,True,
+2023-12,BLR-HYD,8,True,True,
+2023-12,DEL-MAA,9,True,True,
+2023-12,BOM-CCU,10,True,True,
+2023-12,BOM-HYD,11,True,True,
+2023-12,BLR-CCU,12,True,True,
+2023-12,BOM-MAA,13,True,True,
+2023-12,AMD-BOM,14,True,True,
+2023-12,BLR-PNQ,15,True,True,
+2023-12,DEL-SXR,16,True,True,
+2023-12,HYD-MAA,17,True,True,
+2023-12,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2023-12,BOM-GOI,19,True,True,
+2023-12,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2024-01,BOM-DEL,1,True,True,
+2024-01,BLR-DEL,2,True,True,
+2024-01,BLR-BOM,3,True,True,
+2024-01,DEL-HYD,4,True,True,
+2024-01,DEL-PNQ,5,True,True,
+2024-01,CCU-DEL,6,True,True,
+2024-01,AMD-DEL,7,True,True,
+2024-01,BLR-HYD,8,True,True,
+2024-01,DEL-MAA,9,True,True,
+2024-01,BOM-CCU,10,True,True,
+2024-01,BOM-HYD,11,True,True,
+2024-01,BLR-CCU,12,True,True,
+2024-01,BOM-MAA,13,True,True,
+2024-01,AMD-BOM,14,True,True,
+2024-01,BLR-PNQ,15,True,True,
+2024-01,DEL-SXR,16,True,True,
+2024-01,HYD-MAA,17,True,True,
+2024-01,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2024-01,BOM-GOI,19,True,True,
+2024-01,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2024-02,BOM-DEL,1,True,True,
+2024-02,BLR-DEL,2,True,True,
+2024-02,BLR-BOM,3,True,True,
+2024-02,DEL-HYD,4,True,True,
+2024-02,DEL-PNQ,5,True,True,
+2024-02,CCU-DEL,6,True,True,
+2024-02,AMD-DEL,7,True,True,
+2024-02,BLR-HYD,8,True,True,
+2024-02,DEL-MAA,9,True,True,
+2024-02,BOM-CCU,10,True,True,
+2024-02,BOM-HYD,11,True,True,
+2024-02,BLR-CCU,12,True,True,
+2024-02,BOM-MAA,13,True,True,
+2024-02,AMD-BOM,14,True,True,
+2024-02,BLR-PNQ,15,True,True,
+2024-02,DEL-SXR,16,True,True,
+2024-02,HYD-MAA,17,True,True,
+2024-02,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2024-02,BOM-GOI,19,True,True,
+2024-02,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2024-03,BOM-DEL,1,False,False,complete Summer 2024 filings unavailable
+2024-03,BLR-DEL,2,False,False,complete Summer 2024 filings unavailable
+2024-03,BLR-BOM,3,False,False,complete Summer 2024 filings unavailable
+2024-03,DEL-HYD,4,False,False,complete Summer 2024 filings unavailable
+2024-03,DEL-PNQ,5,False,False,complete Summer 2024 filings unavailable
+2024-03,CCU-DEL,6,False,False,complete Summer 2024 filings unavailable
+2024-03,AMD-DEL,7,False,False,complete Summer 2024 filings unavailable
+2024-03,BLR-HYD,8,False,False,complete Summer 2024 filings unavailable
+2024-03,DEL-MAA,9,False,False,complete Summer 2024 filings unavailable
+2024-03,BOM-CCU,10,False,False,complete Summer 2024 filings unavailable
+2024-03,BOM-HYD,11,False,False,complete Summer 2024 filings unavailable
+2024-03,BLR-CCU,12,False,False,complete Summer 2024 filings unavailable
+2024-03,BOM-MAA,13,False,False,complete Summer 2024 filings unavailable
+2024-03,AMD-BOM,14,False,False,complete Summer 2024 filings unavailable
+2024-03,BLR-PNQ,15,False,False,complete Summer 2024 filings unavailable
+2024-03,DEL-SXR,16,False,False,complete Summer 2024 filings unavailable
+2024-03,HYD-MAA,17,False,False,complete Summer 2024 filings unavailable
+2024-03,DEL-GAU,18,False,False,complete Summer 2024 filings unavailable
+2024-03,BOM-GOI,19,False,False,complete Summer 2024 filings unavailable
+2024-03,BLR-MAA,20,False,False,complete Summer 2024 filings unavailable
+2024-04,BOM-DEL,1,False,False,complete Summer 2024 filings unavailable
+2024-04,BLR-DEL,2,False,False,complete Summer 2024 filings unavailable
+2024-04,BLR-BOM,3,False,False,complete Summer 2024 filings unavailable
+2024-04,DEL-HYD,4,False,False,complete Summer 2024 filings unavailable
+2024-04,DEL-PNQ,5,False,False,complete Summer 2024 filings unavailable
+2024-04,CCU-DEL,6,False,False,complete Summer 2024 filings unavailable
+2024-04,AMD-DEL,7,False,False,complete Summer 2024 filings unavailable
+2024-04,BLR-HYD,8,False,False,complete Summer 2024 filings unavailable
+2024-04,DEL-MAA,9,False,False,complete Summer 2024 filings unavailable
+2024-04,BOM-CCU,10,False,False,complete Summer 2024 filings unavailable
+2024-04,BOM-HYD,11,False,False,complete Summer 2024 filings unavailable
+2024-04,BLR-CCU,12,False,False,complete Summer 2024 filings unavailable
+2024-04,BOM-MAA,13,False,False,complete Summer 2024 filings unavailable
+2024-04,AMD-BOM,14,False,False,complete Summer 2024 filings unavailable
+2024-04,BLR-PNQ,15,False,False,complete Summer 2024 filings unavailable
+2024-04,DEL-SXR,16,False,False,complete Summer 2024 filings unavailable
+2024-04,HYD-MAA,17,False,False,complete Summer 2024 filings unavailable
+2024-04,DEL-GAU,18,False,False,complete Summer 2024 filings unavailable
+2024-04,BOM-GOI,19,False,False,complete Summer 2024 filings unavailable
+2024-04,BLR-MAA,20,False,False,complete Summer 2024 filings unavailable
+2024-05,BOM-DEL,1,False,False,complete Summer 2024 filings unavailable
+2024-05,BLR-DEL,2,False,False,complete Summer 2024 filings unavailable
+2024-05,BLR-BOM,3,False,False,complete Summer 2024 filings unavailable
+2024-05,DEL-HYD,4,False,False,complete Summer 2024 filings unavailable
+2024-05,DEL-PNQ,5,False,False,complete Summer 2024 filings unavailable
+2024-05,CCU-DEL,6,False,False,complete Summer 2024 filings unavailable
+2024-05,AMD-DEL,7,False,False,complete Summer 2024 filings unavailable
+2024-05,BLR-HYD,8,False,False,complete Summer 2024 filings unavailable
+2024-05,DEL-MAA,9,False,False,complete Summer 2024 filings unavailable
+2024-05,BOM-CCU,10,False,False,complete Summer 2024 filings unavailable
+2024-05,BOM-HYD,11,False,False,complete Summer 2024 filings unavailable
+2024-05,BLR-CCU,12,False,False,complete Summer 2024 filings unavailable
+2024-05,BOM-MAA,13,False,False,complete Summer 2024 filings unavailable
+2024-05,AMD-BOM,14,False,False,complete Summer 2024 filings unavailable
+2024-05,BLR-PNQ,15,False,False,complete Summer 2024 filings unavailable
+2024-05,DEL-SXR,16,False,False,complete Summer 2024 filings unavailable
+2024-05,HYD-MAA,17,False,False,complete Summer 2024 filings unavailable
+2024-05,DEL-GAU,18,False,False,complete Summer 2024 filings unavailable
+2024-05,BOM-GOI,19,False,False,complete Summer 2024 filings unavailable
+2024-05,BLR-MAA,20,False,False,complete Summer 2024 filings unavailable
+2024-06,BOM-DEL,1,False,False,complete Summer 2024 filings unavailable
+2024-06,BLR-DEL,2,False,False,complete Summer 2024 filings unavailable
+2024-06,BLR-BOM,3,False,False,complete Summer 2024 filings unavailable
+2024-06,DEL-HYD,4,False,False,complete Summer 2024 filings unavailable
+2024-06,DEL-PNQ,5,False,False,complete Summer 2024 filings unavailable
+2024-06,CCU-DEL,6,False,False,complete Summer 2024 filings unavailable
+2024-06,AMD-DEL,7,False,False,complete Summer 2024 filings unavailable
+2024-06,BLR-HYD,8,False,False,complete Summer 2024 filings unavailable
+2024-06,DEL-MAA,9,False,False,complete Summer 2024 filings unavailable
+2024-06,BOM-CCU,10,False,False,complete Summer 2024 filings unavailable
+2024-06,BOM-HYD,11,False,False,complete Summer 2024 filings unavailable
+2024-06,BLR-CCU,12,False,False,complete Summer 2024 filings unavailable
+2024-06,BOM-MAA,13,False,False,complete Summer 2024 filings unavailable
+2024-06,AMD-BOM,14,False,False,complete Summer 2024 filings unavailable
+2024-06,BLR-PNQ,15,False,False,complete Summer 2024 filings unavailable
+2024-06,DEL-SXR,16,False,False,complete Summer 2024 filings unavailable
+2024-06,HYD-MAA,17,False,False,complete Summer 2024 filings unavailable
+2024-06,DEL-GAU,18,False,False,complete Summer 2024 filings unavailable
+2024-06,BOM-GOI,19,False,False,complete Summer 2024 filings unavailable
+2024-06,BLR-MAA,20,False,False,complete Summer 2024 filings unavailable
+2024-07,BOM-DEL,1,False,False,complete Summer 2024 filings unavailable
+2024-07,BLR-DEL,2,False,False,complete Summer 2024 filings unavailable
+2024-07,BLR-BOM,3,False,False,complete Summer 2024 filings unavailable
+2024-07,DEL-HYD,4,False,False,complete Summer 2024 filings unavailable
+2024-07,DEL-PNQ,5,False,False,complete Summer 2024 filings unavailable
+2024-07,CCU-DEL,6,False,False,complete Summer 2024 filings unavailable
+2024-07,AMD-DEL,7,False,False,complete Summer 2024 filings unavailable
+2024-07,BLR-HYD,8,False,False,complete Summer 2024 filings unavailable
+2024-07,DEL-MAA,9,False,False,complete Summer 2024 filings unavailable
+2024-07,BOM-CCU,10,False,False,complete Summer 2024 filings unavailable
+2024-07,BOM-HYD,11,False,False,complete Summer 2024 filings unavailable
+2024-07,BLR-CCU,12,False,False,complete Summer 2024 filings unavailable
+2024-07,BOM-MAA,13,False,False,complete Summer 2024 filings unavailable
+2024-07,AMD-BOM,14,False,False,complete Summer 2024 filings unavailable
+2024-07,BLR-PNQ,15,False,False,complete Summer 2024 filings unavailable
+2024-07,DEL-SXR,16,False,False,complete Summer 2024 filings unavailable
+2024-07,HYD-MAA,17,False,False,complete Summer 2024 filings unavailable
+2024-07,DEL-GAU,18,False,False,complete Summer 2024 filings unavailable
+2024-07,BOM-GOI,19,False,False,complete Summer 2024 filings unavailable
+2024-07,BLR-MAA,20,False,False,complete Summer 2024 filings unavailable
+2024-08,BOM-DEL,1,False,False,complete Summer 2024 filings unavailable
+2024-08,BLR-DEL,2,False,False,complete Summer 2024 filings unavailable
+2024-08,BLR-BOM,3,False,False,complete Summer 2024 filings unavailable
+2024-08,DEL-HYD,4,False,False,complete Summer 2024 filings unavailable
+2024-08,DEL-PNQ,5,False,False,complete Summer 2024 filings unavailable
+2024-08,CCU-DEL,6,False,False,complete Summer 2024 filings unavailable
+2024-08,AMD-DEL,7,False,False,complete Summer 2024 filings unavailable
+2024-08,BLR-HYD,8,False,False,complete Summer 2024 filings unavailable
+2024-08,DEL-MAA,9,False,False,complete Summer 2024 filings unavailable
+2024-08,BOM-CCU,10,False,False,complete Summer 2024 filings unavailable
+2024-08,BOM-HYD,11,False,False,complete Summer 2024 filings unavailable
+2024-08,BLR-CCU,12,False,False,complete Summer 2024 filings unavailable
+2024-08,BOM-MAA,13,False,False,complete Summer 2024 filings unavailable
+2024-08,AMD-BOM,14,False,False,complete Summer 2024 filings unavailable
+2024-08,BLR-PNQ,15,False,False,complete Summer 2024 filings unavailable
+2024-08,DEL-SXR,16,False,False,complete Summer 2024 filings unavailable
+2024-08,HYD-MAA,17,False,False,complete Summer 2024 filings unavailable
+2024-08,DEL-GAU,18,False,False,complete Summer 2024 filings unavailable
+2024-08,BOM-GOI,19,False,False,complete Summer 2024 filings unavailable
+2024-08,BLR-MAA,20,False,False,complete Summer 2024 filings unavailable
+2024-09,BOM-DEL,1,False,False,complete Summer 2024 filings unavailable
+2024-09,BLR-DEL,2,False,False,complete Summer 2024 filings unavailable
+2024-09,BLR-BOM,3,False,False,complete Summer 2024 filings unavailable
+2024-09,DEL-HYD,4,False,False,complete Summer 2024 filings unavailable
+2024-09,DEL-PNQ,5,False,False,complete Summer 2024 filings unavailable
+2024-09,CCU-DEL,6,False,False,complete Summer 2024 filings unavailable
+2024-09,AMD-DEL,7,False,False,complete Summer 2024 filings unavailable
+2024-09,BLR-HYD,8,False,False,complete Summer 2024 filings unavailable
+2024-09,DEL-MAA,9,False,False,complete Summer 2024 filings unavailable
+2024-09,BOM-CCU,10,False,False,complete Summer 2024 filings unavailable
+2024-09,BOM-HYD,11,False,False,complete Summer 2024 filings unavailable
+2024-09,BLR-CCU,12,False,False,complete Summer 2024 filings unavailable
+2024-09,BOM-MAA,13,False,False,complete Summer 2024 filings unavailable
+2024-09,AMD-BOM,14,False,False,complete Summer 2024 filings unavailable
+2024-09,BLR-PNQ,15,False,False,complete Summer 2024 filings unavailable
+2024-09,DEL-SXR,16,False,False,complete Summer 2024 filings unavailable
+2024-09,HYD-MAA,17,False,False,complete Summer 2024 filings unavailable
+2024-09,DEL-GAU,18,False,False,complete Summer 2024 filings unavailable
+2024-09,BOM-GOI,19,False,False,complete Summer 2024 filings unavailable
+2024-09,BLR-MAA,20,False,False,complete Summer 2024 filings unavailable
+2024-10,BOM-DEL,1,False,False,complete Summer 2024 filings unavailable
+2024-10,BLR-DEL,2,False,False,complete Summer 2024 filings unavailable
+2024-10,BLR-BOM,3,False,False,complete Summer 2024 filings unavailable
+2024-10,DEL-HYD,4,False,False,complete Summer 2024 filings unavailable
+2024-10,DEL-PNQ,5,False,False,complete Summer 2024 filings unavailable
+2024-10,CCU-DEL,6,False,False,complete Summer 2024 filings unavailable
+2024-10,AMD-DEL,7,False,False,complete Summer 2024 filings unavailable
+2024-10,BLR-HYD,8,False,False,complete Summer 2024 filings unavailable
+2024-10,DEL-MAA,9,False,False,complete Summer 2024 filings unavailable
+2024-10,BOM-CCU,10,False,False,complete Summer 2024 filings unavailable
+2024-10,BOM-HYD,11,False,False,complete Summer 2024 filings unavailable
+2024-10,BLR-CCU,12,False,False,complete Summer 2024 filings unavailable
+2024-10,BOM-MAA,13,False,False,complete Summer 2024 filings unavailable
+2024-10,AMD-BOM,14,False,False,complete Summer 2024 filings unavailable
+2024-10,BLR-PNQ,15,False,False,complete Summer 2024 filings unavailable
+2024-10,DEL-SXR,16,False,False,complete Summer 2024 filings unavailable
+2024-10,HYD-MAA,17,False,False,complete Summer 2024 filings unavailable
+2024-10,DEL-GAU,18,False,False,complete Summer 2024 filings unavailable
+2024-10,BOM-GOI,19,False,False,complete Summer 2024 filings unavailable
+2024-10,BLR-MAA,20,False,False,complete Summer 2024 filings unavailable
+2024-11,BOM-DEL,1,True,True,
+2024-11,BLR-DEL,2,True,True,
+2024-11,BLR-BOM,3,True,True,
+2024-11,DEL-HYD,4,True,True,
+2024-11,DEL-PNQ,5,True,True,
+2024-11,CCU-DEL,6,True,True,
+2024-11,AMD-DEL,7,True,True,
+2024-11,BLR-HYD,8,True,True,
+2024-11,DEL-MAA,9,True,True,
+2024-11,BOM-CCU,10,True,True,
+2024-11,BOM-HYD,11,True,True,
+2024-11,BLR-CCU,12,True,True,
+2024-11,BOM-MAA,13,True,True,
+2024-11,AMD-BOM,14,True,True,
+2024-11,BLR-PNQ,15,True,True,
+2024-11,DEL-SXR,16,True,True,
+2024-11,HYD-MAA,17,True,True,
+2024-11,DEL-GAU,18,True,True,
+2024-11,BOM-GOI,19,True,True,
+2024-11,BLR-MAA,20,True,True,
+2024-12,BOM-DEL,1,True,True,
+2024-12,BLR-DEL,2,True,True,
+2024-12,BLR-BOM,3,True,True,
+2024-12,DEL-HYD,4,True,True,
+2024-12,DEL-PNQ,5,True,True,
+2024-12,CCU-DEL,6,True,True,
+2024-12,AMD-DEL,7,True,True,
+2024-12,BLR-HYD,8,True,True,
+2024-12,DEL-MAA,9,True,True,
+2024-12,BOM-CCU,10,True,True,
+2024-12,BOM-HYD,11,True,True,
+2024-12,BLR-CCU,12,True,True,
+2024-12,BOM-MAA,13,True,True,
+2024-12,AMD-BOM,14,True,True,
+2024-12,BLR-PNQ,15,True,True,
+2024-12,DEL-SXR,16,True,True,
+2024-12,HYD-MAA,17,True,True,
+2024-12,DEL-GAU,18,True,True,
+2024-12,BOM-GOI,19,True,True,
+2024-12,BLR-MAA,20,True,True,
+2025-01,BOM-DEL,1,True,True,
+2025-01,BLR-DEL,2,True,True,
+2025-01,BLR-BOM,3,True,True,
+2025-01,DEL-HYD,4,True,True,
+2025-01,DEL-PNQ,5,True,True,
+2025-01,CCU-DEL,6,True,True,
+2025-01,AMD-DEL,7,True,True,
+2025-01,BLR-HYD,8,True,True,
+2025-01,DEL-MAA,9,True,True,
+2025-01,BOM-CCU,10,True,True,
+2025-01,BOM-HYD,11,True,True,
+2025-01,BLR-CCU,12,True,True,
+2025-01,BOM-MAA,13,True,True,
+2025-01,AMD-BOM,14,True,True,
+2025-01,BLR-PNQ,15,True,True,
+2025-01,DEL-SXR,16,True,True,
+2025-01,HYD-MAA,17,True,True,
+2025-01,DEL-GAU,18,True,True,
+2025-01,BOM-GOI,19,True,True,
+2025-01,BLR-MAA,20,True,True,
+2025-02,BOM-DEL,1,True,True,
+2025-02,BLR-DEL,2,True,True,
+2025-02,BLR-BOM,3,True,True,
+2025-02,DEL-HYD,4,True,True,
+2025-02,DEL-PNQ,5,True,True,
+2025-02,CCU-DEL,6,True,True,
+2025-02,AMD-DEL,7,True,True,
+2025-02,BLR-HYD,8,True,True,
+2025-02,DEL-MAA,9,True,True,
+2025-02,BOM-CCU,10,True,True,
+2025-02,BOM-HYD,11,True,True,
+2025-02,BLR-CCU,12,True,True,
+2025-02,BOM-MAA,13,True,True,
+2025-02,AMD-BOM,14,True,True,
+2025-02,BLR-PNQ,15,True,True,
+2025-02,DEL-SXR,16,True,True,
+2025-02,HYD-MAA,17,True,True,
+2025-02,DEL-GAU,18,True,True,
+2025-02,BOM-GOI,19,True,True,
+2025-02,BLR-MAA,20,True,True,
+2025-03,BOM-DEL,1,True,True,
+2025-03,BLR-DEL,2,True,True,
+2025-03,BLR-BOM,3,True,True,
+2025-03,DEL-HYD,4,True,True,
+2025-03,DEL-PNQ,5,True,True,
+2025-03,CCU-DEL,6,True,True,
+2025-03,AMD-DEL,7,True,True,
+2025-03,BLR-HYD,8,True,True,
+2025-03,DEL-MAA,9,True,True,
+2025-03,BOM-CCU,10,True,True,
+2025-03,BOM-HYD,11,True,True,
+2025-03,BLR-CCU,12,True,True,
+2025-03,BOM-MAA,13,True,True,
+2025-03,AMD-BOM,14,True,True,
+2025-03,BLR-PNQ,15,True,True,
+2025-03,DEL-SXR,16,True,True,
+2025-03,HYD-MAA,17,True,True,
+2025-03,DEL-GAU,18,True,True,
+2025-03,BOM-GOI,19,True,True,
+2025-03,BLR-MAA,20,True,True,
+2025-04,BOM-DEL,1,True,True,
+2025-04,BLR-DEL,2,True,False,airline endpoint-count difference exceeds 5 percent
+2025-04,BLR-BOM,3,True,True,
+2025-04,DEL-HYD,4,True,False,airline endpoint-count difference exceeds 5 percent
+2025-04,DEL-PNQ,5,True,True,
+2025-04,CCU-DEL,6,True,True,
+2025-04,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2025-04,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2025-04,DEL-MAA,9,True,True,
+2025-04,BOM-CCU,10,True,True,
+2025-04,BOM-HYD,11,True,True,
+2025-04,BLR-CCU,12,True,True,
+2025-04,BOM-MAA,13,True,True,
+2025-04,AMD-BOM,14,True,True,
+2025-04,BLR-PNQ,15,True,True,
+2025-04,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2025-04,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2025-04,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2025-04,BOM-GOI,19,True,True,
+2025-04,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2025-05,BOM-DEL,1,True,True,
+2025-05,BLR-DEL,2,True,True,
+2025-05,BLR-BOM,3,True,True,
+2025-05,DEL-HYD,4,True,False,airline endpoint-count difference exceeds 5 percent
+2025-05,DEL-PNQ,5,True,True,
+2025-05,CCU-DEL,6,True,True,
+2025-05,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2025-05,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2025-05,DEL-MAA,9,True,True,
+2025-05,BOM-CCU,10,True,True,
+2025-05,BOM-HYD,11,True,True,
+2025-05,BLR-CCU,12,True,True,
+2025-05,BOM-MAA,13,True,True,
+2025-05,AMD-BOM,14,True,True,
+2025-05,BLR-PNQ,15,True,True,
+2025-05,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2025-05,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2025-05,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2025-05,BOM-GOI,19,True,True,
+2025-05,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2025-06,BOM-DEL,1,True,True,
+2025-06,BLR-DEL,2,True,True,
+2025-06,BLR-BOM,3,True,True,
+2025-06,DEL-HYD,4,True,False,airline endpoint-count difference exceeds 5 percent
+2025-06,DEL-PNQ,5,True,True,
+2025-06,CCU-DEL,6,True,True,
+2025-06,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2025-06,BLR-HYD,8,True,False,airline endpoint-count difference exceeds 5 percent
+2025-06,DEL-MAA,9,True,True,
+2025-06,BOM-CCU,10,True,True,
+2025-06,BOM-HYD,11,True,True,
+2025-06,BLR-CCU,12,True,True,
+2025-06,BOM-MAA,13,True,True,
+2025-06,AMD-BOM,14,True,True,
+2025-06,BLR-PNQ,15,True,True,
+2025-06,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2025-06,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2025-06,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2025-06,BOM-GOI,19,True,True,
+2025-06,BLR-MAA,20,True,False,airline endpoint-count difference exceeds 5 percent
+2025-07,BOM-DEL,1,True,True,
+2025-07,BLR-DEL,2,True,True,
+2025-07,BLR-BOM,3,True,True,
+2025-07,DEL-HYD,4,True,False,airline endpoint-count difference exceeds 5 percent
+2025-07,DEL-PNQ,5,True,True,
+2025-07,CCU-DEL,6,True,True,
+2025-07,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2025-07,BLR-HYD,8,True,True,
+2025-07,DEL-MAA,9,True,True,
+2025-07,BOM-CCU,10,True,True,
+2025-07,BOM-HYD,11,True,True,
+2025-07,BLR-CCU,12,True,True,
+2025-07,BOM-MAA,13,True,True,
+2025-07,AMD-BOM,14,True,True,
+2025-07,BLR-PNQ,15,True,True,
+2025-07,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2025-07,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2025-07,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2025-07,BOM-GOI,19,True,True,
+2025-07,BLR-MAA,20,True,True,
+2025-08,BOM-DEL,1,True,True,
+2025-08,BLR-DEL,2,True,True,
+2025-08,BLR-BOM,3,True,True,
+2025-08,DEL-HYD,4,True,False,airline endpoint-count difference exceeds 5 percent
+2025-08,DEL-PNQ,5,True,True,
+2025-08,CCU-DEL,6,True,True,
+2025-08,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2025-08,BLR-HYD,8,True,True,
+2025-08,DEL-MAA,9,True,True,
+2025-08,BOM-CCU,10,True,True,
+2025-08,BOM-HYD,11,True,True,
+2025-08,BLR-CCU,12,True,True,
+2025-08,BOM-MAA,13,True,True,
+2025-08,AMD-BOM,14,True,True,
+2025-08,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2025-08,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2025-08,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2025-08,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2025-08,BOM-GOI,19,True,True,
+2025-08,BLR-MAA,20,True,True,
+2025-09,BOM-DEL,1,True,True,
+2025-09,BLR-DEL,2,True,True,
+2025-09,BLR-BOM,3,True,True,
+2025-09,DEL-HYD,4,True,False,airline endpoint-count difference exceeds 5 percent
+2025-09,DEL-PNQ,5,True,True,
+2025-09,CCU-DEL,6,True,True,
+2025-09,AMD-DEL,7,True,False,airline endpoint-count difference exceeds 5 percent
+2025-09,BLR-HYD,8,True,True,
+2025-09,DEL-MAA,9,True,True,
+2025-09,BOM-CCU,10,True,True,
+2025-09,BOM-HYD,11,True,True,
+2025-09,BLR-CCU,12,True,True,
+2025-09,BOM-MAA,13,True,True,
+2025-09,AMD-BOM,14,True,True,
+2025-09,BLR-PNQ,15,True,False,airline endpoint-count difference exceeds 5 percent
+2025-09,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2025-09,HYD-MAA,17,True,False,airline endpoint-count difference exceeds 5 percent
+2025-09,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2025-09,BOM-GOI,19,True,True,
+2025-09,BLR-MAA,20,True,True,
+2025-10,BOM-DEL,1,True,True,
+2025-10,BLR-DEL,2,True,True,
+2025-10,BLR-BOM,3,True,True,
+2025-10,DEL-HYD,4,True,True,
+2025-10,DEL-PNQ,5,True,True,
+2025-10,CCU-DEL,6,True,True,
+2025-10,AMD-DEL,7,True,True,
+2025-10,BLR-HYD,8,True,True,
+2025-10,DEL-MAA,9,True,True,
+2025-10,BOM-CCU,10,True,True,
+2025-10,BOM-HYD,11,True,True,
+2025-10,BLR-CCU,12,True,True,
+2025-10,BOM-MAA,13,True,True,
+2025-10,AMD-BOM,14,True,True,
+2025-10,BLR-PNQ,15,True,True,
+2025-10,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2025-10,HYD-MAA,17,True,True,
+2025-10,DEL-GAU,18,True,False,airline endpoint-count difference exceeds 5 percent
+2025-10,BOM-GOI,19,True,True,
+2025-10,BLR-MAA,20,True,True,
+2025-11,BOM-DEL,1,True,True,
+2025-11,BLR-DEL,2,True,True,
+2025-11,BLR-BOM,3,True,True,
+2025-11,DEL-HYD,4,True,True,
+2025-11,DEL-PNQ,5,True,True,
+2025-11,CCU-DEL,6,True,True,
+2025-11,AMD-DEL,7,True,True,
+2025-11,BLR-HYD,8,True,True,
+2025-11,DEL-MAA,9,True,True,
+2025-11,BOM-CCU,10,True,True,
+2025-11,BOM-HYD,11,True,True,
+2025-11,BLR-CCU,12,True,False,airline endpoint-count difference exceeds 5 percent
+2025-11,BOM-MAA,13,True,True,
+2025-11,AMD-BOM,14,True,True,
+2025-11,BLR-PNQ,15,True,True,
+2025-11,DEL-SXR,16,True,True,
+2025-11,HYD-MAA,17,True,True,
+2025-11,DEL-GAU,18,True,True,
+2025-11,BOM-GOI,19,True,True,
+2025-11,BLR-MAA,20,True,True,
+2025-12,BOM-DEL,1,True,True,
+2025-12,BLR-DEL,2,True,True,
+2025-12,BLR-BOM,3,True,True,
+2025-12,DEL-HYD,4,True,True,
+2025-12,DEL-PNQ,5,True,True,
+2025-12,CCU-DEL,6,True,True,
+2025-12,AMD-DEL,7,True,True,
+2025-12,BLR-HYD,8,True,True,
+2025-12,DEL-MAA,9,True,True,
+2025-12,BOM-CCU,10,True,True,
+2025-12,BOM-HYD,11,True,True,
+2025-12,BLR-CCU,12,True,False,airline endpoint-count difference exceeds 5 percent
+2025-12,BOM-MAA,13,True,True,
+2025-12,AMD-BOM,14,True,True,
+2025-12,BLR-PNQ,15,True,True,
+2025-12,DEL-SXR,16,True,True,
+2025-12,HYD-MAA,17,True,True,
+2025-12,DEL-GAU,18,True,True,
+2025-12,BOM-GOI,19,True,True,
+2025-12,BLR-MAA,20,True,True,
+2026-01,BOM-DEL,1,True,True,
+2026-01,BLR-DEL,2,True,True,
+2026-01,BLR-BOM,3,True,True,
+2026-01,DEL-HYD,4,True,True,
+2026-01,DEL-PNQ,5,True,True,
+2026-01,CCU-DEL,6,True,True,
+2026-01,AMD-DEL,7,True,True,
+2026-01,BLR-HYD,8,True,True,
+2026-01,DEL-MAA,9,True,True,
+2026-01,BOM-CCU,10,True,True,
+2026-01,BOM-HYD,11,True,True,
+2026-01,BLR-CCU,12,True,False,airline endpoint-count difference exceeds 5 percent
+2026-01,BOM-MAA,13,True,True,
+2026-01,AMD-BOM,14,True,True,
+2026-01,BLR-PNQ,15,True,True,
+2026-01,DEL-SXR,16,True,True,
+2026-01,HYD-MAA,17,True,True,
+2026-01,DEL-GAU,18,True,True,
+2026-01,BOM-GOI,19,True,True,
+2026-01,BLR-MAA,20,True,True,
+2026-02,BOM-DEL,1,True,True,
+2026-02,BLR-DEL,2,True,True,
+2026-02,BLR-BOM,3,True,True,
+2026-02,DEL-HYD,4,True,True,
+2026-02,DEL-PNQ,5,True,True,
+2026-02,CCU-DEL,6,True,True,
+2026-02,AMD-DEL,7,True,True,
+2026-02,BLR-HYD,8,True,True,
+2026-02,DEL-MAA,9,True,True,
+2026-02,BOM-CCU,10,True,True,
+2026-02,BOM-HYD,11,True,True,
+2026-02,BLR-CCU,12,True,False,airline endpoint-count difference exceeds 5 percent
+2026-02,BOM-MAA,13,True,True,
+2026-02,AMD-BOM,14,True,True,
+2026-02,BLR-PNQ,15,True,True,
+2026-02,DEL-SXR,16,True,True,
+2026-02,HYD-MAA,17,True,True,
+2026-02,DEL-GAU,18,True,True,
+2026-02,BOM-GOI,19,True,True,
+2026-02,BLR-MAA,20,True,True,
+2026-03,BOM-DEL,1,True,True,
+2026-03,BLR-DEL,2,True,True,
+2026-03,BLR-BOM,3,True,True,
+2026-03,DEL-HYD,4,True,True,
+2026-03,DEL-PNQ,5,True,True,
+2026-03,CCU-DEL,6,True,True,
+2026-03,AMD-DEL,7,True,True,
+2026-03,BLR-HYD,8,True,True,
+2026-03,DEL-MAA,9,True,True,
+2026-03,BOM-CCU,10,True,True,
+2026-03,BOM-HYD,11,True,True,
+2026-03,BLR-CCU,12,True,False,airline endpoint-count difference exceeds 5 percent
+2026-03,BOM-MAA,13,True,True,
+2026-03,AMD-BOM,14,True,True,
+2026-03,BLR-PNQ,15,True,True,
+2026-03,DEL-SXR,16,True,True,
+2026-03,HYD-MAA,17,True,True,
+2026-03,DEL-GAU,18,True,True,
+2026-03,BOM-GOI,19,True,True,
+2026-03,BLR-MAA,20,True,True,
+2026-04,BOM-DEL,1,True,True,
+2026-04,BLR-DEL,2,True,True,
+2026-04,BLR-BOM,3,True,True,
+2026-04,DEL-HYD,4,True,True,
+2026-04,DEL-PNQ,5,True,True,
+2026-04,CCU-DEL,6,True,True,
+2026-04,AMD-DEL,7,True,True,
+2026-04,BLR-HYD,8,True,True,
+2026-04,DEL-MAA,9,True,True,
+2026-04,BOM-CCU,10,True,True,
+2026-04,BOM-HYD,11,True,True,
+2026-04,BLR-CCU,12,True,True,
+2026-04,BOM-MAA,13,True,True,
+2026-04,AMD-BOM,14,True,True,
+2026-04,BLR-PNQ,15,True,True,
+2026-04,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2026-04,HYD-MAA,17,True,True,
+2026-04,DEL-GAU,18,True,True,
+2026-04,BOM-GOI,19,True,True,
+2026-04,BLR-MAA,20,True,True,
+2026-05,BOM-DEL,1,True,True,
+2026-05,BLR-DEL,2,True,True,
+2026-05,BLR-BOM,3,True,True,
+2026-05,DEL-HYD,4,True,True,
+2026-05,DEL-PNQ,5,True,True,
+2026-05,CCU-DEL,6,True,True,
+2026-05,AMD-DEL,7,True,True,
+2026-05,BLR-HYD,8,True,True,
+2026-05,DEL-MAA,9,True,True,
+2026-05,BOM-CCU,10,True,True,
+2026-05,BOM-HYD,11,True,True,
+2026-05,BLR-CCU,12,True,True,
+2026-05,BOM-MAA,13,True,True,
+2026-05,AMD-BOM,14,True,True,
+2026-05,BLR-PNQ,15,True,True,
+2026-05,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2026-05,HYD-MAA,17,True,True,
+2026-05,DEL-GAU,18,True,True,
+2026-05,BOM-GOI,19,True,True,
+2026-05,BLR-MAA,20,True,True,
+2026-06,BOM-DEL,1,True,True,
+2026-06,BLR-DEL,2,True,True,
+2026-06,BLR-BOM,3,True,True,
+2026-06,DEL-HYD,4,True,True,
+2026-06,DEL-PNQ,5,True,True,
+2026-06,CCU-DEL,6,True,True,
+2026-06,AMD-DEL,7,True,True,
+2026-06,BLR-HYD,8,True,True,
+2026-06,DEL-MAA,9,True,True,
+2026-06,BOM-CCU,10,True,True,
+2026-06,BOM-HYD,11,True,True,
+2026-06,BLR-CCU,12,True,True,
+2026-06,BOM-MAA,13,True,True,
+2026-06,AMD-BOM,14,True,True,
+2026-06,BLR-PNQ,15,True,True,
+2026-06,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2026-06,HYD-MAA,17,True,True,
+2026-06,DEL-GAU,18,True,True,
+2026-06,BOM-GOI,19,True,True,
+2026-06,BLR-MAA,20,True,True,
+2026-07,BOM-DEL,1,True,True,
+2026-07,BLR-DEL,2,True,True,
+2026-07,BLR-BOM,3,True,True,
+2026-07,DEL-HYD,4,True,True,
+2026-07,DEL-PNQ,5,True,True,
+2026-07,CCU-DEL,6,True,True,
+2026-07,AMD-DEL,7,True,True,
+2026-07,BLR-HYD,8,True,True,
+2026-07,DEL-MAA,9,True,True,
+2026-07,BOM-CCU,10,True,True,
+2026-07,BOM-HYD,11,True,True,
+2026-07,BLR-CCU,12,True,True,
+2026-07,BOM-MAA,13,True,True,
+2026-07,AMD-BOM,14,True,True,
+2026-07,BLR-PNQ,15,True,True,
+2026-07,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2026-07,HYD-MAA,17,True,True,
+2026-07,DEL-GAU,18,True,True,
+2026-07,BOM-GOI,19,True,True,
+2026-07,BLR-MAA,20,True,True,
+2026-08,BOM-DEL,1,True,True,
+2026-08,BLR-DEL,2,True,True,
+2026-08,BLR-BOM,3,True,True,
+2026-08,DEL-HYD,4,True,True,
+2026-08,DEL-PNQ,5,True,True,
+2026-08,CCU-DEL,6,True,True,
+2026-08,AMD-DEL,7,True,True,
+2026-08,BLR-HYD,8,True,True,
+2026-08,DEL-MAA,9,True,True,
+2026-08,BOM-CCU,10,True,True,
+2026-08,BOM-HYD,11,True,True,
+2026-08,BLR-CCU,12,True,True,
+2026-08,BOM-MAA,13,True,True,
+2026-08,AMD-BOM,14,True,True,
+2026-08,BLR-PNQ,15,True,True,
+2026-08,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2026-08,HYD-MAA,17,True,True,
+2026-08,DEL-GAU,18,True,True,
+2026-08,BOM-GOI,19,True,True,
+2026-08,BLR-MAA,20,True,True,
+2026-09,BOM-DEL,1,True,True,
+2026-09,BLR-DEL,2,True,True,
+2026-09,BLR-BOM,3,True,True,
+2026-09,DEL-HYD,4,True,True,
+2026-09,DEL-PNQ,5,True,True,
+2026-09,CCU-DEL,6,True,True,
+2026-09,AMD-DEL,7,True,True,
+2026-09,BLR-HYD,8,True,True,
+2026-09,DEL-MAA,9,True,True,
+2026-09,BOM-CCU,10,True,True,
+2026-09,BOM-HYD,11,True,True,
+2026-09,BLR-CCU,12,True,True,
+2026-09,BOM-MAA,13,True,True,
+2026-09,AMD-BOM,14,True,True,
+2026-09,BLR-PNQ,15,True,True,
+2026-09,DEL-SXR,16,True,False,airline endpoint-count difference exceeds 5 percent
+2026-09,HYD-MAA,17,True,True,
+2026-09,DEL-GAU,18,True,True,
+2026-09,BOM-GOI,19,True,True,
+2026-09,BLR-MAA,20,True,True,

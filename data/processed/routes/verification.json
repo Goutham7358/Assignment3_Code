@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "pdf_fingerprints_checked": 228,
+  "supporting_document_fingerprints_checked": 2,
+  "route_months_compared_with_previous_project": 1150,
+  "route_months_with_independent_sql_hhi_check": 1150,
+  "documented_exclusions": [
+    [
+      "2022-02",
+      "HYD-MAA"
+    ],
+    [
+      "2022-03",
+      "HYD-MAA"
+    ]
+  ],
+  "worked_example": {
+    "month": "2026-06",
+    "route": "DEL-PNQ",
+    "akasa_flights": 120,
+    "all_airline_flights": 1430
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "archive_pdfs": 228,
+  "archive_pages": 4187,
+  "all_extracted_rows": 189980,
+  "selected_route_rows": 49951,
+  "extraction_issues_all_routes": 103,
+  "identified_extraction_issues_selected_routes_since_2019": 0,
+  "parse_status_counts": {
+    "extracted": 148,
+    "legacy table: requires separate extraction": 58,
+    "no readable year": 2,
+    "extracted with issues": 20
+  },
+  "pdftotext_version": "pdftotext version 26.04.0",
+  "scope": "Only rows for the fixed top 20 airport pairs are saved in schedule_rows.csv."
+}

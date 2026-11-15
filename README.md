@@ -6,7 +6,7 @@ The report is maintained separately in [Economics_Assignment3_Template](https://
 
 ## Current status
 
-The first O4 national EDA is complete: a reproducible data-preparation script, a plotting script, the prepared CSV, the numerical results and a two-panel figure are included. See [O4's instructions and checklist](O4/README.md) for run commands and the remaining EDA tasks. Route PDF conversion and route EDA are the next data-preparation/analysis work; they have not yet been migrated here.
+The national and route EDA figures are complete. Both have preparation code, prepared CSVs, plotting code and numerical outputs. The route workflow includes the original DGCA PDF archive and can rebuild its CSVs offline. See [O4's instructions and checklist](O4/README.md) for run commands and the remaining EDA tasks. The capacity-input comparison and the remaining national descriptive summary are still pending.
 
 The first figure has two panels:
 
@@ -17,16 +17,24 @@ The figure and a short description belong in Section 4, Descriptive and Explorat
 
 ![National CR2 and the share gap, January 2015-July 2026](O4/output/figures/national_cr2_share_gap.png)
 
+The second figure shows available airport pairs by month and the distribution of ownership-group frequency HHI. It covers 1,150 retained route-months after the two documented TruJet-related exclusions. These are scheduled-frequency measures; the national figure uses passenger shares.
+
+![Route coverage and the distribution of ownership-group frequency HHI](O4/output/figures/route_coverage_hhi.png)
+
 ## Files
 
 | File or folder | Contents |
 |---|---|
 | `data/raw/carrier_monthly.csv` | Unchanged DGCA-derived airline traffic snapshot |
 | `data/source/` | Data preparation code and workflow notes |
+| `data/raw/route_schedules/` | Original DGCA schedule PDFs, with a separate fingerprint/URL manifest |
+| `data/interim/routes/` | Extracted schedule rows and extraction audit |
 | `data/processed/` | Prepared CSV and preparation audit |
 | `data/SOURCE.md` | Source, version, fingerprint, variables and study filtering |
+| `data/ROUTE_SOURCES.md` | Route sources, preparation, sample changes and data dictionary |
 | `data/LICENSE.txt` | Upstream licence accompanying the dataset |
 | `O4/eda_national.py` | Monthly group calculations, summary statistics and chart |
+| `O4/eda_routes.py` | Route coverage and HHI distribution chart |
 | `O4/output/` | Figure, numerical tables and software versions |
 | `requirements.txt` | Python plotting dependency |
 
@@ -46,4 +54,4 @@ Run instructions and output definitions are in [O4/README.md](O4/README.md). Sou
 
 ## AI assistance
 
-OpenAI Codex assisted with repository setup, documentation, national data-preparation and EDA code, calculation checks, and the first descriptive report text. The analysis follows the method submitted in Assignment 2. The team must review the calculations and interpretations before submission and include the methods-and-tools disclosure required by the course.
+OpenAI Codex assisted with repository setup, documentation, national and route preparation/EDA code, adaptation of the existing PDF parser, calculation checks, and descriptive report text. The analysis follows the method submitted in Assignment 2, with the two TruJet-related route-month exclusions documented in the route source notes. The team must review the calculations and interpretations before submission and include the methods-and-tools disclosure required by the course.
