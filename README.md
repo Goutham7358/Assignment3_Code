@@ -27,6 +27,14 @@ The third figure uses those same HHI values to show each airport pair over time.
 
 ## Files
 
+Generate all three figures from the included prepared CSVs:
+
+```sh
+python3 O4/EDA/generate_figures.py
+```
+
+Install the packages in `requirements.txt` first if needed. PDF extraction and cleaning are separate steps in `data/source/`; plotting scripts are grouped in `O4/EDA/`.
+
 | File or folder | Contents |
 |---|---|
 | `data/raw/carrier_monthly.csv` | Unchanged DGCA-derived airline traffic snapshot |
@@ -37,8 +45,9 @@ The third figure uses those same HHI values to show each airport pair over time.
 | `data/SOURCE.md` | Source, version, fingerprint, variables and study filtering |
 | `data/ROUTE_SOURCES.md` | Route sources, preparation, sample changes and data dictionary |
 | `data/LICENSE.txt` | Upstream licence accompanying the dataset |
-| `O4/eda_national.py` | Monthly group calculations, summary statistics and chart |
-| `O4/eda_routes.py` | Route coverage, HHI distribution and pair-by-month heatmap |
+| `O4/EDA/eda_national.py` | Monthly group calculations, summary statistics and chart |
+| `O4/EDA/eda_routes.py` | Route coverage, HHI distribution and pair-by-month heatmap |
+| `O4/EDA/generate_figures.py` | One command to generate all three EDA figures from prepared CSVs |
 | `O4/output/` | Figure, numerical tables and software versions |
 | `requirements.txt` | Python plotting dependency |
 

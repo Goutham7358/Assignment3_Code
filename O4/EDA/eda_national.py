@@ -10,7 +10,7 @@ from pathlib import Path
 from statistics import mean, median, stdev
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 # Keep the font cache in the repository's ignored local working folder.
 os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".mplconfig"))
 os.environ.setdefault("XDG_CACHE_HOME", str(ROOT / "tmp/cache"))
@@ -24,7 +24,7 @@ import numpy as np
 
 
 INPUT = ROOT / "data/processed/national_airline_monthly.csv"
-OUTPUT = Path(__file__).resolve().parent / "output"
+OUTPUT = ROOT / "O4/output"
 
 
 def write_csv(path, rows):
@@ -135,7 +135,7 @@ def draw_figure(monthly):
     axes[1].set_xlabel("Month", fontsize=11)
     # Source attribution appears once in the report caption and in data/SOURCE.md.
     for extension in ["png", "pdf"]:
-        metadata = {"Creator": "O4/eda_national.py"}
+        metadata = {"Creator": "O4/EDA/eda_national.py"}
         if extension == "pdf":
             metadata.update({"CreationDate": None, "ModDate": None})
         fig.savefig(OUTPUT / f"figures/national_cr2_share_gap.{extension}", dpi=220,

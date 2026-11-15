@@ -2,6 +2,8 @@
 
 Data preparation lives here. O4's analysis scripts read prepared CSV files, rather than reading source PDFs or downloading data.
 
+To generate all three figures from the included prepared data, run `python3 O4/EDA/generate_figures.py` from the repository root. The steps below are for rebuilding the prepared data itself.
+
 ## National data: implemented
 
 Run from the repository root:
@@ -29,7 +31,7 @@ Run from the repository root:
 python3 data/source/extract_route_schedules.py
 python3 data/source/prepare_routes.py
 python3 data/source/verify_routes.py
-python3 O4/eda_routes.py
+python3 O4/EDA/eda_routes.py
 ```
 
 The intermediate and prepared CSVs are already included. To redraw only the chart, run the last command. To rebuild the prepared CSVs without rereading PDFs, start at `prepare_routes.py`.
@@ -42,3 +44,18 @@ The preparation has two stages:
 The top-20 selection also needs the 2025 airport-pair passenger data. That file selects routes; it does not contain airline passenger shares. The schedule PDFs yield approved flight frequencies, not operated flights or route-level airline passenger counts.
 
 The two affected HYD-MAA observations in February-March 2022 are excluded as whole route-months. The new panel has 1,150 route-months; the earlier panel had 1,152. Other retained flight totals and concentration indices agree with the earlier project. See `data/ROUTE_SOURCES.md` for the decisions, data dictionary and checks.
+
+## Example of the prepared route data
+
+Selected columns from `data/processed/routes/airline_route_monthly.csv`:
+
+```csv
+month,route,airline,scheduled_flights,route_flights
+2026-06,DEL-PNQ,Air India,472,1430
+2026-06,DEL-PNQ,Air India Express,146,1430
+2026-06,DEL-PNQ,Akasa Air,120,1430
+2026-06,DEL-PNQ,IndiGo,524,1430
+2026-06,DEL-PNQ,SpiceJet,168,1430
+```
+
+These are both-direction scheduled-departure counts for Delhi-Pune. For example, Akasa has `120 / 1430 * 100 = 8.39%` of the recorded scheduled flights. The full CSV also contains ownership groups, counts in each direction and unrounded percentage shares. `route_monthly.csv` contains the corresponding pair-month HHI, CR2 and quality fields. Extracted PDF rows, including weekdays, validity dates and page references, are kept separately in `data/interim/routes/schedule_rows.csv`.

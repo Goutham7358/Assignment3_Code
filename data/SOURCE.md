@@ -40,7 +40,7 @@ The ownership convention is the one submitted in Assignment 2:
 
 This is the study's monthly grouping convention, not a reconstruction of every ownership interest. In particular, the January 2022 series movement includes reclassification.
 
-`O4/eda_national.py` sums passengers within these groups and calculates each group's share of that month's total. It ranks groups afresh each month. A tie is resolved alphabetically for the displayed names; this does not change CR2 or the gap. CR2 is the sum of the two highest shares. The gap is the highest share minus the second-highest share. Both use unrounded values.
+`O4/EDA/eda_national.py` sums passengers within these groups and calculates each group's share of that month's total. It ranks groups afresh each month. A tie is resolved alphabetically for the displayed names; this does not change CR2 or the gap. CR2 is the sum of the two highest shares. The gap is the highest share minus the second-highest share. Both use unrounded values.
 
 The prepared CSV contains `date` (first day of the month, ISO format), `airline` (source brand), `ownership_group` (study grouping), and `passengers` (integer passenger journeys). ASK and RPK are not used or altered in this first preparation step.
 

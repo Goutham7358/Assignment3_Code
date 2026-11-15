@@ -8,7 +8,7 @@ from pathlib import Path
 from statistics import mean, median, stdev
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".mplconfig"))
 os.environ.setdefault("XDG_CACHE_HOME", str(ROOT / "tmp/cache"))
 
@@ -22,7 +22,7 @@ import numpy as np
 
 
 DATA = ROOT / "data/processed/routes"
-OUTPUT = Path(__file__).resolve().parent / "output"
+OUTPUT = ROOT / "O4/output"
 
 
 def read_csv(path):
@@ -75,7 +75,7 @@ def draw_figure(coverage, hhi):
         ax.grid(axis="y", color="#e1e5e8", linewidth=0.6)
         ax.set_axisbelow(True)
     for extension in ["png", "pdf"]:
-        metadata = {"Creator": "O4/eda_routes.py"}
+        metadata = {"Creator": "O4/EDA/eda_routes.py"}
         if extension == "pdf":
             metadata.update({"CreationDate": None, "ModDate": None})
         fig.savefig(OUTPUT / f"figures/route_coverage_hhi.{extension}", dpi=220, metadata=metadata)
@@ -133,7 +133,7 @@ def draw_heatmap(observations, coverage_rows):
     fig.legend(handles=[Patch(facecolor="#e2e2e2", label="No usable observation")],
                loc="lower center", bbox_to_anchor=(0.56, 0.015), frameon=False, fontsize=10)
     for extension in ["png", "pdf"]:
-        metadata = {"Creator": "O4/eda_routes.py"}
+        metadata = {"Creator": "O4/EDA/eda_routes.py"}
         if extension == "pdf":
             metadata.update({"CreationDate": None, "ModDate": None})
         fig.savefig(OUTPUT / f"figures/route_hhi_heatmap.{extension}", dpi=220, metadata=metadata)

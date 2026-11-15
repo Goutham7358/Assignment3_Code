@@ -19,7 +19,17 @@ These are EDA tasks. The hypothesis criteria and support assessments will be rep
 
 Code changes are committed and pushed after each completed EDA step. The Overleaf-linked report is currently updated locally; committing and pushing it is deferred until the EDA is ready for review as a whole.
 
-## Run the first analysis
+## Generate all EDA figures
+
+The plotting scripts are in `O4/EDA/`. From the repository root, one command reads the included prepared CSVs and generates Figures 1-3 and their numerical tables:
+
+```sh
+python3 O4/EDA/generate_figures.py
+```
+
+`eda_national.py` makes Figure 1 and the leading-pair summary. `eda_routes.py` makes Figure 2 and Figure 3. The entry script calls both. Outputs remain in `O4/output/`, so the figure filenames and links remain stable. Plotting does not reread source PDFs or change the prepared data.
+
+## Set up Python and run the national analysis
 
 Use Python 3.10 or newer. From the repository root:
 
@@ -28,7 +38,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 python3 data/source/prepare_national.py
-python3 O4/eda_national.py
+python3 O4/EDA/eda_national.py
 ```
 
 The scripts find data relative to their own location, so they can also be run from another working directory. No internet access is needed after the packages are installed. The exact Python, Matplotlib and NumPy versions used for the saved outputs are recorded in `output/software_versions.json`.
@@ -69,7 +79,7 @@ The full workflow, starting from the original PDFs, is:
 python3 data/source/extract_route_schedules.py
 python3 data/source/prepare_routes.py
 python3 data/source/verify_routes.py
-python3 O4/eda_routes.py
+python3 O4/EDA/eda_routes.py
 ```
 
 Poppler's `pdftotext` must be on the PATH for the first command. Python preparation and verification use the standard library. The plotting dependencies are the same as for the national figure. The included intermediate/prepared CSVs let you redraw the figure by running only the final command. See [route source notes](../data/ROUTE_SOURCES.md) for the source URLs, fingerprints, rules and data dictionary.
