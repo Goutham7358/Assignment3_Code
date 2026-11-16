@@ -2,6 +2,7 @@
 
 from capacity_buffer import calculate_buffer, read_inputs
 from national_concentration import END, START, calculate_monthly
+from report_table import write_grid_table
 from route_concentration import OUTPUT, calculate_routes, write_csv
 
 
@@ -64,17 +65,16 @@ def main():
     ]
     references = [r"Table~\ref{tab:o4-national-results}.", r"Table~\ref{tab:o4-route-results}.",
                   r"Table~\ref{tab:o4-capacity-buffer}."]
-    lines = [r"\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.35\linewidth}"
-             r">{\raggedright\arraybackslash}p{0.15\linewidth}"
-             r">{\raggedright\arraybackslash}p{0.43\linewidth}@{}}",
-             r"\toprule", r"Hypothesis & Outcome & Evidence \\", r"\midrule"]
+    table_rows = []
     for hypothesis, row, reference in zip(hypotheses_tex, rows, references):
         evidence = row["evidence"].replace("%", r"\%")
-        lines.append(f"{hypothesis} & {row['outcome']} & {evidence}. {reference}" + r" \\")
-        if row["hypothesis"] != "H7":
-            lines.append(r"\addlinespace[6pt]")
-    lines.extend([r"\bottomrule", r"\end{tabular}"])
-    (OUTPUT / "hypothesis_results_table.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
+        table_rows.append(f"{hypothesis} & {row['outcome']} & {evidence}. {reference}")
+    # All three columns wrap because the hypothesis table contains prose.
+    columns = (r"|>{\raggedright\arraybackslash}X"
+               r"|>{\raggedright\arraybackslash}p{0.15\linewidth}"
+               r"|>{\raggedright\arraybackslash}X|")
+    write_grid_table(OUTPUT / "hypothesis_results_table.tex",
+                     ["Hypothesis", "Outcome", "Evidence"], table_rows, columns=columns)
     for row in rows:
         print(f"{row['hypothesis']}: {row['outcome']} - {row['evidence']}")
     print("Saved hypothesis_results.csv and hypothesis_results_table.tex in O4/output/tables/.")

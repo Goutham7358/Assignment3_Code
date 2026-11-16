@@ -1,8 +1,9 @@
 """Write the full-grid table bodies used in the main report."""
 
 
-def write_grid_table(path, headings, rows):
-    columns = r"|>{\raggedright\arraybackslash}X|" + "r|" * (len(headings) - 1)
+def write_grid_table(path, headings, rows, columns=None):
+    if columns is None:
+        columns = r"|>{\raggedright\arraybackslash}X|" + "r|" * (len(headings) - 1)
     headings = [heading.replace(r"\shortstack{", r"\shortstack{\strut ")
                 .replace(r"\\", r"\\\strut ") for heading in headings]
     header = " & ".join(r"\textbf{" + heading + "}" for heading in headings)
