@@ -58,23 +58,22 @@ def main():
     ]
     OUTPUT.mkdir(parents=True, exist_ok=True)
     write_csv("hypothesis_results.csv", rows)
-    hypotheses_tex = [
-        r"\textbf{H5: National.} IndiGo and AI Group are the top two in every month, Dec 2024--Jul 2026, with CR2 $\geq80\%$ and gap $>20$ pp.",
-        r"\textbf{H6: Routes.} Ownership-adjusted frequency HHI $>1{,}800$ in more than half of available observations for the selected 20 pairs.",
-        r"\textbf{H7: Buffer.} Rivals' unused capacity relative to IndiGo RPK is lower in Dec 2025 than Dec 2024.",
-    ]
     references = [r"Table~\ref{tab:o4-national-results}.", r"Table~\ref{tab:o4-route-results}.",
                   r"Table~\ref{tab:o4-capacity-buffer}."]
-    table_rows = []
-    for hypothesis, row, reference in zip(hypotheses_tex, rows, references):
+    # Reserve blank rows for the team's results; the CSV remains O4-only.
+    pending = [("H1", "O1"), ("H2", "O1"), ("H3", "O2"), ("H4", "O2")]
+    table_rows = [rf"\textbf{{{hypothesis}}} ({objective}) & &"
+                  for hypothesis, objective in pending]
+    for row, reference in zip(rows, references):
         evidence = row["evidence"].replace("%", r"\%")
+        hypothesis = rf"\textbf{{{row['hypothesis']}}} (O4)"
         table_rows.append(f"{hypothesis} & {row['outcome']} & {evidence}. {reference}")
-    # All three columns wrap because the hypothesis table contains prose.
-    columns = (r"|>{\raggedright\arraybackslash}X"
-               r"|>{\raggedright\arraybackslash}p{0.15\linewidth}"
+    columns = (r"|>{\raggedright\arraybackslash}p{0.19\linewidth}"
+               r"|>{\raggedright\arraybackslash}p{0.16\linewidth}"
                r"|>{\raggedright\arraybackslash}X|")
     write_grid_table(OUTPUT / "hypothesis_results_table.tex",
-                     ["Hypothesis", "Outcome", "Evidence"], table_rows, columns=columns)
+                     ["Hypothesis (objective)", "Outcome", "Supporting evidence"],
+                     table_rows, columns=columns)
     for row in rows:
         print(f"{row['hypothesis']}: {row['outcome']} - {row['evidence']}")
     print("Saved hypothesis_results.csv and hypothesis_results_table.tex in O4/output/tables/.")
