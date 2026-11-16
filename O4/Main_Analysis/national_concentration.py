@@ -106,7 +106,7 @@ def write_report_table(summary, compact=False):
     columns = r">{\raggedright\arraybackslash}p{0.43\linewidth}rrr" if compact else "lrrr"
     lines = [
         r"\begin{tabular}{@{}" + columns + r"@{}}", r"\toprule",
-        r" & \shortstack{Full series\\Months / 138}"
+        ("Condition" if compact else "") + r" & \shortstack{Full series\\Months / 138}"
         r" & \shortstack{Focus period\\Months / 20}"
         r" & \shortstack{Focus period\\Range} \\",
         r"\midrule",

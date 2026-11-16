@@ -1,6 +1,6 @@
 # O4 analysis
 
-The working report groups the main analysis under O4, with national results in 5.4.1, route results and the focus-period comparison in 5.4.2, and the capacity buffer in 5.4.3. Compact tables carry the main evidence. Complete condition tables, calculation examples and sampling details remain in Appendix C.
+The working report groups the main analysis under O4, with national results in 5.4.1, route results and the focus-period comparison in 5.4.2, and the capacity buffer in 5.4.3. Compact tables carry the main evidence. Complete condition tables, calculation examples and sampling details remain in Appendix C. The generated LaTeX files contain table bodies only. Captions, borders, header shading and notes are formatted in the report.
 
 ## Main analysis: national concentration
 

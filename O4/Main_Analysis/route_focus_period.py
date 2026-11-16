@@ -50,8 +50,8 @@ def write_report_tables(comparison, summary, monthly):
         lines.append(label + " & " + " & ".join(values))
     write_tex_table("national_route_focus_table.tex",
                     r"Measure & \shortstack{National\\Passenger data}"
-                    r" & \shortstack{Top 20 airport pairs\\Scheduled flights}"
-                    r" & \shortstack{Top 10 airport pairs\\Scheduled flights}",
+                    r" & \shortstack{Top 20\\airport pairs\\Scheduled flights}"
+                    r" & \shortstack{Top 10\\airport pairs\\Scheduled flights}",
                     lines, r">{\raggedright\arraybackslash}p{0.35\linewidth}rrr")
 
     counts = {r["sample"]: r["observations"] for r in monthly}
