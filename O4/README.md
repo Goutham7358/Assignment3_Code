@@ -1,5 +1,7 @@
 # O4 analysis
 
+The working report groups the main analysis under O4, with national results in 5.4.1, route results and the focus-period comparison in 5.4.2, and the capacity buffer in 5.4.3. Compact tables carry the main evidence. Complete condition tables, calculation examples and sampling details remain in Appendix C.
+
 ## Main analysis: national concentration
 
 From the repository root, run:
@@ -10,13 +12,14 @@ python3 O4/Main_Analysis/national_concentration.py
 
 This step uses only the Python standard library. It reads `data/processed/national_airline_monthly.csv`, aggregates passengers by ownership group and ranks the groups separately each month. It does not require the EDA scripts or their outputs. Run `python3 data/source/prepare_national.py` first if rebuilding the prepared input from the preserved raw CSV.
 
-The script prints a results table in the terminal and saves six files in `O4/output/tables/`:
+The script prints a results table in the terminal and saves seven files in `O4/output/tables/`:
 
 | File | Contents |
 |---|---|
 | `national_results_monthly.csv` | All 138 monthly measures, leading-group identities and condition flags |
 | `national_results_summary.csv` | Counts, denominators, percentages and ranges for the full series and December 2024-July 2026 |
-| `national_results_table.tex` | Compact table body for Section 5 |
+| `national_h5_table.tex` | Four H5 condition rows for Section 5.4.1 |
+| `national_results_table.tex` | Complete condition table, including HHI and fringe, for Appendix C |
 | `national_worked_example.csv` | July 2026 group passenger counts, shares and HHI contributions |
 | `national_worked_groups.tex` | Group-input table for the appendix worked example |
 | `national_worked_calculations.tex` | Numerical calculations for that example |
@@ -27,7 +30,7 @@ Every observed month has equal weight. April 2020 is missing; December 2024-July
 
 The national result is complete: all three H5 conditions occur in 48/138 full-series months and 20/20 focus-period months. Route and capacity-buffer results are described below. The economic discussion and formal hypothesis review are now drafted in Section 6; the generated outcome table is documented below.
 
-All 138 months' identities, six measures and six flags were checked independently using SQL aggregation of the unchanged raw snapshot, including integer-count comparisons for the CR2, gap and fringe cutoffs. All existing EDA measures agree. A standalone copy containing only this script and its prepared CSV reproduces the six outputs byte-for-byte from a different working directory.
+All 138 months' identities, six measures and six flags were checked independently using SQL aggregation of the unchanged raw snapshot, including integer-count comparisons for the CR2, gap and fringe cutoffs. All existing EDA measures agree. A standalone copy containing only this script and its prepared CSV reproduces all seven outputs byte-for-byte from a different working directory.
 
 ## Main analysis: route concentration and IndiGo dependence
 
@@ -49,7 +52,8 @@ Generated files under `O4/output/tables/`:
 | `route_results_by_pair.csv` | The same summaries for each of the 20 selected pairs |
 | `route_leading_pairs.csv` | Frequencies of unique leading pairs, with boundary ties separate |
 | `route_worked_example.csv` | Group flights, shares and HHI contributions for Delhi-Pune, June 2026 |
-| `route_results_table.tex` | Section 5.2 results table body |
+| `route_results_compact_table.tex` | Five concentration/dependence rows for Section 5.4.2 |
+| `route_results_table.tex` | Complete eight-row condition table for Appendix C |
 | `route_sensitivity_table.tex` | Subset and December 2025 comparison table body |
 | `route_leading_pairs_table.tex` | Complete leading-pair frequency table body |
 | `route_worked_groups.tex` | Input table for the worked example |
@@ -63,7 +67,7 @@ Leading groups are ranked separately for each observation. If ranks two and thre
 
 The exact-match subset has 303 observations, and December 2025 has 19 available pairs. Subsets overlap. Endpoint agreement is a consistency check, not proof that every filing exists. In December 2025, Chennai-Hyderabad is the only pair above the 60% IndiGo flag (78.10%); this approved-schedule measure does not describe flights actually operated during disruption.
 
-Independent SQL aggregation of the airline-level prepared CSV confirms all 1,150 totals, leading-group identities, five numerical measures and nine flags. All 66 monthly and 20 pair-level denominators and condition counts were checked against those observations. A standalone copy with only the script and two inputs reproduced all 11 outputs byte-for-byte from a different working directory.
+Independent SQL aggregation of the airline-level prepared CSV confirms all 1,150 totals, leading-group identities, five numerical measures and nine flags. All 66 monthly and 20 pair-level denominators and condition counts were checked against those observations. A standalone copy with only the script and two inputs reproduced all 12 outputs byte-for-byte from a different working directory.
 
 ## Matched focus-period comparison
 
@@ -77,7 +81,7 @@ The 20-pair sample is the submitted O4 sample; the busiest 10 are a supplementar
 
 Five CSVs are saved in `O4/output/tables/`: `route_focus_observations.csv` (350 observations with leading-group and signed IndiGo-minus-AI measures), `route_focus_summary.csv` (top 10 and top 20), `route_focus_by_month.csv` (40 monthly summaries), `route_focus_by_pair.csv` (20 pair summaries), and `national_route_focus_comparison.csv` (national and both route samples).
 
-Three generated LaTeX files use those same calculated values: `national_route_focus_table.tex` contains the matched-period comparison for Section 5.2; `route_focus_coverage_table.tex` lists the retained pairs in every focus-period month; `route_focus_counts.tex` shows the joint-condition percentages for the appendix. The latter two are used in Appendix C.4. All five numerical CSVs are unchanged by adding the report outputs; a standalone run reproduces all eight focus-period files byte-for-byte.
+Three generated LaTeX files use those same calculated values: `national_route_focus_table.tex` contains the matched-period comparison for Section 5.4.2, with national, top-20 and top-ten columns clearly identifying passenger versus scheduled-flight data; `route_focus_coverage_table.tex` lists the retained pairs in every focus-period month; `route_focus_counts.tex` shows the joint-condition percentages for the appendix. The latter two are used in Appendix C.4. All five numerical CSVs are unchanged by adding the report outputs; a standalone run reproduces all eight focus-period files byte-for-byte.
 
 The comparison separates shared dominance from asymmetry. In the top 10, IndiGo and AI are the leading pair in 184/184 observations; median CR2 is 89.37% and median gap is 7.69 pp. IndiGo leads uniquely in 86, AI in 94, with four first-place ties. Only 9/184 meet the unique-pair, CR2 >=80% and gap >20 pp conditions with IndiGo leading. Nationally, the corresponding conditions hold in 20/20 months, with median gap 37.35 pp. Matching periods therefore corroborates two-group concentration on the busiest pairs, while showing a more balanced division of scheduled frequency. National shares remain passenger-based and route shares frequency-based.
 
@@ -230,7 +234,7 @@ The preparation preserves the existing quality screen and excludes HYD-MAA in Fe
 
 A standalone copy, run from a different working directory with the intermediate and prepared route data removed, reproduced the original 19 extraction, preparation, verification and figure/table outputs byte-for-byte from the PDFs. After adding the heatmap, a separate standalone plotting run from the three prepared input CSVs reproduced all nine route EDA figure/table files byte-for-byte, including the unchanged histogram.
 
-## Capacity inputs: Section 4.3
+## Capacity inputs: national airline data in Section 4.1
 
 To rebuild the capacity preparation and table:
 
@@ -247,6 +251,6 @@ The second command requires valid inputs for every selected airline and produces
 - `output/tables/capacity_inputs.csv`: ASK and RPK summed for IndiGo and all other airlines, separately for each month, retaining both thousand-km source units and billion-km display units.
 - `output/tables/capacity_inputs_table.tex`: the generated four-row LaTeX table body, displayed to three decimal places.
 
-ASK measures offered seat-km; RPK measures passenger-km carried. Dividing source values by 1,000,000 converts thousands to billions. Other airlines means every retained airline except IndiGo; brands are counted once and totals are not averages. This table introduces the inputs only. The unused-capacity ratio and H7 assessment belong to the main analysis and discussion.
+ASK measures offered seat-km; RPK measures passenger-km carried. Dividing source values by 1,000,000 converts thousands to billions. Other airlines means every retained airline except IndiGo; brands are counted once and totals are not averages. The four-row input table is retained in Appendix B and described under national airline data in Section 4.1. It introduces the inputs only. The unused-capacity ratio and H7 assessment belong to the main analysis and discussion.
 
 All 138 monthly ownership HHI/fringe values and the four capacity aggregates were independently checked against SQL calculations from the unchanged raw snapshot. A standalone run prepared capacity data from the raw CSV and reproduced all 22 EDA/capacity-preparation outputs byte-for-byte. Existing figure files and the original monthly concentration fields are unchanged.

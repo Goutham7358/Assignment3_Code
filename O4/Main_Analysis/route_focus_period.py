@@ -33,22 +33,26 @@ def focus_summary(label, rows):
 
 
 def write_report_tables(comparison, summary, monthly):
+    samples = [comparison[0], comparison[2], comparison[1]]  # National, top 20, top 10.
     lines = []
     for field, label in [
-        ("specified_pair_count", "IndiGo and AI Group: top-two pair"),
+        ("specified_pair_count", "IndiGo and AI Group are the unique top two"),
         ("cr2_median_pct", r"Median CR2 (\%)"),
-        ("gap_median_pp", "Median leader--rival gap (pp)"),
+        ("gap_median_pp", "Median share gap (pp)"),
         ("fringe_median_pct", r"Median fringe share (\%)"),
-        ("indigo_led_joint_count", "IndiGo-led pair, CR2 and gap jointly"),
+        ("indigo_led_joint_count", r"Leading pair, CR2 $\geq80\%$ and gap $>20$ pp, with IndiGo first"),
     ]:
         values = []
-        for row in comparison:
+        for row in samples:
             value = (f"{row[field]}/{row['observations']}" if field.endswith("count")
                      else f"{row[field]:.2f}")
             values.append(value)
         lines.append(label + " & " + " & ".join(values))
-    write_tex_table("national_route_focus_table.tex", "Measure & National & Top 10 pairs & Top 20 pairs",
-                    lines, "lrrr")
+    write_tex_table("national_route_focus_table.tex",
+                    r"Measure & \shortstack{National\\Passenger data}"
+                    r" & \shortstack{Top 20 airport pairs\\Scheduled flights}"
+                    r" & \shortstack{Top 10 airport pairs\\Scheduled flights}",
+                    lines, r">{\raggedright\arraybackslash}p{0.35\linewidth}rrr")
 
     counts = {r["sample"]: r["observations"] for r in monthly}
     months = sorted(key.split(":")[1] for key in counts if key.startswith("top10:"))

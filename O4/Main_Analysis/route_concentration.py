@@ -135,6 +135,19 @@ def write_report_tables(summary, leaders):
              f" & {full[flag + '_pct']:.2f}" for flag, label in conditions]
     write_tex_table("route_results_table.tex", r"Condition & Observations & Share (\%)", lines, "lrr")
 
+    compact_conditions = [
+        ("hhi_gt_1800", r"Ownership HHI $>1{,}800$"),
+        ("specified_pair_unique", "IndiGo and AI Group are the unique top two"),
+        ("specified_pair_cr2_gap", r"IndiGo--AI Group leading pair, CR2 $\geq80\%$ and gap $>20$ pp"),
+        ("indigo_ge_60", r"IndiGo supplies $\geq60\%$ of scheduled flights"),
+        ("indigo_sole", "IndiGo is the sole scheduled operator"),
+    ]
+    lines = [f"{label} & {full[flag + '_count']:,}/{full['observations']:,}"
+             f" & {full[flag + '_pct']:.2f}" for flag, label in compact_conditions]
+    write_tex_table("route_results_compact_table.tex",
+                    r"Measure & Observations & Percentage (\%)", lines,
+                    r">{\raggedright\arraybackslash}p{0.64\linewidth}rr")
+
     labels = ["Full sample", "Exact endpoint matches", "December 2025"]
     lines = []
     for label, row in zip(labels, summary):

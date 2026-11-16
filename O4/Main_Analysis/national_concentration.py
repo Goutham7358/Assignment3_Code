@@ -97,28 +97,40 @@ def make_summary(monthly, focus):
     return summary
 
 
-def write_report_table(summary):
+def write_report_table(summary, compact=False):
     labels = [
         "IndiGo and AI Group lead", r"CR2 $\geq 80\%$",
         r"Share gap $>20$ pp", r"Fringe $\leq 20\%$",
         r"Ownership HHI $>1{,}800$", "Pair, CR2 and gap jointly",
     ]
+    columns = r">{\raggedright\arraybackslash}p{0.43\linewidth}rrr" if compact else "lrrr"
     lines = [
-        r"\begin{tabular}{@{}lrrr@{}}", r"\toprule",
+        r"\begin{tabular}{@{}" + columns + r"@{}}", r"\toprule",
         r" & \shortstack{Full series\\Months / 138}"
         r" & \shortstack{Focus period\\Months / 20}"
         r" & \shortstack{Focus period\\Range} \\",
         r"\midrule",
     ]
     for i, label in enumerate(labels):
+        if compact:
+            # HHI and fringe remain in the complete appendix table.
+            if i in (3, 4):
+                continue
+            if i == 0:
+                label = "IndiGo and AI Group are the two largest groups"
+            elif i == 5:
+                label = "All three conditions together"
         full, recent = summary[i], summary[i + len(CONDITIONS)]
         value_range = "--"
         if recent["minimum"] != "":
             value_range = f"{recent['minimum']:,.2f}--{recent['maximum']:,.2f}"
+            if compact:
+                value_range += r"\%" if i == 1 else " pp"
         lines.append(f"{label} & {full['months_meeting']}/138"
                      f" & {recent['months_meeting']}/20 & {value_range}" + r" \\")
     lines.extend([r"\bottomrule", r"\end{tabular}"])
-    (OUTPUT / "national_results_table.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    name = "national_h5_table.tex" if compact else "national_results_table.tex"
+    (OUTPUT / name).write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def write_worked_example(monthly, group_rows):
@@ -173,6 +185,7 @@ def main():
     write_csv("national_results_monthly.csv", monthly)
     write_csv("national_results_summary.csv", summary)
     write_report_table(summary)
+    write_report_table(summary, compact=True)
     write_worked_example(monthly, groups)
 
     print("O4 national concentration results")
@@ -188,7 +201,7 @@ def main():
     for row in summary[len(CONDITIONS):]:
         if row["minimum"] != "":
             print(f"  {row['description']:<26} {row['minimum']:,.2f} to {row['maximum']:,.2f}")
-    print("\nSaved 3 CSVs and 3 LaTeX files in O4/output/tables/.")
+    print("\nSaved 3 CSVs and 4 LaTeX files in O4/output/tables/.")
     print("Counts use unrounded monthly values; formal hypothesis review belongs in Section 6.")
 
 
