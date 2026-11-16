@@ -6,6 +6,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from statistics import median
 
+from report_table import write_grid_table
+
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data/processed/routes"
@@ -144,9 +146,8 @@ def write_report_tables(summary, leaders):
     ]
     lines = [f"{label} & {full[flag + '_count']:,}/{full['observations']:,}"
              f" & {full[flag + '_pct']:.2f}" for flag, label in compact_conditions]
-    write_tex_table("route_results_compact_table.tex",
-                    r"Measure & Observations & Percentage (\%)", lines,
-                    r">{\raggedright\arraybackslash}p{0.64\linewidth}rr")
+    write_grid_table(OUTPUT / "route_results_compact_table.tex",
+                     ["Measure", "Observations", r"Percentage (\%)"], lines)
 
     labels = ["Full sample", "Exact endpoint matches", "December 2025"]
     lines = []

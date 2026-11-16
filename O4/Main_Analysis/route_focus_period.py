@@ -4,6 +4,7 @@ from statistics import median
 
 from national_concentration import calculate_monthly
 from route_concentration import OUTPUT, calculate_routes, summarise, write_csv, write_tex_table
+from report_table import write_grid_table
 
 
 FIRST, LAST = "2024-12", "2026-07"
@@ -48,11 +49,11 @@ def write_report_tables(comparison, summary, monthly):
                      else f"{row[field]:.2f}")
             values.append(value)
         lines.append(label + " & " + " & ".join(values))
-    write_tex_table("national_route_focus_table.tex",
-                    r"Measure & \shortstack{National\\Passenger data}"
-                    r" & \shortstack{Top 20\\airport pairs\\Scheduled flights}"
-                    r" & \shortstack{Top 10\\airport pairs\\Scheduled flights}",
-                    lines, r">{\raggedright\arraybackslash}p{0.35\linewidth}rrr")
+    write_grid_table(OUTPUT / "national_route_focus_table.tex", [
+        "Measure", r"\shortstack{National\\Passenger data}",
+        r"\shortstack{Top 20\\airport pairs\\Scheduled flights}",
+        r"\shortstack{Top 10\\airport pairs\\Scheduled flights}",
+    ], lines)
 
     counts = {r["sample"]: r["observations"] for r in monthly}
     months = sorted(key.split(":")[1] for key in counts if key.startswith("top10:"))

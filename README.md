@@ -54,6 +54,7 @@ Install the packages in `requirements.txt` first if needed. PDF extraction and c
 | `O4/Main_Analysis/route_focus_period.py` | Matched December 2024-July 2026 comparison for national data and the busiest 10/20 pairs |
 | `O4/Main_Analysis/capacity_buffer.py` | Rivals' unused-capacity ratios for December 2024/2025, their changes and appendix workings |
 | `O4/Main_Analysis/hypothesis_summary.py` | H5-H7 condition checks and the Section 6.2 outcome table |
+| `O4/Main_Analysis/report_table.py` | Full-grid LaTeX table writer shared by the four main result tables |
 | `O4/output/` | Figure, numerical tables and software versions |
 | `requirements.txt` | Python plotting dependency |
 

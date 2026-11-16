@@ -4,6 +4,8 @@ import csv
 from decimal import Decimal
 from pathlib import Path
 
+from report_table import write_grid_table
+
 
 ROOT = Path(__file__).resolve().parents[2]
 INPUT = ROOT / "data/processed/capacity_airline_monthly.csv"
@@ -76,8 +78,7 @@ def calculate_buffer(selected):
 
 def write_report_outputs(selected, results):
     first, last = results
-    lines = [r"\begin{tabular}{@{}lrrr@{}}", r"\toprule",
-             r"Measure & Dec 2024 & Dec 2025 & Change \\", r"\midrule"]
+    rows = []
     fields = [
         ("rivals_ask_billion_seat_km", "Rivals' ASK (billion seat-km)"),
         ("rivals_rpk_billion_passenger_km", "Rivals' RPK (billion passenger-km)"),
@@ -88,10 +89,10 @@ def write_report_outputs(selected, results):
     for field, label in fields:
         places = 2 if field.endswith("pct") else 3
         unit = " pp" if field.endswith("pct") else ""
-        lines.append(f"{label} & {first[field]:.{places}f} & {last[field]:.{places}f}"
-                     f" & {last[field] - first[field]:+.{places}f}{unit}" + r" \\")
-    lines.extend([r"\bottomrule", r"\end{tabular}"])
-    (OUTPUT / "capacity_buffer_table.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
+        rows.append(f"{label} & {first[field]:.{places}f} & {last[field]:.{places}f}"
+                    f" & {last[field] - first[field]:+.{places}f}{unit}")
+    write_grid_table(OUTPUT / "capacity_buffer_table.tex",
+                     ["Measure", "Dec 2024", "Dec 2025", "Change"], rows)
 
     rivals = [r for r in selected if r["role"] == "Rival"]
     lookup = {(r["date"], r["airline"]): r["unused_billion_seat_km"] for r in rivals}

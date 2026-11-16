@@ -5,6 +5,8 @@ from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 
+from report_table import write_grid_table
+
 
 ROOT = Path(__file__).resolve().parents[2]
 INPUT = ROOT / "data/processed/national_airline_monthly.csv"
@@ -111,6 +113,7 @@ def write_report_table(summary, compact=False):
         r" & \shortstack{Focus period\\Range} \\",
         r"\midrule",
     ]
+    rows = []
     for i, label in enumerate(labels):
         if compact:
             # HHI and fringe remain in the complete appendix table.
@@ -126,11 +129,20 @@ def write_report_table(summary, compact=False):
             value_range = f"{recent['minimum']:,.2f}--{recent['maximum']:,.2f}"
             if compact:
                 value_range += r"\%" if i == 1 else " pp"
-        lines.append(f"{label} & {full['months_meeting']}/138"
-                     f" & {recent['months_meeting']}/20 & {value_range}" + r" \\")
+        row = (f"{label} & {full['months_meeting']}/138"
+               f" & {recent['months_meeting']}/20 & {value_range}")
+        rows.append(row)
+        lines.append(row + r" \\")
     lines.extend([r"\bottomrule", r"\end{tabular}"])
     name = "national_h5_table.tex" if compact else "national_results_table.tex"
-    (OUTPUT / name).write_text("\n".join(lines) + "\n", encoding="utf-8")
+    if compact:
+        write_grid_table(OUTPUT / name, [
+            "Condition", r"\shortstack{Full series\\Months / 138}",
+            r"\shortstack{Focus period\\Months / 20}",
+            r"\shortstack{Focus period\\Range}",
+        ], rows)
+    else:
+        (OUTPUT / name).write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def write_worked_example(monthly, group_rows):

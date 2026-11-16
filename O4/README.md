@@ -1,6 +1,6 @@
 # O4 analysis
 
-The working report groups the main analysis under O4, with national results in 5.4.1, route results and the focus-period comparison in 5.4.2, and the capacity buffer in 5.4.3. Compact tables carry the main evidence. Complete condition tables, calculation examples and sampling details remain in Appendix C. The generated LaTeX files contain table bodies only. Captions, borders, header shading and notes are formatted in the report.
+The working report groups the main analysis under O4, with national results in 5.4.1, route results and the focus-period comparison in 5.4.2, and the capacity buffer in 5.4.3. Compact tables carry the main evidence. Complete condition tables, calculation examples and sampling details remain in Appendix C. The generated LaTeX files contain table bodies only. The four main result tables use the full-grid writer in `Main_Analysis/report_table.py`. Captions and notes are formatted separately in the report.
 
 ## Main analysis: national concentration
 
@@ -30,7 +30,7 @@ Every observed month has equal weight. April 2020 is missing; December 2024-July
 
 The national result is complete: all three H5 conditions occur in 48/138 full-series months and 20/20 focus-period months. Route and capacity-buffer results are described below. The economic discussion and formal hypothesis review are now drafted in Section 6; the generated outcome table is documented below.
 
-All 138 months' identities, six measures and six flags were checked independently using SQL aggregation of the unchanged raw snapshot, including integer-count comparisons for the CR2, gap and fringe cutoffs. All existing EDA measures agree. A standalone copy containing only this script and its prepared CSV reproduces all seven outputs byte-for-byte from a different working directory.
+All 138 months' identities, six measures and six flags were checked independently using SQL aggregation of the unchanged raw snapshot, including integer-count comparisons for the CR2, gap and fringe cutoffs. All existing EDA measures agree. A standalone copy containing this script, `report_table.py` and its prepared CSV reproduces all seven outputs byte-for-byte from a different working directory.
 
 ## Main analysis: route concentration and IndiGo dependence
 
@@ -67,7 +67,7 @@ Leading groups are ranked separately for each observation. If ranks two and thre
 
 The exact-match subset has 303 observations, and December 2025 has 19 available pairs. Subsets overlap. Endpoint agreement is a consistency check, not proof that every filing exists. In December 2025, Chennai-Hyderabad is the only pair above the 60% IndiGo flag (78.10%); this approved-schedule measure does not describe flights actually operated during disruption.
 
-Independent SQL aggregation of the airline-level prepared CSV confirms all 1,150 totals, leading-group identities, five numerical measures and nine flags. All 66 monthly and 20 pair-level denominators and condition counts were checked against those observations. A standalone copy with only the script and two inputs reproduced all 12 outputs byte-for-byte from a different working directory.
+Independent SQL aggregation of the airline-level prepared CSV confirms all 1,150 totals, leading-group identities, five numerical measures and nine flags. All 66 monthly and 20 pair-level denominators and condition counts were checked against those observations. A standalone copy with the script, `report_table.py` and two inputs reproduced all 12 outputs byte-for-byte from a different working directory.
 
 ## Matched focus-period comparison
 
@@ -104,7 +104,7 @@ Six outputs are saved in `O4/output/tables/`:
 | `capacity_buffer_airline.csv` | All 19 selected airline ASK/RPK records, roles, unused amounts and unit conversions |
 | `capacity_buffer_summary.csv` | Two monthly aggregates, rival-brand counts, IndiGo RPK and buffer percentages |
 | `capacity_buffer_change.csv` | December 2025 minus December 2024: unused-capacity difference, relative change and buffer change in pp |
-| `capacity_buffer_table.tex` | Section 5.3 table body with components, ratios and changes |
+| `capacity_buffer_table.tex` | Section 5.4.3 table body with components, ratios and changes |
 | `capacity_buffer_airlines_table.tex` | Rival-by-rival unused capacity for the appendix |
 | `capacity_buffer_workings.tex` | Numerical substitutions and percentage-change calculations |
 
@@ -112,7 +112,7 @@ Source amounts are in thousands of seat-km or passenger-km. Dividing by 1,000,00
 
 The airline table uses a dash when a brand has no retained positive-passenger record in a comparison month; it does not insert an invented zero. Flagged earlier records remain outside these December samples. National monthly unused seat-km cannot establish route/date-specific spare seats or actual accommodation of disrupted passengers. The formal H7 assessment is included in the Section 6.2 summary below.
 
-An independent SQL calculation from the unchanged raw snapshot checks both months' ASK, RPK, unused capacity, IndiGo denominators, airline counts and ratios. Every airline's difference was also checked against the source decimals. A standalone run with only this script and its prepared CSV reproduced all six outputs byte-for-byte.
+An independent SQL calculation from the unchanged raw snapshot checks both months' ASK, RPK, unused capacity, IndiGo denominators, airline counts and ratios. Every airline's difference was also checked against the source decimals. A standalone run with this script, `report_table.py` and its prepared CSV reproduced all six outputs byte-for-byte.
 
 ## O4 hypothesis summary
 
