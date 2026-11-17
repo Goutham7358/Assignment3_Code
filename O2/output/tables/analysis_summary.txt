@@ -1,0 +1,17 @@
+Table A. Exiting airline's share before exit (%; passengers / seat-km)
+  Jet Airways (t = Apr 2019): t-12: 16.18 / 16.44; t-6: 14.83 / 14.68; t-3: 13.61 / 12.97; t-1: 5.74 / 5.22; t-0: 0.94 / 0.88
+  Go First (t = May 2023): t-12: 11.13 / 10.51; t-6: 7.45 / 7.15; t-3: 7.98 / 7.58; t-1: 6.43 / 6.17; t-0: 0.37 / 0.36
+
+Table D. IndiGo's mean passenger share in pre vs post windows (%)
+  Jet Airways: pre Apr 2018-Mar 2019 42.78, post May 2019-Feb 2020 47.99
+  Go First: pre May 2022-Apr 2023 56.56, post Jun 2023-May 2024 61.89
+
+Table B. Market in pre vs post windows (monthly means)
+  Jet Airways pre Apr 2018-Mar 2019 (12 m): passengers 11.69 m, seat-km 13.07 bn, load factor 86.0%, groups >=1% share 8.0
+  Jet Airways post May 2019-Feb 2020 (10 m): passengers 12.25 m, seat-km 13.60 bn, load factor 87.1%, groups >=1% share 7.0
+  Go First pre May 2022-Apr 2023 (12 m): passengers 11.53 m, seat-km 13.29 bn, load factor 84.1%, groups >=1% share 5.6
+  Go First post Jun 2023-May 2024 (12 m): passengers 12.88 m, seat-km 14.25 bn, load factor 87.2%, groups >=1% share 4.6
+
+Table C. Tata brands' passenger shares before each step (%)
+  Jan 2022 acquisition (Dec 2021): Air India 8.39, Air India Express 0.07, Vistara 7.72, AirAsia India 6.28, AIX Connect 0.00
+  Dec 2024 mergers (Sep 2024): Air India 11.14, Air India Express 3.97, Vistara 10.04, AirAsia India 0.00, AIX Connect 4.11

@@ -1,8 +1,24 @@
-# Assignment 3 - O4 analysis code
+# Assignment 3 - O2 and O4 analysis code
 
 Code and data for Goutham P's O4 contribution to the DA241o Managerial Economics project on Indian domestic aviation.
 
 The report is maintained separately in [Economics_Assignment3_Template](https://github.com/Goutham7358/Economics_Assignment3_Template), which is linked to Overleaf.
+
+## O2: airline exits and Tata consolidation
+
+The `O2/` folder separates exploratory summaries and charts in
+`EDA/` from H3, H4 and supporting Tata calculations in `Main_Analysis/`.
+Numerical outputs are in `output/tables/`, and charts are in `output/figures/`.
+O2 reads the shared `data/raw/carrier_monthly.csv`; it has no separate data
+folder. Its plotting requirements are listed in `O2/requirements.txt`.
+
+```sh
+python3 -m pip install -r O2/requirements.txt
+python3 O2/run_analysis.py
+```
+
+See [O2/README.md](O2/README.md) for individual run commands and output definitions.
+The O4 workflow is documented below and in [O4/README.md](O4/README.md).
 
 ## Current status
 

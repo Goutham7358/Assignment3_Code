@@ -1,0 +1,51 @@
+event,measure,group,hhi_contribution
+Jet Airways exit,passengers_share,Air Deccan,-0.0
+Jet Airways exit,passengers_share,Air Heritage,0.0
+Jet Airways exit,passengers_share,Air India Group,-3.0
+Jet Airways exit,passengers_share,Air Odisha,-0.0
+Jet Airways exit,passengers_share,AirAsia India,17.4
+Jet Airways exit,passengers_share,Alliance Air,0.0
+Jet Airways exit,passengers_share,Go First,38.7
+Jet Airways exit,passengers_share,IndiGo,473.2
+Jet Airways exit,passengers_share,Jet Airways Group,-191.1
+Jet Airways exit,passengers_share,Pawan Hans,0.0
+Jet Airways exit,passengers_share,SpiceJet,89.5
+Jet Airways exit,passengers_share,Star Air,0.0
+Jet Airways exit,passengers_share,TruJet,0.1
+Jet Airways exit,passengers_share,Vistara,19.2
+Jet Airways exit,passengers_share,Zoom Air,-0.0
+Jet Airways exit,seat_km_share,Air Deccan,-0.0
+Jet Airways exit,seat_km_share,Air Heritage,0.0
+Jet Airways exit,seat_km_share,Air India Group,4.9
+Jet Airways exit,seat_km_share,Air Odisha,-0.0
+Jet Airways exit,seat_km_share,AirAsia India,23.6
+Jet Airways exit,seat_km_share,Alliance Air,0.0
+Jet Airways exit,seat_km_share,Go First,30.1
+Jet Airways exit,seat_km_share,IndiGo,351.9
+Jet Airways exit,seat_km_share,Jet Airways Group,-188.3
+Jet Airways exit,seat_km_share,Pawan Hans,0.0
+Jet Airways exit,seat_km_share,SpiceJet,109.3
+Jet Airways exit,seat_km_share,Star Air,0.0
+Jet Airways exit,seat_km_share,TruJet,0.0
+Jet Airways exit,seat_km_share,Vistara,22.6
+Jet Airways exit,seat_km_share,Zoom Air,-0.0
+Go First exit,passengers_share,Air India Group,141.0
+Go First exit,passengers_share,Akasa Air,17.5
+Go First exit,passengers_share,Alliance Air,-0.3
+Go First exit,passengers_share,Fly91,0.0
+Go First exit,passengers_share,Flybig,-0.0
+Go First exit,passengers_share,Go First,-65.3
+Go First exit,passengers_share,IndiGo,631.5
+Go First exit,passengers_share,India One Air,0.0
+Go First exit,passengers_share,SpiceJet,-34.2
+Go First exit,passengers_share,Star Air,0.1
+Go First exit,seat_km_share,Air India Group,131.4
+Go First exit,seat_km_share,Akasa Air,19.2
+Go First exit,seat_km_share,Alliance Air,-0.1
+Go First exit,seat_km_share,Fly91,0.0
+Go First exit,seat_km_share,Flybig,-0.0
+Go First exit,seat_km_share,Go First,-60.8
+Go First exit,seat_km_share,IndiGo,599.0
+Go First exit,seat_km_share,India One Air,0.0
+Go First exit,seat_km_share,SpiceJet,-35.3
+Go First exit,seat_km_share,Star Air,0.0
