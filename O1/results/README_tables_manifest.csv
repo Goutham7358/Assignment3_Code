@@ -1,0 +1,13 @@
+csv_file,contents,used_in_sowmya_tex
+o1_monthly_indices.csv,"Brand-HHI, Ownership-HHI, MHHI, CR2 and derived indices per market-month",Figure O1 (o1_hhi.png); all tables
+o1_table_cleaning_log.csv,Cleansing counts per rule,"tab:o1-cleansing, tab:o1-cleaning"
+o1_table_period_means.csv,Concentration measures by period,tab:o1-periods
+o1_table_summary_statistics.csv,Descriptive statistics of the index series,tab:o1-summary
+o1_table_drift_points.csv,Drift windows D1-D7 with index changes and share movers,tab:o1-drift
+o1_table_segmented_regression.csv,"Equation O1.2 for Brand-HHI, Ownership-HHI and MHHI",tab:o1-regression
+o1_table_cr2_regression.csv,Equation O1.2 for CR2 (ownership and brand level),tab:o1-cr2reg
+o1_table_robustness.csv,Robustness of the Ownership-HHI steps,tab:o1-robust
+o1_table_grouping_gap.csv,Grouping gap by period and regression,tab:o1-gap
+o1_table_stake_schedule.csv,Partial-ownership stake schedule used for MHHI,tab:o1-stakes
+o1_table_wedge_summary.csv,Partial-ownership wedge statistics,"tab:o1-hypotheses (H2), Section 4.2"
+o1_table_data_quality_sensitivity.csv,Sensitivity of the indices to flagged outliers and gaps,"Section 4.1 text, appendix C.4"
