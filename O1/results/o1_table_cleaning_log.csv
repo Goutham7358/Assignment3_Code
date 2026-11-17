@@ -1,0 +1,18 @@
+rule,metric,value
+C1,C1 rows with NaN in key columns,0
+C3,C3 rows outside scheduled-domestic scope,1773
+C3,C3 rows after cut-off,0
+C4,C4 duplicate airline-months,0
+C5,C5 rows with passengers<=0 (dropped),132
+C6,C6 flagged: seat_km<=0 with passengers>0,2
+C6,C6 flagged: passenger_km>seat_km,0
+C7,C7 jump flags - explained: COVID / market-wide shock,45
+C7,C7 jump flags - explained: entry/exit ramp,23
+C7,"C7 jump flags - unexplained, immaterial (<1% share)",23
+C7,C7 jump flags - explained: merger or rebrand month,1
+C8,C8 missing months,['2020-04-01']
+C9,C9 market-months with shares summing to 100,138
+summary,clean airline-months,1577
+summary,market-months,138
+summary,airlines,26
+C7,immaterial flags dropped in sensitivity run,23

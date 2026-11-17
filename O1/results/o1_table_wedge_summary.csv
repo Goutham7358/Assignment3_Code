@@ -1,0 +1,23 @@
+metric,value
+pre_2022_mean_wedge_points,22.906115434802068
+pre_2022_max_wedge_points,76.55856457852042
+pre_2022_max_wedge_month,2021-09
+pre_2022_mean_wedge_pct_of_own_hhi,0.753887844796421
+pre_2022_max_wedge_pct_of_own_hhi,2.1958060573821974
+pre_2022_months_with_positive_wedge_share,0.8554216867469879
+pre_2022_months_with_zero_wedge,12
+post_2022_max_abs_wedge,0.0
+majority_control_pre_2022_mean_wedge,36.89622132900112
+majority_control_pre_2022_max_wedge,119.60753197215217
+mean_wedge_points Jan-Aug 2015 (Tata 30%),1.1929882388155306
+mean_wedge_points Sep 2015-Mar 2016 (Tata 41.06%),3.8203489604555085
+mean_wedge_points Apr-Dec 2016 (Tata 49%),6.6638799061237375
+mean_wedge_points 2017 (source gap),0.0
+mean_wedge_points 2018-2019 (Tata 49%),26.153956670715672
+mean_wedge_points 2020 (Tata 51%),43.62432190961313
+mean_wedge_points 2021 (Tata 83.67%),58.115317683068724
+interpolated_2017_mean_wedge_points,13.548065442347669
+interpolated_pre_2022_mean_wedge_points,24.86487188429812
+grouping_gap_peak_points,598.7343379094009
+grouping_gap_peak_month,2024-09
+grouping_gap_months_below_half_point,10
