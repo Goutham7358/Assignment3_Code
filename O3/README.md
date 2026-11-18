@@ -38,12 +38,6 @@ Individual steps can also be run separately:
 `python O3/Main_Analysis/route_fullseason.py` or
 `python data/source/prepare_o3_routes.py`.
 
-To compare the outputs with a LaTeX report, run
-`python O3/check_report.py PATH_TO_main_combined.tex`. It follows the report's
-`\input` files, confirms that each generated
-table row and the quoted counts appear in the report, and exits with status 1 if
-any do not.
-
 ## Inputs and interpretation
 
 - [National input](../data/raw/carrier_monthly.csv) keeps scheduled-domestic
