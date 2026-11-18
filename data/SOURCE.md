@@ -18,9 +18,9 @@ This page covers the national passenger file. Route schedules, selection data an
 
 One airline, one service type and one calendar month. The file has 3,482 rows and covers January 2015-July 2026. It includes domestic/international and scheduled/non-scheduled services.
 
-For the agreed national analysis, keep `service_type == "scheduled_domestic"` and positive passenger counts. This retains 1,577 airline-months across 138 observed months. April 2020 has no retained observation; it must not be inserted as a zero-concentration month.
+National analysis keeps scheduled-domestic records (`service_type == "scheduled_domestic"`) with positive passenger counts. This retains 1,577 airline-months across 138 observed months. April 2020 has no retained observation; it must not be inserted as a zero-concentration month.
 
-## Fields needed for the first figure
+## Passenger-share fields
 
 | Column | Meaning |
 |---|---|

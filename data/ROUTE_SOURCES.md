@@ -9,7 +9,7 @@
 - `raw/route_month_exclusions.csv`: the two whole-month TruJet-related exclusions described below.
 - `raw/route_operation_adjustments.json`: the earlier project's source URLs for the Jet/JetLite and Go First cessation conventions and Vistara/AIX merger treatment. The corresponding rules are explicit in `source/prepare_routes.py`.
 - `raw/route_evidence/`: the two original parliamentary replies supporting the Jet/JetLite and Go First dates. `raw/route_evidence_manifest.json` records their URLs and fingerprints.
-- `reference/route_monthly_before_trujet_review.csv`: the earlier project's 1,152-observation result, retained only for comparison. New EDA reads `processed/routes/route_monthly.csv`, which is rebuilt from the extraction.
+- `reference/route_monthly_before_trujet_review.csv`: the earlier project's 1,152-observation result, retained only for comparison. O4 reads `processed/routes/route_monthly.csv`, which is rebuilt from the extraction.
 
 The MIT notice applies to the upstream passenger dataset. Original schedule PDFs remain DGCA publications and retain their source attribution.
 
@@ -34,7 +34,7 @@ Across 4,187 PDF pages it extracts 189,980 movement rows. Only the 49,951 rows f
 7. Apply the two documented route-month exclusions before the monthly minimum-count rule. Keep missing observations missing.
 8. Calculate ownership-group frequency HHI as the sum of squared percentage frequency shares. Brand HHI is calculated separately. CR2 adds the largest two ownership-group shares. Shares use unrounded counts; one route-month is one observation.
 
-The review removes HYD-MAA in February and March 2022 as whole route-months because TruJet's archived plan continues beyond its suspension. This matches the O3 exclusion, without inventing replacement flights or partial-month service. [Contemporary reporting](https://www.ch-aviation.com/news/112730-indias-trujet-grounds-fleet-in-talks-for-25mn-funding), dated 18 February 2022, describes the suspension and a proposed restart. The exclusion is conservative; it does not assume an exact restart path from the available plans.
+Route preparation excludes HYD-MAA in February and March 2022 as whole route-months because TruJet's archived plan continues beyond its suspension. This matches the O3 exclusion, without inventing replacement flights or partial-month service. [Contemporary reporting](https://www.ch-aviation.com/news/112730-indias-trujet-grounds-fleet-in-talks-for-25mn-funding), dated 18 February 2022, describes the suspension and a proposed restart. The exclusion is conservative; it does not assume an exact restart path from the available plans.
 
 ## Prepared outputs
 

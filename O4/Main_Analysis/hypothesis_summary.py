@@ -60,7 +60,7 @@ def main():
     write_csv("hypothesis_results.csv", rows)
     references = [r"Table~\ref{tab:o4-national-results}.", r"Table~\ref{tab:o4-route-results}.",
                   r"Table~\ref{tab:o4-capacity-buffer}."]
-    # Reserve blank rows for the team's results; the CSV remains O4-only.
+    # The LaTeX table includes H1-H4 placeholders; CSV results cover H5-H7.
     pending = [("H1", "O1"), ("H2", "O1"), ("H3", "O2"), ("H4", "O2")]
     table_rows = [rf"\textbf{{{hypothesis}}} ({objective}) & &"
                   for hypothesis, objective in pending]
