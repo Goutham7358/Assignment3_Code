@@ -1,8 +1,31 @@
-# Assignment 3 - O2 and O4 analysis code
+# Assignment 3 - O1, O2 and O4 analysis code
 
-Code and data for Goutham P's O4 contribution to the DA241o Managerial Economics project on Indian domestic aviation.
+Code and data for O1, O2 and O4 of the DA241o Managerial Economics project on Indian domestic aviation.
 
 The report is maintained separately in [Economics_Assignment3_Template](https://github.com/Goutham7358/Economics_Assignment3_Template), which is linked to Overleaf.
+
+## O1: concentration and ownership effects
+
+Use Python 3.11 or newer. The root `requirements.txt` includes the plotting,
+data-processing and regression packages needed for O1, O2 and O4. Rebuilding
+route CSVs from PDFs also needs Poppler's `pdftotext` on your PATH.
+
+Values may be rounded again when placed in the report, so displayed entries
+and totals can differ slightly from the generated CSVs.
+
+From the repository root:
+
+```sh
+python3 -m pip install -r requirements.txt
+python3 O1/data_cleansing.py
+python3 O1/HHI_Index_calculation.py
+python3 O1/export_results_tables.py
+```
+
+O1 reads `data/raw/carrier_monthly.csv`, applies its cleaning rules and saves
+`data/processed/o1_airline_monthly_clean.csv`. Its calculation and export
+commands repeat that preparation before computing the results. Numerical
+outputs are in `O1/results/` and the chart is in `O1/figures/`.
 
 ## O2: airline exits and Tata consolidation
 
@@ -72,9 +95,12 @@ Install the packages in `requirements.txt` first if needed. PDF extraction and c
 | `O4/Main_Analysis/hypothesis_summary.py` | H5-H7 condition checks and the Section 6.2 outcome table |
 | `O4/Main_Analysis/report_table.py` | Full-grid LaTeX table writer shared by the four main result tables |
 | `O4/output/` | Figure, numerical tables and software versions |
-| `requirements.txt` | Python plotting dependency |
+| `requirements.txt` | Shared plotting, data-processing and regression dependencies |
 
-Run instructions and output definitions are in [O4/README.md](O4/README.md). Source data are preserved; analysis scripts consume the prepared CSV, not the upstream download or PDFs.
+Run instructions and output definitions are in [O4/README.md](O4/README.md).
+Source data are preserved. O4's analysis scripts read prepared CSVs. O1 and
+O2 read the included raw national CSV and apply their cleaning or filtering
+rules within their workflows.
 
 ## How we will write the code
 
