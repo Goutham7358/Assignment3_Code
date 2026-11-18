@@ -24,6 +24,7 @@ CSVs from PDFs also requires Poppler's `pdftotext` on your PATH.
 |---|---|---|
 | [O1: Concentration and ownership](O1/README.md) | `python O1/export_results_tables.py` | [Numerical tables](O1/results/) and [chart](O1/figures/) |
 | [O2: Airline exits and Tata consolidation](O2/README.md) | `python O2/run_analysis.py` | [Numerical tables](O2/output/tables/) and [share-path chart](O2/output/figures/exit_share_paths.png) |
+| [O3: Entrant airlines](O3/README.md) | `python O3/run_analysis.py` | [Numerical tables](O3/output/tables/) and [figures](O3/output/figures/) |
 | [O4: Concentration and rivals' capacity](O4/README.md) | `python O4/run_analysis.py` | [Numerical tables](O4/output/tables/) and [figures](O4/output/figures/) |
 
 The guides identify the command and output files for each calculation.
@@ -39,7 +40,7 @@ changing source data or preparation rules, run
 
 The [national source CSV](data/raw/carrier_monthly.csv) preserves the
 DGCA-derived data distributed by [Marek Kubicek](https://github.com/mkubicek/india-aviation-stats).
-O1 and O2 filter this file within their workflows. O4 reads the included
+O1, O2 and O3 filter this file within their workflows. O4 reads the included
 [prepared CSVs](data/processed/).
 
 The 228 DGCA schedule PDFs in [data/raw/route_schedules/](data/raw/route_schedules/)

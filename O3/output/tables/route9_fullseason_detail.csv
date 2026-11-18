@@ -1,0 +1,1678 @@
+airline,season_year,season,pair,entrant_deps,route_deps,share,selected
+Vistara,2017,winter,AMD-DEL,797,5505,14.5,False
+Vistara,2017,winter,ATQ-BOM,294,966,30.4,False
+Vistara,2017,winter,ATQ-DEL,588,3227,18.2,False
+Vistara,2017,winter,BBI-DEL,588,2310,25.5,False
+Vistara,2017,winter,BLR-DEL,1470,11822,12.4,False
+Vistara,2017,winter,BOM-DEL,3023,18667,16.2,False
+Vistara,2017,winter,CCU-DEL,588,7735,7.6,False
+Vistara,2017,winter,CCU-IXZ,294,2098,14.0,False
+Vistara,2017,winter,CCU-PNQ,294,1443,20.4,False
+Vistara,2017,winter,COK-DEL,588,2121,27.7,False
+Vistara,2017,winter,DEL-GAU,294,4053,7.3,False
+Vistara,2017,winter,DEL-GOI,672,4662,14.4,False
+Vistara,2017,winter,DEL-HYD,882,7514,11.7,False
+Vistara,2017,winter,DEL-IXB,294,2730,10.8,False
+Vistara,2017,winter,DEL-IXC,546,3342,16.3,False
+Vistara,2017,winter,DEL-IXL,84,1206,7.0,False
+Vistara,2017,winter,DEL-IXR,588,3378,17.4,False
+Vistara,2017,winter,DEL-LKO,882,6362,13.9,False
+Vistara,2017,winter,DEL-PNQ,840,7517,11.2,False
+Vistara,2017,winter,DEL-SXR,294,3131,9.4,False
+Vistara,2017,winter,DEL-VNS,441,2917,15.1,False
+Vistara,2017,winter,IXJ-SXR,294,2336,12.6,False
+TruJet,2017,winter,BLR-GOI,258,3148,8.2,False
+TruJet,2017,winter,BLR-HYD,258,8365,3.1,False
+TruJet,2017,winter,BOM-NDC,129,129,100.0,False
+TruJet,2017,winter,CDP-HYD,294,294,100.0,False
+TruJet,2017,winter,GOI-HYD,552,2022,27.3,False
+TruJet,2017,winter,HYD-IXU,294,294,100.0,False
+TruJet,2017,winter,HYD-MAA,588,4662,12.6,False
+TruJet,2017,winter,HYD-NDC,258,258,100.0,False
+TruJet,2017,winter,HYD-RJA,201,1423,14.1,False
+TruJet,2017,winter,HYD-TIR,882,2922,30.2,False
+TruJet,2017,winter,HYD-VDY,441,441,100.0,False
+TruJet,2017,winter,HYD-VGA,147,1745,8.4,False
+TruJet,2017,winter,MAA-MYQ,294,294,100.0,False
+TruJet,2017,winter,MAA-VDY,147,147,100.0,False
+TruJet,2017,winter,MAA-VGA,147,611,24.1,False
+Zoom Air,2017,winter,CCU-JLR,294,294,100.0,True
+Zoom Air,2017,winter,DEL-JLR,294,882,33.3,True
+Vistara,2018,summer,AMD-BLR,808,4556,17.7,False
+Vistara,2018,summer,AMD-DEL,1227,7914,15.5,False
+Vistara,2018,summer,ATQ-BOM,434,1398,31.0,False
+Vistara,2018,summer,ATQ-DEL,596,4440,13.4,False
+Vistara,2018,summer,BBI-DEL,868,3410,25.5,False
+Vistara,2018,summer,BLR-CCU,616,8366,7.4,False
+Vistara,2018,summer,BLR-COK,284,7280,3.9,False
+Vistara,2018,summer,BLR-DEL,2257,16956,13.3,False
+Vistara,2018,summer,BOM-DEL,4280,26672,16.0,False
+Vistara,2018,summer,CCU-DEL,1302,12249,10.6,False
+Vistara,2018,summer,CCU-IXZ,434,3048,14.2,False
+Vistara,2018,summer,CCU-MAA,868,5683,15.3,False
+Vistara,2018,summer,COK-DEL,868,3472,25.0,False
+Vistara,2018,summer,COK-MAA,403,5363,7.5,False
+Vistara,2018,summer,DEL-GAU,496,6499,7.6,False
+Vistara,2018,summer,DEL-GOI,558,6723,8.3,False
+Vistara,2018,summer,DEL-HYD,1302,11138,11.7,False
+Vistara,2018,summer,DEL-IXB,434,4278,10.1,False
+Vistara,2018,summer,DEL-IXC,372,3778,9.8,False
+Vistara,2018,summer,DEL-IXL,434,3709,11.7,False
+Vistara,2018,summer,DEL-IXR,898,4587,19.6,False
+Vistara,2018,summer,DEL-LKO,868,9399,9.2,False
+Vistara,2018,summer,DEL-MAA,868,10365,8.4,False
+Vistara,2018,summer,DEL-PNQ,1239,10733,11.5,False
+Vistara,2018,summer,DEL-SXR,868,6208,14.0,False
+Vistara,2018,summer,DEL-VNS,446,4520,9.9,False
+Vistara,2018,summer,GAU-IXB,434,1736,25.0,False
+Vistara,2018,summer,IXJ-SXR,434,2697,16.1,False
+Vistara,2018,summer,IXZ-MAA,434,3100,14.0,False
+TruJet,2018,summer,BLR-VDY,434,434,100.0,False
+TruJet,2018,summer,BOM-NDC,434,434,100.0,False
+TruJet,2018,summer,CDP-HYD,434,434,100.0,False
+TruJet,2018,summer,CDP-MAA,434,434,100.0,False
+TruJet,2018,summer,CDP-VGA,434,434,100.0,False
+TruJet,2018,summer,GOA-HYD,217,217,100.0,False
+TruJet,2018,summer,GOI-HYD,217,3295,6.6,False
+TruJet,2018,summer,HYD-IXU,434,434,100.0,False
+TruJet,2018,summer,HYD-MAA,434,5642,7.7,False
+TruJet,2018,summer,HYD-NDC,434,434,100.0,False
+TruJet,2018,summer,HYD-RJA,434,2604,16.7,False
+TruJet,2018,summer,HYD-TIR,868,4938,17.6,False
+TruJet,2018,summer,HYD-VDY,434,434,100.0,False
+TruJet,2018,summer,HYD-VGA,868,3906,22.2,False
+TruJet,2018,summer,MAA-MYQ,434,434,100.0,False
+TruJet,2018,summer,MAA-SXV,434,434,100.0,False
+Air Deccan,2018,summer,BOM-ISK,185,185,100.0,False
+Air Deccan,2018,summer,BOM-JLG,185,185,100.0,False
+Air Deccan,2018,summer,BOM-KLH,92,92,100.0,False
+Air Deccan,2018,summer,ISK-PNQ,370,370,100.0,False
+Air Deccan,2018,summer,JLG-PNQ,186,186,100.0,False
+Vistara,2018,winter,AMD-BLR,615,3190,19.3,False
+Vistara,2018,winter,AMD-DEL,896,4455,20.1,False
+Vistara,2018,winter,ATQ-BOM,308,728,42.3,False
+Vistara,2018,winter,ATQ-DEL,308,1629,18.9,False
+Vistara,2018,winter,BBI-BLR,257,2841,9.0,False
+Vistara,2018,winter,BBI-DEL,638,3058,20.9,False
+Vistara,2018,winter,BLR-CCU,130,4922,2.6,False
+Vistara,2018,winter,BLR-DEL,1693,9528,17.8,False
+Vistara,2018,winter,BOM-DEL,2943,13598,21.6,False
+Vistara,2018,winter,BOM-GOI,88,4059,2.2,False
+Vistara,2018,winter,CCU-DEL,924,6687,13.8,False
+Vistara,2018,winter,CCU-IXZ,308,1584,19.4,False
+Vistara,2018,winter,CCU-MAA,616,3565,17.3,False
+Vistara,2018,winter,COK-DEL,616,1907,32.3,False
+Vistara,2018,winter,COK-MAA,264,2410,11.0,False
+Vistara,2018,winter,DEL-GAU,414,3874,10.7,False
+Vistara,2018,winter,DEL-GOI,858,4388,19.6,False
+Vistara,2018,winter,DEL-HYD,1231,6492,19.0,False
+Vistara,2018,winter,DEL-IXB,308,2292,13.4,False
+Vistara,2018,winter,DEL-IXC,308,1516,20.3,False
+Vistara,2018,winter,DEL-IXL,66,1179,5.6,False
+Vistara,2018,winter,DEL-IXR,616,3292,18.7,False
+Vistara,2018,winter,DEL-LKO,616,4754,13.0,False
+Vistara,2018,winter,DEL-MAA,616,5041,12.2,False
+Vistara,2018,winter,DEL-PNQ,880,5691,15.5,False
+Vistara,2018,winter,DEL-SXR,308,3015,10.2,False
+Vistara,2018,winter,DEL-VNS,815,2573,31.7,False
+Vistara,2018,winter,GAU-IXB,308,992,31.0,False
+Vistara,2018,winter,IXJ-SXR,308,1958,15.7,False
+Vistara,2018,winter,IXZ-MAA,308,1496,20.6,False
+TruJet,2018,winter,AMD-IDR,308,544,56.6,False
+TruJet,2018,winter,AMD-IXK,154,154,100.0,False
+TruJet,2018,winter,AMD-JLG,154,154,100.0,False
+TruJet,2018,winter,AMD-PBD,154,154,100.0,False
+TruJet,2018,winter,BLR-VDY,308,308,100.0,False
+TruJet,2018,winter,BOM-NDC,308,308,100.0,False
+TruJet,2018,winter,CDP-HYD,308,308,100.0,False
+TruJet,2018,winter,CDP-MAA,308,308,100.0,False
+TruJet,2018,winter,CDP-VGA,308,308,100.0,False
+TruJet,2018,winter,CJB-MAA,616,3612,17.1,False
+TruJet,2018,winter,GOI-HYD,616,2904,21.2,False
+TruJet,2018,winter,HYD-IXU,308,308,100.0,False
+TruJet,2018,winter,HYD-MAA,616,4131,14.9,False
+TruJet,2018,winter,HYD-NDC,307,307,100.0,False
+TruJet,2018,winter,HYD-RJA,616,2135,28.9,False
+TruJet,2018,winter,HYD-SAG,308,957,32.2,False
+TruJet,2018,winter,HYD-TIR,1187,3012,39.4,False
+TruJet,2018,winter,HYD-VDY,308,308,100.0,False
+TruJet,2018,winter,HYD-VGA,615,2001,30.7,False
+TruJet,2018,winter,HYD-VTZ,615,2583,23.8,False
+TruJet,2018,winter,MAA-MYQ,308,308,100.0,False
+TruJet,2018,winter,MAA-SXV,616,616,100.0,False
+Zoom Air,2018,winter,BLR-IXU,154,154,100.0,False
+Zoom Air,2018,winter,BLR-VGA,154,1078,14.3,False
+Zoom Air,2018,winter,CCU-IXD,308,616,50.0,False
+Zoom Air,2018,winter,CCU-JLR,462,770,60.0,False
+Zoom Air,2018,winter,CCU-JRH,154,462,33.3,False
+Zoom Air,2018,winter,CCU-TEI,66,66,100.0,False
+Zoom Air,2018,winter,CCU-TEZ,308,308,100.0,False
+Zoom Air,2018,winter,DEL-IXD,154,496,31.0,False
+Zoom Air,2018,winter,DEL-IXU,154,462,33.3,False
+Zoom Air,2018,winter,DEL-JLR,308,616,50.0,False
+Zoom Air,2018,winter,DEL-UDR,154,1224,12.6,False
+Zoom Air,2018,winter,IXT-JRH,242,242,100.0,False
+Zoom Air,2018,winter,JRH-TEI,66,66,100.0,False
+Zoom Air,2018,winter,VGA-VTZ,308,924,33.3,False
+Air Deccan,2018,winter,AGR-DEL,264,264,100.0,False
+Air Deccan,2018,winter,BOM-ISK,261,261,100.0,False
+Air Deccan,2018,winter,BOM-JLG,264,264,100.0,False
+Air Deccan,2018,winter,BOM-KLH,198,198,100.0,False
+Air Deccan,2018,winter,DED-PGH,264,264,100.0,False
+Air Deccan,2018,winter,DEL-KUU,132,440,30.0,False
+Air Deccan,2018,winter,DEL-LUH,264,484,54.5,False
+Air Deccan,2018,winter,DEL-PGH,264,440,60.0,False
+Air Deccan,2018,winter,DEL-SLV,132,440,30.0,False
+Air Deccan,2018,winter,ISK-PNQ,264,264,100.0,False
+Air Deccan,2018,winter,JLG-PNQ,132,132,100.0,False
+Vistara,2019,summer,AMD-BLR,419,4496,9.3,False
+Vistara,2019,summer,AMD-DEL,1200,6600,18.2,False
+Vistara,2019,summer,ATQ-BOM,420,1012,41.5,False
+Vistara,2019,summer,ATQ-DEL,420,2486,16.9,False
+Vistara,2019,summer,BBI-DEL,1260,4200,30.0,False
+Vistara,2019,summer,BLR-DEL,2519,13941,18.1,False
+Vistara,2019,summer,BOM-DEL,4078,18707,21.8,False
+Vistara,2019,summer,BOM-GOI,120,6344,1.9,False
+Vistara,2019,summer,CCU-DEL,1259,10019,12.6,False
+Vistara,2019,summer,CCU-HYD,630,5758,10.9,False
+Vistara,2019,summer,CCU-IXB,210,4378,4.8,False
+Vistara,2019,summer,CCU-IXZ,420,2580,16.3,False
+Vistara,2019,summer,CCU-MAA,839,6215,13.5,False
+Vistara,2019,summer,COK-DEL,840,2730,30.8,False
+Vistara,2019,summer,DEL-GAU,420,5190,8.1,False
+Vistara,2019,summer,DEL-GOI,750,6782,11.1,False
+Vistara,2019,summer,DEL-HYD,1889,10783,17.5,False
+Vistara,2019,summer,DEL-IXB,450,3960,11.4,False
+Vistara,2019,summer,DEL-IXC,870,2878,30.2,False
+Vistara,2019,summer,DEL-IXJ,437,3753,11.6,False
+Vistara,2019,summer,DEL-IXL,882,4036,21.9,False
+Vistara,2019,summer,DEL-IXR,1050,4409,23.8,False
+Vistara,2019,summer,DEL-LKO,840,6341,13.2,False
+Vistara,2019,summer,DEL-MAA,839,7575,11.1,False
+Vistara,2019,summer,DEL-PNQ,1200,9023,13.3,False
+Vistara,2019,summer,DEL-RPR,840,2850,29.5,False
+Vistara,2019,summer,DEL-SXR,914,6465,14.1,False
+Vistara,2019,summer,DEL-VNS,469,2994,15.7,False
+Vistara,2019,summer,DIB-IXB,420,420,100.0,False
+Vistara,2019,summer,GOI-HYD,420,4320,9.7,False
+Vistara,2019,summer,HYD-PNQ,210,2550,8.2,False
+Vistara,2019,summer,IXJ-SXR,403,3462,11.6,False
+Vistara,2019,summer,IXZ-MAA,420,2880,14.6,False
+Vistara,2019,summer,MAA-PNQ,180,2879,6.3,False
+TruJet,2019,summer,AMD-IDR,418,419,99.8,False
+TruJet,2019,summer,AMD-ISK,389,749,51.9,False
+TruJet,2019,summer,AMD-IXY,360,570,63.2,False
+TruJet,2019,summer,AMD-JSA,360,720,50.0,False
+TruJet,2019,summer,AMD-PBD,388,388,100.0,False
+TruJet,2019,summer,BLR-VDY,420,420,100.0,False
+TruJet,2019,summer,BOM-NDC,420,420,100.0,False
+TruJet,2019,summer,CDP-HYD,420,420,100.0,False
+TruJet,2019,summer,CDP-MAA,420,420,100.0,False
+TruJet,2019,summer,CDP-VGA,420,420,100.0,False
+TruJet,2019,summer,GOI-HYD,420,4320,9.7,False
+TruJet,2019,summer,HYD-IXU,420,420,100.0,False
+TruJet,2019,summer,HYD-MAA,419,6296,6.7,False
+TruJet,2019,summer,HYD-NDC,420,420,100.0,False
+TruJet,2019,summer,HYD-RJA,420,2700,15.6,False
+TruJet,2019,summer,HYD-TIR,839,5578,15.0,False
+TruJet,2019,summer,HYD-VDY,420,420,100.0,False
+TruJet,2019,summer,HYD-VGA,839,4169,20.1,False
+TruJet,2019,summer,HYD-VTZ,209,4856,4.3,False
+TruJet,2019,summer,MAA-MYQ,420,420,100.0,False
+TruJet,2019,summer,MAA-SXV,420,420,100.0,False
+Star Air,2019,summer,AMD-IXG,360,360,100.0,False
+Star Air,2019,summer,BLR-HBX,388,1646,23.6,False
+Star Air,2019,summer,BLR-IXG,388,1228,31.6,False
+Star Air,2019,summer,BLR-JGA,420,420,100.0,False
+Star Air,2019,summer,HBX-TIR,360,360,100.0,False
+Star Air,2019,summer,HYD-JGA,210,210,100.0,False
+Vistara,2019,winter,AMD-DEL,1005,5993,16.8,False
+Vistara,2019,winter,ATQ-DEL,924,3058,30.2,False
+Vistara,2019,winter,BBI-DEL,924,2537,36.4,False
+Vistara,2019,winter,BLR-BOM,2134,11459,18.6,False
+Vistara,2019,winter,BLR-DEL,1810,12302,14.7,False
+Vistara,2019,winter,BOM-CCU,1021,6511,15.7,False
+Vistara,2019,winter,BOM-DEL,4524,19256,23.5,False
+Vistara,2019,winter,BOM-GOI,554,5854,9.5,False
+Vistara,2019,winter,BOM-HYD,616,6971,8.8,False
+Vistara,2019,winter,BOM-IXC,352,1771,19.9,False
+Vistara,2019,winter,BOM-JDH,308,1230,25.0,False
+Vistara,2019,winter,BOM-MAA,1266,6723,18.8,False
+Vistara,2019,winter,BOM-UDR,308,1539,20.0,False
+Vistara,2019,winter,BOM-VNS,308,2045,15.1,False
+Vistara,2019,winter,CCU-DEL,1353,9848,13.7,False
+Vistara,2019,winter,CCU-IXZ,308,1738,17.7,False
+Vistara,2019,winter,COK-DEL,616,2772,22.2,False
+Vistara,2019,winter,DEL-GAU,616,4500,13.7,False
+Vistara,2019,winter,DEL-GOI,704,5334,13.2,False
+Vistara,2019,winter,DEL-HYD,1232,8707,14.1,False
+Vistara,2019,winter,DEL-IDR,462,3770,12.3,False
+Vistara,2019,winter,DEL-IXB,308,3036,10.1,False
+Vistara,2019,winter,DEL-IXC,902,4319,20.9,False
+Vistara,2019,winter,DEL-IXJ,154,2463,6.3,False
+Vistara,2019,winter,DEL-IXL,88,1274,6.9,False
+Vistara,2019,winter,DEL-IXR,616,3974,15.5,False
+Vistara,2019,winter,DEL-JDH,308,1386,22.2,False
+Vistara,2019,winter,DEL-LKO,880,6423,13.7,False
+Vistara,2019,winter,DEL-MAA,769,6903,11.1,False
+Vistara,2019,winter,DEL-PAT,462,6098,7.6,False
+Vistara,2019,winter,DEL-PNQ,1012,6952,14.6,False
+Vistara,2019,winter,DEL-RPR,616,2464,25.0,False
+Vistara,2019,winter,DEL-SXR,462,4453,10.4,False
+Vistara,2019,winter,DEL-TRV,308,924,33.3,False
+Vistara,2019,winter,DEL-UDR,462,2024,22.8,False
+Vistara,2019,winter,DEL-VNS,924,3893,23.7,False
+Vistara,2019,winter,DIB-IXB,308,308,100.0,False
+Vistara,2019,winter,HJR-VNS,290,514,56.4,False
+Vistara,2019,winter,IXJ-SXR,308,2588,11.9,False
+Vistara,2019,winter,IXZ-MAA,692,2076,33.3,False
+TruJet,2019,winter,AMD-IDR,704,2018,34.9,False
+TruJet,2019,winter,AMD-ISK,286,550,52.0,False
+TruJet,2019,winter,AMD-IXU,308,440,70.0,False
+TruJet,2019,winter,AMD-IXY,286,550,52.0,False
+TruJet,2019,winter,AMD-JLG,307,307,100.0,False
+TruJet,2019,winter,AMD-JSA,264,528,50.0,False
+TruJet,2019,winter,AMD-PBD,308,308,100.0,False
+TruJet,2019,winter,BDR-BLR,119,119,100.0,False
+TruJet,2019,winter,BLR-HYD,238,8501,2.8,False
+TruJet,2019,winter,BLR-VDY,308,308,100.0,False
+TruJet,2019,winter,BOM-JLG,220,220,100.0,False
+TruJet,2019,winter,BOM-KLH,220,220,100.0,False
+TruJet,2019,winter,BOM-NDC,308,308,100.0,False
+TruJet,2019,winter,CDP-HYD,308,308,100.0,False
+TruJet,2019,winter,CDP-IXG,286,286,100.0,False
+TruJet,2019,winter,CDP-MAA,308,308,100.0,False
+TruJet,2019,winter,CDP-VGA,308,308,100.0,False
+TruJet,2019,winter,GOI-HYD,308,2816,10.9,False
+TruJet,2019,winter,HYD-IDR,617,1233,50.0,False
+TruJet,2019,winter,HYD-IXG,330,946,34.9,False
+TruJet,2019,winter,HYD-IXU,308,615,50.1,False
+TruJet,2019,winter,HYD-MAA,38,5339,0.7,False
+TruJet,2019,winter,HYD-NDC,308,308,100.0,False
+TruJet,2019,winter,HYD-RJA,617,2157,28.6,False
+TruJet,2019,winter,HYD-TIR,309,2728,11.3,False
+TruJet,2019,winter,HYD-VDY,308,308,100.0,False
+TruJet,2019,winter,HYD-VGA,427,3045,14.0,False
+TruJet,2019,winter,HYD-VTZ,273,3045,9.0,False
+TruJet,2019,winter,IXG-MYQ,308,308,100.0,False
+TruJet,2019,winter,IXG-TIR,308,308,100.0,False
+TruJet,2019,winter,MAA-MYQ,597,597,100.0,False
+TruJet,2019,winter,MAA-SXV,308,308,100.0,False
+Star Air,2019,winter,AMD-IXG,308,308,100.0,False
+Star Air,2019,winter,BLR-HBX,374,946,39.5,False
+Star Air,2019,winter,BLR-IXG,88,1276,6.9,False
+Star Air,2019,winter,BOM-IXG,173,481,36.0,False
+Star Air,2019,winter,HBX-HDO,66,66,100.0,False
+Star Air,2019,winter,HBX-TIR,242,242,100.0,False
+Star Air,2019,winter,IDR-IXG,66,66,100.0,False
+Star Air,2019,winter,IDR-KQH,66,66,100.0,False
+Air Deccan,2019,winter,AMD-BHU,264,264,100.0,True
+Air Deccan,2019,winter,AMD-DIU,264,264,100.0,True
+Air Deccan,2019,winter,AMD-IDR,264,2018,13.1,True
+Air Deccan,2019,winter,AMD-MDA,132,132,100.0,True
+Air Deccan,2019,winter,BHU-STV,264,264,100.0,True
+Vistara,2020,summer,AMD-BOM,630,6119,10.3,False
+Vistara,2020,summer,AMD-DEL,1200,7896,15.2,False
+Vistara,2020,summer,ATQ-DEL,1470,3540,41.5,False
+Vistara,2020,summer,BBI-DEL,1376,3644,37.8,False
+Vistara,2020,summer,BLR-BOM,3090,16393,18.8,False
+Vistara,2020,summer,BLR-DEL,2910,16681,17.4,False
+Vistara,2020,summer,BLR-IXC,420,2010,20.9,False
+Vistara,2020,summer,BOM-CCU,1260,7922,15.9,False
+Vistara,2020,summer,BOM-DEL,6299,27588,22.8,False
+Vistara,2020,summer,BOM-GOI,1170,8364,14.0,False
+Vistara,2020,summer,BOM-HYD,1260,9566,13.2,False
+Vistara,2020,summer,BOM-IXC,617,3010,20.5,False
+Vistara,2020,summer,BOM-MAA,1680,9543,17.6,False
+Vistara,2020,summer,BOM-PNQ,210,210,100.0,False
+Vistara,2020,summer,BOM-TRV,210,1440,14.6,False
+Vistara,2020,summer,BOM-UDR,397,1656,24.0,False
+Vistara,2020,summer,BOM-VNS,420,3038,13.8,False
+Vistara,2020,summer,CCU-DEL,1812,12924,14.0,False
+Vistara,2020,summer,CCU-HYD,210,3893,5.4,False
+Vistara,2020,summer,CCU-IXZ,420,2143,19.6,False
+Vistara,2020,summer,CCU-MAA,210,5756,3.6,False
+Vistara,2020,summer,COK-DEL,1050,3960,26.5,False
+Vistara,2020,summer,DED-DEL,630,4589,13.7,False
+Vistara,2020,summer,DEL-GAU,1050,6481,16.2,False
+Vistara,2020,summer,DEL-GOI,750,7260,10.3,False
+Vistara,2020,summer,DEL-HYD,1680,11177,15.0,False
+Vistara,2020,summer,DEL-IDR,840,5550,15.1,False
+Vistara,2020,summer,DEL-IXB,630,5102,12.3,False
+Vistara,2020,summer,DEL-IXC,1246,5468,22.8,False
+Vistara,2020,summer,DEL-IXJ,437,3708,11.8,False
+Vistara,2020,summer,DEL-IXL,630,4086,15.4,False
+Vistara,2020,summer,DEL-IXR,825,4256,19.4,False
+Vistara,2020,summer,DEL-LKO,1260,8851,14.2,False
+Vistara,2020,summer,DEL-MAA,1470,10288,14.3,False
+Vistara,2020,summer,DEL-PAT,630,9706,6.5,False
+Vistara,2020,summer,DEL-PNQ,1560,9698,16.1,False
+Vistara,2020,summer,DEL-RPR,1299,3761,34.5,False
+Vistara,2020,summer,DEL-SXR,1050,8123,12.9,False
+Vistara,2020,summer,DEL-TRV,840,1890,44.4,False
+Vistara,2020,summer,DEL-UDR,420,2520,16.7,False
+Vistara,2020,summer,DEL-VNS,840,5129,16.4,False
+Vistara,2020,summer,DIB-GAU,420,1110,37.8,False
+Vistara,2020,summer,DIB-IXB,420,420,100.0,False
+Vistara,2020,summer,IXC-SXR,180,900,20.0,False
+Vistara,2020,summer,IXJ-SXR,403,3432,11.7,False
+TruJet,2020,summer,AMD-IDR,837,2097,39.9,False
+TruJet,2020,summer,AMD-ISK,420,840,50.0,False
+TruJet,2020,summer,AMD-IXK,360,360,100.0,False
+TruJet,2020,summer,AMD-IXU,420,420,100.0,False
+TruJet,2020,summer,AMD-IXY,420,780,53.8,False
+TruJet,2020,summer,AMD-JLG,420,420,100.0,False
+TruJet,2020,summer,AMD-JSA,360,720,50.0,False
+TruJet,2020,summer,AMD-PBD,419,419,100.0,False
+TruJet,2020,summer,BDR-BLR,210,210,100.0,False
+TruJet,2020,summer,BLR-CJB,210,2188,9.6,False
+TruJet,2020,summer,BLR-IXX,210,210,100.0,False
+TruJet,2020,summer,BLR-TRZ,210,1050,20.0,False
+TruJet,2020,summer,BLR-VDY,420,420,100.0,False
+TruJet,2020,summer,BOM-JLG,298,298,100.0,False
+TruJet,2020,summer,BOM-KLH,360,360,100.0,False
+TruJet,2020,summer,BOM-NDC,418,418,100.0,False
+TruJet,2020,summer,CDP-HYD,420,420,100.0,False
+TruJet,2020,summer,CDP-IXG,420,420,100.0,False
+TruJet,2020,summer,CDP-MAA,420,420,100.0,False
+TruJet,2020,summer,CDP-VGA,420,420,100.0,False
+TruJet,2020,summer,GOI-HYD,420,4700,8.9,False
+TruJet,2020,summer,HYD-IXG,420,1260,33.3,False
+TruJet,2020,summer,HYD-MAA,210,8183,2.6,False
+TruJet,2020,summer,HYD-NDC,420,420,100.0,False
+TruJet,2020,summer,HYD-RJA,840,2520,33.3,False
+TruJet,2020,summer,HYD-TIR,540,3840,14.1,False
+TruJet,2020,summer,HYD-VDY,420,420,100.0,False
+TruJet,2020,summer,HYD-VGA,420,3960,10.6,False
+TruJet,2020,summer,IXG-MYQ,420,420,100.0,False
+TruJet,2020,summer,IXG-TIR,420,420,100.0,False
+TruJet,2020,summer,MAA-MYQ,420,420,100.0,False
+TruJet,2020,summer,MAA-SXV,628,628,100.0,False
+Star Air,2020,summer,AMD-IXG,420,420,100.0,False
+Star Air,2020,summer,BLR-GBI,412,832,49.5,False
+Star Air,2020,summer,BLR-HBX,417,1017,41.0,False
+Star Air,2020,summer,BLR-IXG,120,1380,8.7,False
+Star Air,2020,summer,BLR-JGA,346,346,100.0,False
+Star Air,2020,summer,BOM-IXG,238,658,36.2,False
+Star Air,2020,summer,GBI-HDX,85,85,100.0,False
+Star Air,2020,summer,GBI-TIR,226,226,100.0,False
+Star Air,2020,summer,HBX-HDO,207,207,100.0,False
+Star Air,2020,summer,HBX-HDX,207,207,100.0,False
+Star Air,2020,summer,HBX-TIR,239,239,100.0,False
+Star Air,2020,summer,IDR-IXG,180,180,100.0,False
+Star Air,2020,summer,IDR-KQH,180,180,100.0,False
+Vistara,2020,winter,AMD-DEL,748,4147,18.0,False
+Vistara,2020,winter,ATQ-DEL,484,2574,18.8,False
+Vistara,2020,winter,BBI-BLR,138,1871,7.4,False
+Vistara,2020,winter,BBI-CCU,88,758,11.6,False
+Vistara,2020,winter,BBI-DEL,308,1914,16.1,False
+Vistara,2020,winter,BLR-BOM,616,3850,16.0,False
+Vistara,2020,winter,BLR-DEL,1232,6028,20.4,False
+Vistara,2020,winter,BLR-PAT,109,1779,6.1,False
+Vistara,2020,winter,BOM-CCU,330,2750,12.0,False
+Vistara,2020,winter,BOM-DEL,2420,7809,31.0,False
+Vistara,2020,winter,BOM-GOI,616,3078,20.0,False
+Vistara,2020,winter,BOM-HYD,462,2530,18.3,False
+Vistara,2020,winter,BOM-IXC,132,792,16.7,False
+Vistara,2020,winter,BOM-MAA,462,2376,19.4,False
+Vistara,2020,winter,BOM-RPR,66,372,17.7,False
+Vistara,2020,winter,BOM-UDR,176,484,36.4,False
+Vistara,2020,winter,BOM-VNS,308,2398,12.8,False
+Vistara,2020,winter,CCU-DEL,308,3609,8.5,False
+Vistara,2020,winter,CCU-IXZ,44,264,16.7,False
+Vistara,2020,winter,CCU-LKO,88,946,9.3,False
+Vistara,2020,winter,COK-DEL,462,2573,18.0,False
+Vistara,2020,winter,DED-DEL,154,2310,6.7,False
+Vistara,2020,winter,DEL-DIB,462,704,65.6,False
+Vistara,2020,winter,DEL-GAU,770,4334,17.8,False
+Vistara,2020,winter,DEL-GOI,594,2748,21.6,False
+Vistara,2020,winter,DEL-HYD,924,4597,20.1,False
+Vistara,2020,winter,DEL-IDR,242,1320,18.3,False
+Vistara,2020,winter,DEL-IXB,154,2177,7.1,False
+Vistara,2020,winter,DEL-IXC,462,1892,24.4,False
+Vistara,2020,winter,DEL-IXJ,308,2793,11.0,False
+Vistara,2020,winter,DEL-IXL,308,1320,23.3,False
+Vistara,2020,winter,DEL-IXR,330,1715,19.2,False
+Vistara,2020,winter,DEL-JDH,88,220,40.0,False
+Vistara,2020,winter,DEL-LKO,374,2948,12.7,False
+Vistara,2020,winter,DEL-MAA,1078,4245,25.4,False
+Vistara,2020,winter,DEL-PAT,308,4774,6.5,False
+Vistara,2020,winter,DEL-PNQ,572,3717,15.4,False
+Vistara,2020,winter,DEL-RPR,461,1869,24.7,False
+Vistara,2020,winter,DEL-SXR,461,4685,9.8,False
+Vistara,2020,winter,DEL-TRV,264,704,37.5,False
+Vistara,2020,winter,DEL-UDR,198,638,31.0,False
+Vistara,2020,winter,DEL-VNS,308,2662,11.6,False
+Vistara,2020,winter,DIB-IXB,308,308,100.0,False
+TruJet,2020,winter,AMD-ISK,308,616,50.0,False
+TruJet,2020,winter,AMD-IXY,242,506,47.8,False
+TruJet,2020,winter,AMD-JLG,132,132,100.0,False
+TruJet,2020,winter,AMD-JSA,264,264,100.0,False
+TruJet,2020,winter,AMD-PBD,302,302,100.0,False
+TruJet,2020,winter,BLR-IXX,176,176,100.0,False
+TruJet,2020,winter,BLR-VDY,227,227,100.0,False
+TruJet,2020,winter,BOM-JLG,44,44,100.0,False
+TruJet,2020,winter,BOM-KLH,128,128,100.0,False
+TruJet,2020,winter,BOM-NDC,132,132,100.0,False
+TruJet,2020,winter,CDP-HYD,132,132,100.0,False
+TruJet,2020,winter,CDP-IXG,308,308,100.0,False
+TruJet,2020,winter,CDP-MAA,241,241,100.0,False
+TruJet,2020,winter,CDP-VGA,308,308,100.0,False
+TruJet,2020,winter,GOI-HYD,286,1754,16.3,False
+TruJet,2020,winter,HYD-IXG,308,924,33.3,False
+TruJet,2020,winter,HYD-IXU,154,462,33.3,False
+TruJet,2020,winter,HYD-NDC,132,132,100.0,False
+TruJet,2020,winter,HYD-RJA,614,1538,39.9,False
+TruJet,2020,winter,HYD-TIR,308,1540,20.0,False
+TruJet,2020,winter,HYD-VDY,176,176,100.0,False
+TruJet,2020,winter,IXG-MYQ,308,308,100.0,False
+TruJet,2020,winter,IXG-TIR,176,176,100.0,False
+TruJet,2020,winter,MAA-MYQ,306,306,100.0,False
+TruJet,2020,winter,MAA-SXV,308,308,100.0,False
+Star Air,2020,winter,AMD-IXG,132,132,100.0,False
+Star Air,2020,winter,AMD-KQH,176,176,100.0,False
+Star Air,2020,winter,BLR-GBI,308,616,50.0,False
+Star Air,2020,winter,BLR-HBX,176,440,40.0,False
+Star Air,2020,winter,BLR-IXG,88,1011,8.7,False
+Star Air,2020,winter,BOM-IXG,132,440,30.0,False
+Star Air,2020,winter,HBX-VDX,88,88,100.0,False
+Star Air,2020,winter,IDR-IXG,131,131,100.0,False
+Star Air,2020,winter,IDR-KQH,132,132,100.0,False
+Vistara,2021,summer,AMD-BOM,432,7912,5.5,False
+Vistara,2021,summer,AMD-DEL,1055,7966,13.2,False
+Vistara,2021,summer,ATQ-DEL,1085,4104,26.4,False
+Vistara,2021,summer,BBI-DEL,1084,3774,28.7,False
+Vistara,2021,summer,BLR-BOM,2655,13050,20.3,False
+Vistara,2021,summer,BLR-DEL,3221,14264,22.6,False
+Vistara,2021,summer,BLR-GAU,305,2640,11.6,False
+Vistara,2021,summer,BLR-GOI,192,4452,4.3,False
+Vistara,2021,summer,BLR-HYD,548,7920,6.9,False
+Vistara,2021,summer,BLR-IXC,591,1823,32.4,False
+Vistara,2021,summer,BLR-LKO,321,2517,12.8,False
+Vistara,2021,summer,BLR-MAA,616,7221,8.5,False
+Vistara,2021,summer,BLR-PAT,366,3135,11.7,False
+Vistara,2021,summer,BOM-CCU,687,5915,11.6,False
+Vistara,2021,summer,BOM-DEL,5323,21889,24.3,False
+Vistara,2021,summer,BOM-GAU,31,1992,1.6,False
+Vistara,2021,summer,BOM-GOI,958,8296,11.5,False
+Vistara,2021,summer,BOM-HYD,1302,7181,18.1,False
+Vistara,2021,summer,BOM-IXC,868,3787,22.9,False
+Vistara,2021,summer,BOM-MAA,1085,7639,14.2,False
+Vistara,2021,summer,BOM-RPR,217,1668,13.0,False
+Vistara,2021,summer,BOM-SXR,340,2268,15.0,False
+Vistara,2021,summer,BOM-UDR,339,1638,20.7,False
+Vistara,2021,summer,BOM-VNS,432,2783,15.5,False
+Vistara,2021,summer,CCU-DEL,1463,10487,14.0,False
+Vistara,2021,summer,CCU-IXZ,403,2315,17.4,False
+Vistara,2021,summer,COK-DEL,868,3069,28.3,False
+Vistara,2021,summer,DEL-DIB,124,992,12.5,False
+Vistara,2021,summer,DEL-GAU,868,6381,13.6,False
+Vistara,2021,summer,DEL-GOI,809,7040,11.5,False
+Vistara,2021,summer,DEL-HYD,1736,8856,19.6,False
+Vistara,2021,summer,DEL-IDR,682,3565,19.1,False
+Vistara,2021,summer,DEL-IXB,620,4926,12.6,False
+Vistara,2021,summer,DEL-IXC,868,4739,18.3,False
+Vistara,2021,summer,DEL-IXJ,411,4288,9.6,False
+Vistara,2021,summer,DEL-IXL,527,4335,12.2,False
+Vistara,2021,summer,DEL-IXR,775,5771,13.4,False
+Vistara,2021,summer,DEL-LKO,852,6850,12.4,False
+Vistara,2021,summer,DEL-MAA,1736,8307,20.9,False
+Vistara,2021,summer,DEL-PAT,558,9141,6.1,False
+Vistara,2021,summer,DEL-PNQ,1559,6824,22.8,False
+Vistara,2021,summer,DEL-RPR,775,3516,22.0,False
+Vistara,2021,summer,DEL-SXR,798,8497,9.4,False
+Vistara,2021,summer,DEL-TRV,435,1489,29.2,False
+Vistara,2021,summer,DEL-UDR,434,1628,26.7,False
+Vistara,2021,summer,DEL-VNS,527,4334,12.2,False
+Vistara,2021,summer,DIB-IXB,434,434,100.0,False
+Vistara,2021,summer,IXJ-SXR,328,3598,9.1,False
+Star Air,2021,summer,AMD-IXG,308,308,100.0,False
+Star Air,2021,summer,AMD-JDH,93,407,22.9,False
+Star Air,2021,summer,AMD-KQH,247,649,38.1,False
+Star Air,2021,summer,BLR-GBI,430,863,49.8,False
+Star Air,2021,summer,BLR-HBX,243,1188,20.5,False
+Star Air,2021,summer,BLR-HYD,81,7920,1.0,False
+Star Air,2021,summer,BLR-IXG,124,557,22.3,False
+Star Air,2021,summer,BLR-JGA,161,161,100.0,False
+Star Air,2021,summer,BOM-IXG,216,650,33.2,False
+Star Air,2021,summer,GBI-HDO,93,93,100.0,False
+Star Air,2021,summer,GBI-TIR,248,248,100.0,False
+Star Air,2021,summer,GBI-VDX,93,93,100.0,False
+Star Air,2021,summer,HBX-TIR,248,248,100.0,False
+Star Air,2021,summer,HBX-VDX,124,124,100.0,False
+Star Air,2021,summer,HYD-JGA,81,81,100.0,False
+Star Air,2021,summer,IDR-IXG,185,185,100.0,False
+Star Air,2021,summer,IDR-KQH,248,248,100.0,False
+Star Air,2021,summer,ISK-IXG,155,155,100.0,False
+Star Air,2021,summer,IXG-JDH,186,186,100.0,False
+Star Air,2021,summer,IXG-NAG,116,116,100.0,False
+Star Air,2021,summer,IXG-STV,186,186,100.0,False
+Star Air,2021,summer,KQH-STV,184,184,100.0,False
+Vistara,2021,winter,AMD-BOM,294,3984,7.4,False
+Vistara,2021,winter,AMD-DEL,1083,5455,19.9,False
+Vistara,2021,winter,ATQ-DEL,588,3278,17.9,False
+Vistara,2021,winter,BBI-CCU,84,1722,4.9,False
+Vistara,2021,winter,BBI-DEL,882,2541,34.7,False
+Vistara,2021,winter,BLR-BOM,2057,8251,24.9,False
+Vistara,2021,winter,BLR-DEL,2204,10285,21.4,False
+Vistara,2021,winter,BLR-GAU,294,1848,15.9,False
+Vistara,2021,winter,BLR-GOI,294,3346,8.8,False
+Vistara,2021,winter,BLR-HYD,735,6214,11.8,False
+Vistara,2021,winter,BLR-IXC,294,882,33.3,False
+Vistara,2021,winter,BLR-MAA,588,5109,11.5,False
+Vistara,2021,winter,BLR-PAT,147,1976,7.4,False
+Vistara,2021,winter,BOM-CCU,882,3469,25.4,False
+Vistara,2021,winter,BOM-DEL,4156,16011,26.0,False
+Vistara,2021,winter,BOM-GOI,881,6342,13.9,False
+Vistara,2021,winter,BOM-HYD,882,4179,21.1,False
+Vistara,2021,winter,BOM-IXC,588,2226,26.4,False
+Vistara,2021,winter,BOM-JDH,294,1470,20.0,False
+Vistara,2021,winter,BOM-MAA,1175,5290,22.2,False
+Vistara,2021,winter,BOM-UDR,294,1470,20.0,False
+Vistara,2021,winter,BOM-VNS,294,1799,16.3,False
+Vistara,2021,winter,CCU-DEL,1617,8144,19.9,False
+Vistara,2021,winter,CCU-IXZ,432,1590,27.2,False
+Vistara,2021,winter,CCU-RPR,84,892,9.4,False
+Vistara,2021,winter,COK-DEL,588,2136,27.5,False
+Vistara,2021,winter,DED-DEL,294,4064,7.2,False
+Vistara,2021,winter,DEL-GAU,588,4666,12.6,False
+Vistara,2021,winter,DEL-GOI,525,5917,8.9,False
+Vistara,2021,winter,DEL-HYD,1176,6049,19.4,False
+Vistara,2021,winter,DEL-IDR,588,2225,26.4,False
+Vistara,2021,winter,DEL-IXB,588,3832,15.3,False
+Vistara,2021,winter,DEL-IXC,882,3254,27.1,False
+Vistara,2021,winter,DEL-IXJ,294,3399,8.6,False
+Vistara,2021,winter,DEL-IXL,168,2280,7.4,False
+Vistara,2021,winter,DEL-IXR,587,3857,15.2,False
+Vistara,2021,winter,DEL-JDH,294,1353,21.7,False
+Vistara,2021,winter,DEL-LKO,861,5181,16.6,False
+Vistara,2021,winter,DEL-MAA,882,4850,18.2,False
+Vistara,2021,winter,DEL-PAT,294,5949,4.9,False
+Vistara,2021,winter,DEL-PNQ,1281,6078,21.1,False
+Vistara,2021,winter,DEL-RPR,588,2202,26.7,False
+Vistara,2021,winter,DEL-SXR,588,7155,8.2,False
+Vistara,2021,winter,DEL-TRV,294,790,37.2,False
+Vistara,2021,winter,DEL-UDR,588,2331,25.2,False
+Vistara,2021,winter,DEL-VNS,588,3689,15.9,False
+Vistara,2021,winter,DIB-GAU,294,630,46.7,False
+Vistara,2021,winter,DIB-IXB,294,294,100.0,False
+Vistara,2021,winter,IXJ-SXR,252,2562,9.8,False
+Vistara,2021,winter,IXZ-MAA,410,1719,23.9,False
+TruJet,2021,winter,AMD-IDR,359,1241,28.9,True
+TruJet,2021,winter,AMD-ISK,294,534,55.1,True
+TruJet,2021,winter,AMD-IXK,108,108,100.0,True
+TruJet,2021,winter,AMD-IXU,294,294,100.0,True
+TruJet,2021,winter,AMD-IXY,128,275,46.5,True
+TruJet,2021,winter,AMD-JLG,276,276,100.0,True
+TruJet,2021,winter,AMD-JSA,283,283,100.0,True
+TruJet,2021,winter,AMD-PBD,294,294,100.0,True
+TruJet,2021,winter,BLR-IXX,294,294,100.0,True
+TruJet,2021,winter,BLR-VDY,294,294,100.0,True
+TruJet,2021,winter,BOM-JLG,265,265,100.0,True
+TruJet,2021,winter,BOM-KLH,241,241,100.0,True
+TruJet,2021,winter,BOM-NDC,406,406,100.0,True
+TruJet,2021,winter,CDP-HYD,220,220,100.0,True
+TruJet,2021,winter,CDP-IXG,294,294,100.0,True
+TruJet,2021,winter,CDP-MAA,294,294,100.0,True
+TruJet,2021,winter,CDP-VGA,294,294,100.0,True
+TruJet,2021,winter,GOI-HYD,294,3467,8.5,True
+TruJet,2021,winter,HYD-IDR,294,886,33.2,True
+TruJet,2021,winter,HYD-IXG,294,882,33.3,True
+TruJet,2021,winter,HYD-IXU,230,524,43.9,True
+TruJet,2021,winter,HYD-MAA,460,4906,9.4,True
+TruJet,2021,winter,HYD-NDC,441,441,100.0,True
+TruJet,2021,winter,HYD-RJA,588,1966,29.9,True
+TruJet,2021,winter,HYD-TIR,588,3121,18.8,True
+TruJet,2021,winter,HYD-VDY,294,294,100.0,True
+TruJet,2021,winter,HYD-VGA,294,1680,17.5,True
+TruJet,2021,winter,IXG-MYQ,220,220,100.0,True
+TruJet,2021,winter,IXG-TIR,240,324,74.1,True
+TruJet,2021,winter,MAA-MYQ,294,546,53.8,True
+TruJet,2021,winter,MAA-SXV,294,294,100.0,True
+Star Air,2021,winter,AMD-IXG,163,163,100.0,False
+Star Air,2021,winter,AMD-KQH,131,131,100.0,False
+Star Air,2021,winter,BLR-GBI,292,586,49.8,False
+Star Air,2021,winter,BLR-HBX,165,753,21.9,False
+Star Air,2021,winter,BLR-HYD,124,6214,2.0,False
+Star Air,2021,winter,BLR-IXG,63,357,17.6,False
+Star Air,2021,winter,BLR-JGA,126,126,100.0,False
+Star Air,2021,winter,BOM-IXG,168,462,36.4,False
+Star Air,2021,winter,GBI-HDO,63,63,100.0,False
+Star Air,2021,winter,GBI-TIR,168,168,100.0,False
+Star Air,2021,winter,GBI-VDX,63,63,100.0,False
+Star Air,2021,winter,HBX-HDO,84,84,100.0,False
+Star Air,2021,winter,HBX-TIR,84,84,100.0,False
+Star Air,2021,winter,HBX-VDX,84,84,100.0,False
+Star Air,2021,winter,HYD-JGA,126,126,100.0,False
+Star Air,2021,winter,IDR-IXG,125,125,100.0,False
+Star Air,2021,winter,IDR-KQH,166,166,100.0,False
+Star Air,2021,winter,ISK-IXG,126,126,100.0,False
+Star Air,2021,winter,IXG-JDH,125,125,100.0,False
+Star Air,2021,winter,IXG-NAG,63,63,100.0,False
+Star Air,2021,winter,IXG-STV,126,126,100.0,False
+Star Air,2021,winter,IXG-TIR,84,324,25.9,False
+Star Air,2021,winter,KQH-STV,126,126,100.0,False
+Flybig,2021,winter,AJL-RUP,63,63,100.0,False
+Flybig,2021,winter,AMD-IDR,294,1241,23.7,False
+Flybig,2021,winter,CCU-RUP,273,273,100.0,False
+Flybig,2021,winter,DIB-IXA,294,294,100.0,False
+Flybig,2021,winter,GAU-IXA,588,882,66.7,False
+Flybig,2021,winter,GAU-IXI,168,168,100.0,False
+Flybig,2021,winter,GAU-IXT,293,293,100.0,False
+Flybig,2021,winter,GAU-RUP,252,252,100.0,False
+Flybig,2021,winter,GAU-TEI,208,208,100.0,False
+Vistara,2022,summer,AMD-BLR,434,4121,10.5,False
+Vistara,2022,summer,AMD-BOM,585,6816,8.6,False
+Vistara,2022,summer,AMD-DEL,1462,9182,15.9,False
+Vistara,2022,summer,ATQ-DEL,1085,4743,22.9,False
+Vistara,2022,summer,BBI-BLR,434,3131,13.9,False
+Vistara,2022,summer,BBI-DEL,1302,4619,28.2,False
+Vistara,2022,summer,BLR-BOM,3035,14318,21.2,False
+Vistara,2022,summer,BLR-CCU,651,9765,6.7,False
+Vistara,2022,summer,BLR-COK,414,5715,7.2,False
+Vistara,2022,summer,BLR-DEL,3903,16829,23.2,False
+Vistara,2022,summer,BLR-GAU,372,3208,11.6,False
+Vistara,2022,summer,BLR-GOI,434,6083,7.1,False
+Vistara,2022,summer,BLR-HYD,868,9981,8.7,False
+Vistara,2022,summer,BLR-IXC,434,1548,28.0,False
+Vistara,2022,summer,BOM-CCU,1301,6724,19.3,False
+Vistara,2022,summer,BOM-DED,434,1968,22.1,False
+Vistara,2022,summer,BOM-DEL,6507,25411,25.6,False
+Vistara,2022,summer,BOM-GOI,928,10320,9.0,False
+Vistara,2022,summer,BOM-HYD,1302,7596,17.1,False
+Vistara,2022,summer,BOM-IDR,217,2387,9.1,False
+Vistara,2022,summer,BOM-IXC,868,4079,21.3,False
+Vistara,2022,summer,BOM-MAA,1736,10234,17.0,False
+Vistara,2022,summer,BOM-SXR,186,1224,15.2,False
+Vistara,2022,summer,BOM-UDR,434,1736,25.0,False
+Vistara,2022,summer,BOM-VNS,433,3038,14.3,False
+Vistara,2022,summer,CCU-DEL,2168,12966,16.7,False
+Vistara,2022,summer,CCU-GAU,434,7068,6.1,False
+Vistara,2022,summer,CCU-HYD,217,6148,3.5,False
+Vistara,2022,summer,CCU-IXZ,397,2642,15.0,False
+Vistara,2022,summer,COK-DEL,868,4557,19.0,False
+Vistara,2022,summer,DED-DEL,434,5208,8.3,False
+Vistara,2022,summer,DEL-DIB,247,1394,17.7,False
+Vistara,2022,summer,DEL-GAU,868,7006,12.4,False
+Vistara,2022,summer,DEL-GOI,900,9043,10.0,False
+Vistara,2022,summer,DEL-HYD,2170,10540,20.6,False
+Vistara,2022,summer,DEL-IDR,1302,3756,34.7,False
+Vistara,2022,summer,DEL-IXB,620,3942,15.7,False
+Vistara,2022,summer,DEL-IXC,1085,5758,18.8,False
+Vistara,2022,summer,DEL-IXJ,403,5348,7.5,False
+Vistara,2022,summer,DEL-IXL,434,5234,8.3,False
+Vistara,2022,summer,DEL-IXR,868,5482,15.8,False
+Vistara,2022,summer,DEL-LKO,932,8093,11.5,False
+Vistara,2022,summer,DEL-MAA,1519,8462,18.0,False
+Vistara,2022,summer,DEL-PAT,868,9765,8.9,False
+Vistara,2022,summer,DEL-PNQ,1952,9522,20.5,False
+Vistara,2022,summer,DEL-RPR,868,3129,27.7,False
+Vistara,2022,summer,DEL-SXR,868,13127,6.6,False
+Vistara,2022,summer,DEL-TRV,434,1519,28.6,False
+Vistara,2022,summer,DEL-UDR,434,1798,24.1,False
+Vistara,2022,summer,DEL-VNS,651,4773,13.6,False
+Vistara,2022,summer,DIB-GAU,217,1271,17.1,False
+Vistara,2022,summer,DIB-IXB,404,404,100.0,False
+Vistara,2022,summer,GAU-IXA,372,1519,24.5,False
+Vistara,2022,summer,HYD-IXC,434,1736,25.0,False
+Vistara,2022,summer,IXJ-SXR,372,3224,11.5,False
+Vistara,2022,summer,IXZ-MAA,180,2689,6.7,False
+Star Air,2022,summer,AMD-BHJ,87,87,100.0,False
+Star Air,2022,summer,AMD-IXG,217,217,100.0,False
+Star Air,2022,summer,AMD-KQH,87,87,100.0,False
+Star Air,2022,summer,BLR-GBI,432,866,49.9,False
+Star Air,2022,summer,BLR-HBX,246,1114,22.1,False
+Star Air,2022,summer,BLR-HYD,184,9981,1.8,False
+Star Air,2022,summer,BLR-JGA,185,185,100.0,False
+Star Air,2022,summer,BOM-IXG,248,682,36.4,False
+Star Air,2022,summer,GBI-HDO,186,186,100.0,False
+Star Air,2022,summer,GBI-TIR,248,248,100.0,False
+Star Air,2022,summer,GBI-VDX,93,93,100.0,False
+Star Air,2022,summer,HBX-HDO,248,248,100.0,False
+Star Air,2022,summer,HBX-TIR,124,124,100.0,False
+Star Air,2022,summer,HBX-VDX,124,124,100.0,False
+Star Air,2022,summer,HYD-JGA,184,184,100.0,False
+Star Air,2022,summer,IDR-IXG,246,246,100.0,False
+Star Air,2022,summer,IDR-KQH,248,248,100.0,False
+Star Air,2022,summer,ISK-IXG,176,176,100.0,False
+Star Air,2022,summer,IXG-JDH,185,185,100.0,False
+Star Air,2022,summer,IXG-NAG,186,186,100.0,False
+Star Air,2022,summer,IXG-STV,186,186,100.0,False
+Star Air,2022,summer,IXG-TIR,124,124,100.0,False
+Star Air,2022,summer,KQH-STV,186,186,100.0,False
+Flybig,2022,summer,CCU-RUP,403,403,100.0,True
+Flybig,2022,summer,DIB-IXA,434,434,100.0,True
+Flybig,2022,summer,GAU-IMF,217,2387,9.1,True
+Flybig,2022,summer,GAU-IXA,651,1519,42.9,True
+Flybig,2022,summer,GAU-IXI,434,434,100.0,True
+Flybig,2022,summer,GAU-IXT,433,433,100.0,True
+Flybig,2022,summer,GAU-RUP,403,403,100.0,True
+Flybig,2022,summer,GAU-TEI,402,402,100.0,True
+Flybig,2022,summer,GDB-HYD,433,433,100.0,True
+Flybig,2022,summer,GDB-IDR,434,434,100.0,True
+Flybig,2022,summer,HYD-KJB,433,433,100.0,True
+Flybig,2022,summer,IMF-IXA,217,651,33.3,True
+Vistara,2022,winter,AMD-BLR,611,3477,17.6,False
+Vistara,2022,winter,AMD-BOM,882,5238,16.8,False
+Vistara,2022,winter,AMD-DEL,1029,6383,16.1,False
+Vistara,2022,winter,ATQ-DEL,588,3283,17.9,False
+Vistara,2022,winter,BBI-BOM,588,1764,33.3,False
+Vistara,2022,winter,BBI-DEL,882,3257,27.1,False
+Vistara,2022,winter,BLR-BOM,2036,10072,20.2,False
+Vistara,2022,winter,BLR-CCU,132,4865,2.7,False
+Vistara,2022,winter,BLR-CJB,147,1365,10.8,False
+Vistara,2022,winter,BLR-COK,294,5060,5.8,False
+Vistara,2022,winter,BLR-DEL,2455,11806,20.8,False
+Vistara,2022,winter,BLR-GAU,294,1839,16.0,False
+Vistara,2022,winter,BLR-GOI,294,3171,9.3,False
+Vistara,2022,winter,BLR-HYD,588,5638,10.4,False
+Vistara,2022,winter,BLR-IDR,294,1176,25.0,False
+Vistara,2022,winter,BLR-IXC,294,1176,25.0,False
+Vistara,2022,winter,BLR-MAA,147,5312,2.8,False
+Vistara,2022,winter,BLR-PNQ,588,5185,11.3,False
+Vistara,2022,winter,BOM-CCU,852,4462,19.1,False
+Vistara,2022,winter,BOM-CJB,588,1176,50.0,False
+Vistara,2022,winter,BOM-COK,147,1873,7.8,False
+Vistara,2022,winter,BOM-DED,294,882,33.3,False
+Vistara,2022,winter,BOM-DEL,4386,16596,26.4,False
+Vistara,2022,winter,BOM-GAU,105,840,12.5,False
+Vistara,2022,winter,BOM-GOI,672,6886,9.8,False
+Vistara,2022,winter,BOM-HYD,1176,4410,26.7,False
+Vistara,2022,winter,BOM-IDR,294,1764,16.7,False
+Vistara,2022,winter,BOM-IXC,588,2016,29.2,False
+Vistara,2022,winter,BOM-JAI,588,3528,16.7,False
+Vistara,2022,winter,BOM-JDH,147,1302,11.3,False
+Vistara,2022,winter,BOM-LKO,294,2646,11.1,False
+Vistara,2022,winter,BOM-MAA,1175,6091,19.3,False
+Vistara,2022,winter,BOM-SXR,147,629,23.4,False
+Vistara,2022,winter,BOM-TRV,147,1071,13.7,False
+Vistara,2022,winter,BOM-UDR,735,1911,38.5,False
+Vistara,2022,winter,BOM-VNS,294,1932,15.2,False
+Vistara,2022,winter,CCU-DEL,1470,7157,20.5,False
+Vistara,2022,winter,CCU-IXA,279,2652,10.5,False
+Vistara,2022,winter,CCU-IXZ,250,1662,15.0,False
+Vistara,2022,winter,CJB-DEL,294,882,33.3,False
+Vistara,2022,winter,CJB-MAA,294,2940,10.0,False
+Vistara,2022,winter,COK-DEL,588,2603,22.6,False
+Vistara,2022,winter,DED-DEL,294,3086,9.5,False
+Vistara,2022,winter,DEL-DIB,105,651,16.1,False
+Vistara,2022,winter,DEL-GAU,483,4822,10.0,False
+Vistara,2022,winter,DEL-GOI,651,5292,12.3,False
+Vistara,2022,winter,DEL-HYD,1323,6624,20.0,False
+Vistara,2022,winter,DEL-IDR,588,2121,27.7,False
+Vistara,2022,winter,DEL-IXB,441,2793,15.8,False
+Vistara,2022,winter,DEL-IXC,588,2940,20.0,False
+Vistara,2022,winter,DEL-IXJ,273,2550,10.7,False
+Vistara,2022,winter,DEL-IXL,189,1825,10.4,False
+Vistara,2022,winter,DEL-IXR,441,2562,17.2,False
+Vistara,2022,winter,DEL-JDH,126,1838,6.9,False
+Vistara,2022,winter,DEL-LKO,441,4635,9.5,False
+Vistara,2022,winter,DEL-MAA,1176,6467,18.2,False
+Vistara,2022,winter,DEL-PAT,545,4673,11.7,False
+Vistara,2022,winter,DEL-PNQ,1323,7170,18.5,False
+Vistara,2022,winter,DEL-RPR,588,2025,29.0,False
+Vistara,2022,winter,DEL-STV,147,1911,7.7,False
+Vistara,2022,winter,DEL-SXR,714,6541,10.9,False
+Vistara,2022,winter,DEL-TRV,294,1281,23.0,False
+Vistara,2022,winter,DEL-UDR,441,2768,15.9,False
+Vistara,2022,winter,DEL-VNS,294,2786,10.6,False
+Vistara,2022,winter,DIB-GAU,399,777,51.4,False
+Vistara,2022,winter,DIB-IXB,294,294,100.0,False
+Vistara,2022,winter,GAU-IXA,294,893,32.9,False
+Vistara,2022,winter,HYD-IXC,294,683,43.0,False
+Vistara,2022,winter,IXJ-SXR,272,2461,11.1,False
+Vistara,2022,winter,IXZ-MAA,250,1491,16.8,False
+Akasa Air,2022,winter,AMD-BLR,588,3477,16.9,False
+Akasa Air,2022,winter,AMD-BOM,840,5238,16.0,False
+Akasa Air,2022,winter,AMD-DEL,588,6383,9.2,False
+Akasa Air,2022,winter,BLR-BOM,1465,10072,14.5,False
+Akasa Air,2022,winter,BLR-COK,861,5060,17.0,False
+Akasa Air,2022,winter,BLR-DEL,441,11806,3.7,False
+Akasa Air,2022,winter,BLR-GAU,294,1839,16.0,False
+Akasa Air,2022,winter,BLR-MAA,1470,5312,27.7,False
+Akasa Air,2022,winter,BLR-PNQ,1175,5185,22.7,False
+Akasa Air,2022,winter,BLR-VTZ,882,2384,37.0,False
+Akasa Air,2022,winter,BOM-DEL,412,16596,2.5,False
+Akasa Air,2022,winter,BOM-MAA,294,6091,4.8,False
+Akasa Air,2022,winter,COK-MAA,294,2125,13.8,False
+Akasa Air,2022,winter,DEL-GAU,34,4822,0.7,False
+Akasa Air,2022,winter,GAU-IXA,294,893,32.9,False
+Akasa Air,2022,winter,HYD-VTZ,147,2205,6.7,False
+Star Air,2022,winter,AMD-BHJ,231,231,100.0,False
+Star Air,2022,winter,AMD-IXG,210,210,100.0,False
+Star Air,2022,winter,BLR-GBI,291,585,49.7,False
+Star Air,2022,winter,BLR-HBX,164,752,21.8,False
+Star Air,2022,winter,BLR-HYD,125,5638,2.2,False
+Star Air,2022,winter,BLR-IXX,84,84,100.0,False
+Star Air,2022,winter,BLR-JGA,126,126,100.0,False
+Star Air,2022,winter,BOM-IXG,167,377,44.3,False
+Star Air,2022,winter,BOM-KLH,126,126,100.0,False
+Star Air,2022,winter,GBI-HDO,63,63,100.0,False
+Star Air,2022,winter,GBI-TIR,168,168,100.0,False
+Star Air,2022,winter,GBI-VDX,63,63,100.0,False
+Star Air,2022,winter,HBX-HDO,84,84,100.0,False
+Star Air,2022,winter,HBX-VDX,84,84,100.0,False
+Star Air,2022,winter,HYD-JGA,126,126,100.0,False
+Star Air,2022,winter,IDR-IXG,83,83,100.0,False
+Star Air,2022,winter,IDR-KQH,82,82,100.0,False
+Star Air,2022,winter,ISK-IXG,105,105,100.0,False
+Star Air,2022,winter,IXG-JDH,124,124,100.0,False
+Star Air,2022,winter,IXG-NAG,126,126,100.0,False
+Star Air,2022,winter,IXG-STV,123,123,100.0,False
+Star Air,2022,winter,IXG-TIR,126,126,100.0,False
+Star Air,2022,winter,KQH-STV,122,122,100.0,False
+Vistara,2023,summer,AMD-BOM,1302,8420,15.5,False
+Vistara,2023,summer,AMD-DEL,1736,8844,19.6,False
+Vistara,2023,summer,AMD-GOX,186,1271,14.6,False
+Vistara,2023,summer,ATQ-DEL,868,5330,16.3,False
+Vistara,2023,summer,BBI-BOM,868,2604,33.3,False
+Vistara,2023,summer,BBI-DEL,1302,4836,26.9,False
+Vistara,2023,summer,BLR-BOM,3007,15810,19.0,False
+Vistara,2023,summer,BLR-DEL,3471,17013,20.4,False
+Vistara,2023,summer,BLR-GAU,434,2604,16.7,False
+Vistara,2023,summer,BLR-GOI,651,7217,9.0,False
+Vistara,2023,summer,BLR-GOX,217,1922,11.3,False
+Vistara,2023,summer,BLR-HYD,1519,11206,13.6,False
+Vistara,2023,summer,BLR-IXC,1116,2988,37.3,False
+Vistara,2023,summer,BLR-JAI,217,2635,8.2,False
+Vistara,2023,summer,BLR-PNQ,868,7376,11.8,False
+Vistara,2023,summer,BOM-CCU,1302,7161,18.2,False
+Vistara,2023,summer,BOM-CJB,434,1736,25.0,False
+Vistara,2023,summer,BOM-COK,181,3899,4.6,False
+Vistara,2023,summer,BOM-DED,434,1302,33.3,False
+Vistara,2023,summer,BOM-DEL,6478,23713,27.3,False
+Vistara,2023,summer,BOM-GAU,217,1519,14.3,False
+Vistara,2023,summer,BOM-GOI,1512,12724,11.9,False
+Vistara,2023,summer,BOM-GOX,434,1735,25.0,False
+Vistara,2023,summer,BOM-HYD,1735,7377,23.5,False
+Vistara,2023,summer,BOM-IDR,217,2387,9.1,False
+Vistara,2023,summer,BOM-IXB,217,1085,20.0,False
+Vistara,2023,summer,BOM-IXC,1054,3771,28.0,False
+Vistara,2023,summer,BOM-JAI,868,4557,19.0,False
+Vistara,2023,summer,BOM-MAA,1736,9113,19.0,False
+Vistara,2023,summer,BOM-SXR,186,2019,9.2,False
+Vistara,2023,summer,BOM-TRV,217,2387,9.1,False
+Vistara,2023,summer,BOM-UDR,868,2170,40.0,False
+Vistara,2023,summer,BOM-VNS,434,2604,16.7,False
+Vistara,2023,summer,CCU-DEL,2169,11064,19.6,False
+Vistara,2023,summer,CCU-IXZ,418,2874,14.5,False
+Vistara,2023,summer,CJB-DEL,434,1519,28.6,False
+Vistara,2023,summer,COK-DEL,868,3688,23.5,False
+Vistara,2023,summer,DED-DEL,434,3037,14.3,False
+Vistara,2023,summer,DEL-DIB,155,985,15.7,False
+Vistara,2023,summer,DEL-GAU,713,6143,11.6,False
+Vistara,2023,summer,DEL-GOI,1508,8899,16.9,False
+Vistara,2023,summer,DEL-GOX,591,1366,43.3,False
+Vistara,2023,summer,DEL-HYD,2170,11317,19.2,False
+Vistara,2023,summer,DEL-IDR,868,3358,25.8,False
+Vistara,2023,summer,DEL-IXB,434,3689,11.8,False
+Vistara,2023,summer,DEL-IXC,1302,4122,31.6,False
+Vistara,2023,summer,DEL-IXJ,31,3517,0.9,False
+Vistara,2023,summer,DEL-IXL,434,5463,7.9,False
+Vistara,2023,summer,DEL-IXR,434,3906,11.1,False
+Vistara,2023,summer,DEL-LKO,434,6405,6.8,False
+Vistara,2023,summer,DEL-MAA,1734,9468,18.3,False
+Vistara,2023,summer,DEL-PAT,868,6695,13.0,False
+Vistara,2023,summer,DEL-PNQ,1734,10215,17.0,False
+Vistara,2023,summer,DEL-RPR,868,2642,32.9,False
+Vistara,2023,summer,DEL-SXR,837,12169,6.9,False
+Vistara,2023,summer,DEL-TRV,433,1735,25.0,False
+Vistara,2023,summer,DEL-UDR,434,2106,20.6,False
+Vistara,2023,summer,DEL-VNS,434,3255,13.3,False
+Vistara,2023,summer,DIB-GAU,155,625,24.8,False
+Vistara,2023,summer,DIB-IXB,434,434,100.0,False
+Vistara,2023,summer,GOI-HYD,217,5376,4.0,False
+Vistara,2023,summer,GOX-HYD,434,1301,33.4,False
+Vistara,2023,summer,IXJ-SXR,403,2694,15.0,False
+Akasa Air,2023,summer,AMD-BLR,1239,4768,26.0,False
+Akasa Air,2023,summer,AMD-BOM,1240,8420,14.7,False
+Akasa Air,2023,summer,AMD-DEL,372,8844,4.2,False
+Akasa Air,2023,summer,AMD-GOI,403,1854,21.7,False
+Akasa Air,2023,summer,AMD-GOX,465,1271,36.6,False
+Akasa Air,2023,summer,AMD-HYD,867,2603,33.3,False
+Akasa Air,2023,summer,AMD-LKO,434,1302,33.3,False
+Akasa Air,2023,summer,BBI-BLR,382,2986,12.8,False
+Akasa Air,2023,summer,BBI-PNQ,390,824,47.3,False
+Akasa Air,2023,summer,BLR-BOM,3255,15810,20.6,False
+Akasa Air,2023,summer,BLR-CCU,392,7918,5.0,False
+Akasa Air,2023,summer,BLR-COK,1674,8059,20.8,False
+Akasa Air,2023,summer,BLR-DED,217,651,33.3,False
+Akasa Air,2023,summer,BLR-DEL,495,17013,2.9,False
+Akasa Air,2023,summer,BLR-GAU,434,2604,16.7,False
+Akasa Air,2023,summer,BLR-GOI,837,7217,11.6,False
+Akasa Air,2023,summer,BLR-GOX,837,1922,43.5,False
+Akasa Air,2023,summer,BLR-HYD,1724,11206,15.4,False
+Akasa Air,2023,summer,BLR-IXB,392,2345,16.7,False
+Akasa Air,2023,summer,BLR-IXC,391,2988,13.1,False
+Akasa Air,2023,summer,BLR-IXR,434,2604,16.7,False
+Akasa Air,2023,summer,BLR-LKO,868,4064,21.4,False
+Akasa Air,2023,summer,BLR-MAA,868,6348,13.7,False
+Akasa Air,2023,summer,BLR-PNQ,1302,7376,17.7,False
+Akasa Air,2023,summer,BLR-VNS,868,2320,37.4,False
+Akasa Air,2023,summer,BLR-VTZ,868,3037,28.6,False
+Akasa Air,2023,summer,BOM-DEL,434,23713,1.8,False
+Akasa Air,2023,summer,BOM-GOI,434,12724,3.4,False
+Akasa Air,2023,summer,BOM-GOX,434,1735,25.0,False
+Akasa Air,2023,summer,BOM-LKO,434,4094,10.6,False
+Akasa Air,2023,summer,BOM-MAA,868,9113,9.5,False
+Akasa Air,2023,summer,CCU-GAU,392,7536,5.2,False
+Akasa Air,2023,summer,DED-HYD,217,651,33.3,False
+Akasa Air,2023,summer,DEL-GOI,403,8899,4.5,False
+Akasa Air,2023,summer,DEL-GOX,341,1366,25.0,False
+Akasa Air,2023,summer,DEL-HYD,720,11317,6.4,False
+Akasa Air,2023,summer,GAU-IXA,434,910,47.7,False
+Akasa Air,2023,summer,GOI-HYD,185,5376,3.4,False
+Akasa Air,2023,summer,GOI-LKO,217,1085,20.0,False
+Akasa Air,2023,summer,GOX-HYD,185,1301,14.2,False
+Akasa Air,2023,summer,GOX-LKO,217,398,54.5,False
+Akasa Air,2023,summer,HYD-IXR,217,982,22.1,False
+Star Air,2023,summer,AMD-BHJ,434,434,100.0,False
+Star Air,2023,summer,AMD-IXG,433,433,100.0,False
+Star Air,2023,summer,BHJ-STV,372,372,100.0,False
+Star Air,2023,summer,BLR-GBI,432,680,63.5,False
+Star Air,2023,summer,BLR-HBX,434,1302,33.3,False
+Star Air,2023,summer,BLR-HYD,430,11206,3.8,False
+Star Air,2023,summer,BLR-IXG,434,1302,33.3,False
+Star Air,2023,summer,BLR-IXX,433,433,100.0,False
+Star Air,2023,summer,BLR-JGA,434,434,100.0,False
+Star Air,2023,summer,BOM-IXG,341,341,100.0,False
+Star Air,2023,summer,BOM-KLH,341,341,100.0,False
+Star Air,2023,summer,GBI-TIR,433,433,100.0,False
+Star Air,2023,summer,HYD-JGA,434,434,100.0,False
+Star Air,2023,summer,IDR-IXG,247,247,100.0,False
+Star Air,2023,summer,IDR-KQH,248,248,100.0,False
+Star Air,2023,summer,IXG-JAI,186,186,100.0,False
+Star Air,2023,summer,IXG-JDH,217,217,100.0,False
+Star Air,2023,summer,IXG-NAG,185,185,100.0,False
+Star Air,2023,summer,IXG-STV,186,186,100.0,False
+Star Air,2023,summer,IXG-TIR,433,433,100.0,False
+Star Air,2023,summer,KQH-STV,186,186,100.0,False
+Vistara,2023,winter,AMD-BLR,363,2616,13.9,True
+Vistara,2023,winter,AMD-BOM,1205,5938,20.3,True
+Vistara,2023,winter,AMD-DEL,1232,5849,21.1,True
+Vistara,2023,winter,AMD-GOX,225,1105,20.4,True
+Vistara,2023,winter,ATQ-BOM,423,1347,31.4,True
+Vistara,2023,winter,ATQ-DEL,616,3835,16.1,True
+Vistara,2023,winter,BBI-BOM,308,1540,20.0,True
+Vistara,2023,winter,BBI-DEL,924,3082,30.0,True
+Vistara,2023,winter,BLR-BOM,2441,12005,20.3,True
+Vistara,2023,winter,BLR-DEL,2618,11714,22.3,True
+Vistara,2023,winter,BLR-GAU,264,2156,12.2,True
+Vistara,2023,winter,BLR-GOI,154,2637,5.8,True
+Vistara,2023,winter,BLR-HYD,616,6127,10.1,True
+Vistara,2023,winter,BLR-IDR,1,1079,0.1,True
+Vistara,2023,winter,BLR-IXC,429,1506,28.5,True
+Vistara,2023,winter,BLR-IXZ,308,616,50.0,True
+Vistara,2023,winter,BLR-JAI,121,2145,5.6,True
+Vistara,2023,winter,BLR-TRV,363,2524,14.4,True
+Vistara,2023,winter,BLR-UDR,154,462,33.3,True
+Vistara,2023,winter,BOM-CCU,924,5235,17.7,True
+Vistara,2023,winter,BOM-CJB,429,1859,23.1,True
+Vistara,2023,winter,BOM-COK,572,3498,16.4,True
+Vistara,2023,winter,BOM-DED,308,848,36.3,True
+Vistara,2023,winter,BOM-DEL,4882,15937,30.6,True
+Vistara,2023,winter,BOM-GOI,660,4887,13.5,True
+Vistara,2023,winter,BOM-GOX,891,3904,22.8,True
+Vistara,2023,winter,BOM-HYD,1342,6072,22.1,True
+Vistara,2023,winter,BOM-IXC,924,2090,44.2,True
+Vistara,2023,winter,BOM-JAI,924,3673,25.2,True
+Vistara,2023,winter,BOM-LKO,303,2727,11.1,True
+Vistara,2023,winter,BOM-MAA,973,6802,14.3,True
+Vistara,2023,winter,BOM-SXR,278,783,35.5,True
+Vistara,2023,winter,BOM-TRV,616,2002,30.8,True
+Vistara,2023,winter,BOM-UDR,624,1707,36.6,True
+Vistara,2023,winter,BOM-VNS,462,2463,18.8,True
+Vistara,2023,winter,CCU-DEL,1540,7084,21.7,True
+Vistara,2023,winter,CCU-IXZ,308,2282,13.5,True
+Vistara,2023,winter,CJB-DEL,308,1232,25.0,True
+Vistara,2023,winter,COK-DEL,616,2728,22.6,True
+Vistara,2023,winter,DED-DEL,308,1760,17.5,True
+Vistara,2023,winter,DEL-GAU,616,4768,12.9,True
+Vistara,2023,winter,DEL-GOI,660,4367,15.1,True
+Vistara,2023,winter,DEL-GOX,748,2618,28.6,True
+Vistara,2023,winter,DEL-HYD,1540,7456,20.7,True
+Vistara,2023,winter,DEL-IDR,616,2795,22.0,True
+Vistara,2023,winter,DEL-IXB,466,2840,16.4,True
+Vistara,2023,winter,DEL-IXC,616,3211,19.2,True
+Vistara,2023,winter,DEL-IXJ,22,2156,1.0,True
+Vistara,2023,winter,DEL-IXL,88,1716,5.1,True
+Vistara,2023,winter,DEL-IXR,308,2246,13.7,True
+Vistara,2023,winter,DEL-LKO,308,4399,7.0,True
+Vistara,2023,winter,DEL-MAA,1232,6621,18.6,True
+Vistara,2023,winter,DEL-PAT,528,3578,14.8,True
+Vistara,2023,winter,DEL-PNQ,1232,6918,17.8,True
+Vistara,2023,winter,DEL-RPR,616,1914,32.2,True
+Vistara,2023,winter,DEL-SXR,594,5453,10.9,True
+Vistara,2023,winter,DEL-TRV,308,1386,22.2,True
+Vistara,2023,winter,DEL-UDR,616,2626,23.5,True
+Vistara,2023,winter,DEL-VNS,308,3080,10.0,True
+Vistara,2023,winter,DIB-GAU,308,616,50.0,True
+Vistara,2023,winter,DIB-IXB,308,308,100.0,True
+Vistara,2023,winter,GOX-IXC,242,596,40.6,True
+Vistara,2023,winter,IXJ-SXR,286,2164,13.2,True
+Akasa Air,2023,winter,AMD-BLR,309,2616,11.8,False
+Akasa Air,2023,winter,AMD-BOM,1235,5938,20.8,False
+Akasa Air,2023,winter,AMD-DEL,562,5849,9.6,False
+Akasa Air,2023,winter,AMD-GOX,264,1105,23.9,False
+Akasa Air,2023,winter,AMD-LKO,1,859,0.1,False
+Akasa Air,2023,winter,AMD-PNQ,308,1913,16.1,False
+Akasa Air,2023,winter,AMD-VNS,1,496,0.2,False
+Akasa Air,2023,winter,BBI-BLR,286,2134,13.4,False
+Akasa Air,2023,winter,BBI-PNQ,286,594,48.1,False
+Akasa Air,2023,winter,BLR-BOM,2240,12005,18.7,False
+Akasa Air,2023,winter,BLR-CCU,309,5542,5.6,False
+Akasa Air,2023,winter,BLR-COK,582,4740,12.3,False
+Akasa Air,2023,winter,BLR-DEL,506,11714,4.3,False
+Akasa Air,2023,winter,BLR-GAU,660,2156,30.6,False
+Akasa Air,2023,winter,BLR-GOX,693,2408,28.8,False
+Akasa Air,2023,winter,BLR-HYD,2,6127,0.0,False
+Akasa Air,2023,winter,BLR-IXB,516,1823,28.3,False
+Akasa Air,2023,winter,BLR-LKO,460,2307,19.9,False
+Akasa Air,2023,winter,BLR-PNQ,1318,4900,26.9,False
+Akasa Air,2023,winter,BLR-TRV,2,2524,0.1,False
+Akasa Air,2023,winter,BLR-VNS,308,1540,20.0,False
+Akasa Air,2023,winter,BOM-CCU,308,5235,5.9,False
+Akasa Air,2023,winter,BOM-COK,264,3498,7.5,False
+Akasa Air,2023,winter,BOM-DEL,744,15937,4.7,False
+Akasa Air,2023,winter,BOM-GAU,308,1232,25.0,False
+Akasa Air,2023,winter,BOM-GOX,924,3904,23.7,False
+Akasa Air,2023,winter,BOM-HYD,308,6072,5.1,False
+Akasa Air,2023,winter,BOM-IXB,308,924,33.3,False
+Akasa Air,2023,winter,BOM-LKO,532,2727,19.5,False
+Akasa Air,2023,winter,BOM-MAA,308,6802,4.5,False
+Akasa Air,2023,winter,BOM-UDR,4,1707,0.2,False
+Akasa Air,2023,winter,BOM-VNS,615,2463,25.0,False
+Akasa Air,2023,winter,CCU-GAU,308,4751,6.5,False
+Akasa Air,2023,winter,CCU-IXZ,126,2282,5.5,False
+Akasa Air,2023,winter,DEL-GAU,126,4768,2.6,False
+Akasa Air,2023,winter,DEL-GOX,572,2618,21.8,False
+Akasa Air,2023,winter,DEL-HYD,462,7456,6.2,False
+Akasa Air,2023,winter,DEL-PNQ,154,6918,2.2,False
+Akasa Air,2023,winter,DEL-SXR,252,5453,4.6,False
+Akasa Air,2023,winter,GAU-IXA,308,660,46.7,False
+Akasa Air,2023,winter,GAU-IXB,260,722,36.0,False
+Akasa Air,2023,winter,GOX-HYD,676,2306,29.3,False
+Akasa Air,2023,winter,HYD-TRV,2,772,0.3,False
+Akasa Air,2023,winter,HYD-UDR,1,329,0.3,False
+Akasa Air,2023,winter,LKO-VNS,2,310,0.6,False
+Akasa Air,2023,winter,MAA-PNQ,286,2309,12.4,False
+Star Air,2023,winter,AMD-BHJ,308,308,100.0,False
+Star Air,2023,winter,AMD-IXG,308,308,100.0,False
+Star Air,2023,winter,BLR-GBI,308,528,58.3,False
+Star Air,2023,winter,BLR-GOX,242,2408,10.0,False
+Star Air,2023,winter,BLR-HYD,429,6127,7.0,False
+Star Air,2023,winter,BLR-IXX,308,308,100.0,False
+Star Air,2023,winter,BLR-JGA,308,308,100.0,False
+Star Air,2023,winter,BLR-KLH,87,395,22.0,False
+Star Air,2023,winter,BLR-NDC,154,154,100.0,False
+Star Air,2023,winter,BOM-IXG,308,308,100.0,False
+Star Air,2023,winter,BOM-KLH,396,396,100.0,False
+Star Air,2023,winter,GBI-TIR,308,308,100.0,False
+Star Air,2023,winter,GOX-HYD,242,2306,10.5,False
+Star Air,2023,winter,HYD-JGA,308,308,100.0,False
+Star Air,2023,winter,HYD-NAG,176,792,22.2,False
+Star Air,2023,winter,HYD-PNQ,175,2042,8.6,False
+Star Air,2023,winter,HYD-TIR,121,3288,3.7,False
+Star Air,2023,winter,IXG-JAI,132,132,100.0,False
+Star Air,2023,winter,IXG-JDH,175,175,100.0,False
+Star Air,2023,winter,IXG-NAG,132,132,100.0,False
+Star Air,2023,winter,IXG-STV,174,174,100.0,False
+Star Air,2023,winter,IXG-TIR,242,242,100.0,False
+Star Air,2023,winter,JDH-KQH,153,153,100.0,False
+Star Air,2023,winter,KQH-NAG,176,176,100.0,False
+Star Air,2023,winter,KQH-PNQ,176,176,100.0,False
+Star Air,2023,winter,KQH-STV,175,175,100.0,False
+Star Air,2023,winter,NDC-VDX,154,154,100.0,False
+Star Air,2024,summer,AIP-HDO,419,419,100.0,False
+Star Air,2024,summer,AMD-BHJ,420,420,100.0,False
+Star Air,2024,summer,AMD-IXG,180,180,100.0,False
+Star Air,2024,summer,AMD-NDC,240,240,100.0,False
+Star Air,2024,summer,BLR-GBI,358,358,100.0,False
+Star Air,2024,summer,BLR-GOX,60,60,100.0,False
+Star Air,2024,summer,BLR-HYD,180,2027,8.9,False
+Star Air,2024,summer,BLR-JGA,420,420,100.0,False
+Star Air,2024,summer,BLR-KLH,237,237,100.0,False
+Star Air,2024,summer,BLR-NDC,271,271,100.0,False
+Star Air,2024,summer,BLR-TIR,89,89,100.0,False
+Star Air,2024,summer,BOM-IXG,419,419,100.0,False
+Star Air,2024,summer,BOM-KLH,415,415,100.0,False
+Star Air,2024,summer,GBI-TIR,330,330,100.0,False
+Star Air,2024,summer,GOX-HYD,60,900,6.7,False
+Star Air,2024,summer,GOX-NDC,210,210,100.0,False
+Star Air,2024,summer,GOX-RQY,270,270,100.0,False
+Star Air,2024,summer,HDO-KQH,238,238,100.0,False
+Star Air,2024,summer,HDO-NDC,420,420,100.0,False
+Star Air,2024,summer,HYD-JGA,419,419,100.0,False
+Star Air,2024,summer,HYD-NDC,298,298,100.0,False
+Star Air,2024,summer,HYD-PNQ,238,448,53.1,False
+Star Air,2024,summer,HYD-RQY,270,270,100.0,False
+Star Air,2024,summer,HYD-TIR,210,630,33.3,False
+Star Air,2024,summer,IXG-JAI,180,180,100.0,False
+Star Air,2024,summer,IXG-JDH,239,239,100.0,False
+Star Air,2024,summer,IXG-NAG,240,240,100.0,False
+Star Air,2024,summer,IXG-STV,240,240,100.0,False
+Star Air,2024,summer,IXG-TIR,240,240,100.0,False
+Star Air,2024,summer,KLH-TIR,180,180,100.0,False
+Star Air,2024,summer,KQH-LKO,269,269,100.0,False
+Star Air,2024,summer,KQH-NAG,239,239,100.0,False
+Star Air,2024,summer,KQH-PNQ,238,238,100.0,False
+Star Air,2024,summer,KQH-STV,239,239,100.0,False
+Star Air,2024,summer,NAG-NDC,150,150,100.0,False
+Star Air,2024,summer,RQY-TIR,270,270,100.0,False
+Vistara,2024,winter,AMD-BLR,616,2966,20.8,False
+Vistara,2024,winter,AMD-BOM,924,5602,16.5,False
+Vistara,2024,winter,AMD-DEL,1540,7018,21.9,False
+Vistara,2024,winter,AMD-GOI,264,1293,20.4,False
+Vistara,2024,winter,ATQ-BOM,308,1245,24.7,False
+Vistara,2024,winter,ATQ-DEL,616,4201,14.7,False
+Vistara,2024,winter,BBI-BOM,308,1847,16.7,False
+Vistara,2024,winter,BBI-DEL,924,3232,28.6,False
+Vistara,2024,winter,BLR-BOM,2156,10426,20.7,False
+Vistara,2024,winter,BLR-CCU,924,6949,13.3,False
+Vistara,2024,winter,BLR-COK,924,4920,18.8,False
+Vistara,2024,winter,BLR-DED,308,770,40.0,False
+Vistara,2024,winter,BLR-DEL,2441,11947,20.4,False
+Vistara,2024,winter,BLR-GAU,286,2440,11.7,False
+Vistara,2024,winter,BLR-GOI,880,3928,22.4,False
+Vistara,2024,winter,BLR-HYD,924,7287,12.7,False
+Vistara,2024,winter,BLR-IXC,308,1686,18.3,False
+Vistara,2024,winter,BLR-IXZ,307,769,39.9,False
+Vistara,2024,winter,BLR-TRV,616,3008,20.5,False
+Vistara,2024,winter,BLR-UDR,308,616,50.0,False
+Vistara,2024,winter,BOM-CCU,924,5544,16.7,False
+Vistara,2024,winter,BOM-CJB,308,1848,16.7,False
+Vistara,2024,winter,BOM-COK,572,3189,17.9,False
+Vistara,2024,winter,BOM-DED,308,770,40.0,False
+Vistara,2024,winter,BOM-DEL,5236,17380,30.1,False
+Vistara,2024,winter,BOM-GOI,748,4262,17.6,False
+Vistara,2024,winter,BOM-GOX,770,2618,29.4,False
+Vistara,2024,winter,BOM-HYD,1693,6048,28.0,False
+Vistara,2024,winter,BOM-IXC,924,1932,47.8,False
+Vistara,2024,winter,BOM-JAI,924,3592,25.7,False
+Vistara,2024,winter,BOM-LKO,308,2969,10.4,False
+Vistara,2024,winter,BOM-MAA,924,5631,16.4,False
+Vistara,2024,winter,BOM-SXR,286,1676,17.1,False
+Vistara,2024,winter,BOM-TRV,154,1138,13.5,False
+Vistara,2024,winter,BOM-UDR,616,1705,36.1,False
+Vistara,2024,winter,BOM-VNS,308,2372,13.0,False
+Vistara,2024,winter,CCU-DEL,1540,7831,19.7,False
+Vistara,2024,winter,CCU-IXZ,308,2649,11.6,False
+Vistara,2024,winter,CJB-DEL,308,1056,29.2,False
+Vistara,2024,winter,COK-DEL,616,2773,22.2,False
+Vistara,2024,winter,DED-DEL,308,2023,15.2,False
+Vistara,2024,winter,DEL-GAU,616,4178,14.7,False
+Vistara,2024,winter,DEL-GOI,660,4190,15.8,False
+Vistara,2024,winter,DEL-GOX,924,3697,25.0,False
+Vistara,2024,winter,DEL-HYD,1694,8941,18.9,False
+Vistara,2024,winter,DEL-IDR,616,2734,22.5,False
+Vistara,2024,winter,DEL-IXB,462,3310,14.0,False
+Vistara,2024,winter,DEL-IXC,770,3258,23.6,False
+Vistara,2024,winter,DEL-IXJ,22,1854,1.2,False
+Vistara,2024,winter,DEL-IXL,352,2420,14.5,False
+Vistara,2024,winter,DEL-IXR,462,2692,17.2,False
+Vistara,2024,winter,DEL-LKO,462,4377,10.6,False
+Vistara,2024,winter,DEL-MAA,1232,6462,19.1,False
+Vistara,2024,winter,DEL-PAT,572,3841,14.9,False
+Vistara,2024,winter,DEL-PNQ,1210,7347,16.5,False
+Vistara,2024,winter,DEL-RPR,616,2222,27.7,False
+Vistara,2024,winter,DEL-SXR,726,6160,11.8,False
+Vistara,2024,winter,DEL-TRV,308,1231,25.0,False
+Vistara,2024,winter,DEL-UDR,616,2618,23.5,False
+Vistara,2024,winter,DEL-VNS,308,2772,11.1,False
+Vistara,2024,winter,DIB-GAU,308,659,46.7,False
+Vistara,2024,winter,DIB-IXB,308,518,59.5,False
+Vistara,2024,winter,GOI-HYD,154,3028,5.1,False
+Vistara,2024,winter,GOX-HYD,616,2048,30.1,False
+Vistara,2024,winter,IXJ-SXR,286,2374,12.0,False
+Akasa Air,2024,winter,AMD-BLR,669,2966,22.6,False
+Akasa Air,2024,winter,AMD-BOM,615,5602,11.0,False
+Akasa Air,2024,winter,AMD-CCU,238,1765,13.5,False
+Akasa Air,2024,winter,AMD-COK,171,655,26.1,False
+Akasa Air,2024,winter,AMD-DEL,731,7018,10.4,False
+Akasa Air,2024,winter,AMD-GOX,281,963,29.2,False
+Akasa Air,2024,winter,AMD-GWL,24,24,100.0,False
+Akasa Air,2024,winter,AMD-IXB,308,594,51.9,False
+Akasa Air,2024,winter,AMD-JAI,1,1583,0.1,False
+Akasa Air,2024,winter,AMD-JDH,1,309,0.3,False
+Akasa Air,2024,winter,AMD-JSA,1,1,100.0,False
+Akasa Air,2024,winter,AMD-PNQ,615,1781,34.5,False
+Akasa Air,2024,winter,AMD-SXR,308,616,50.0,False
+Akasa Air,2024,winter,AMD-VNS,154,594,25.9,False
+Akasa Air,2024,winter,ATQ-BOM,148,1245,11.9,False
+Akasa Air,2024,winter,AYJ-BLR,308,616,50.0,False
+Akasa Air,2024,winter,AYJ-BOM,154,750,20.5,False
+Akasa Air,2024,winter,AYJ-DEL,308,1232,25.0,False
+Akasa Air,2024,winter,BBI-BLR,462,2618,17.6,False
+Akasa Air,2024,winter,BLR-BOM,1365,10426,13.1,False
+Akasa Air,2024,winter,BLR-CCU,584,6949,8.4,False
+Akasa Air,2024,winter,BLR-DED,154,770,20.0,False
+Akasa Air,2024,winter,BLR-DEL,352,11947,2.9,False
+Akasa Air,2024,winter,BLR-GAU,768,2440,31.5,False
+Akasa Air,2024,winter,BLR-GOP,453,453,100.0,False
+Akasa Air,2024,winter,BLR-GOX,2,1382,0.1,False
+Akasa Air,2024,winter,BLR-HYD,293,7287,4.0,False
+Akasa Air,2024,winter,BLR-IXB,462,1526,30.3,False
+Akasa Air,2024,winter,BLR-IXC,149,1686,8.8,False
+Akasa Air,2024,winter,BLR-IXD,154,330,46.7,False
+Akasa Air,2024,winter,BLR-JAI,154,2462,6.3,False
+Akasa Air,2024,winter,BLR-LKO,418,2265,18.5,False
+Akasa Air,2024,winter,BLR-NAG,154,1078,14.3,False
+Akasa Air,2024,winter,BLR-PNQ,1249,4438,28.1,False
+Akasa Air,2024,winter,BLR-TRV,60,3008,2.0,False
+Akasa Air,2024,winter,BLR-VNS,616,2726,22.6,False
+Akasa Air,2024,winter,BOM-CCU,924,5544,16.7,False
+Akasa Air,2024,winter,BOM-COK,307,3189,9.6,False
+Akasa Air,2024,winter,BOM-DED,154,770,20.0,False
+Akasa Air,2024,winter,BOM-DEL,924,17380,5.3,False
+Akasa Air,2024,winter,BOM-GAU,308,924,33.3,False
+Akasa Air,2024,winter,BOM-GOX,308,2618,11.8,False
+Akasa Air,2024,winter,BOM-IXB,308,924,33.3,False
+Akasa Air,2024,winter,BOM-IXC,128,1932,6.6,False
+Akasa Air,2024,winter,BOM-IXD,615,923,66.6,False
+Akasa Air,2024,winter,BOM-JAI,308,3592,8.6,False
+Akasa Air,2024,winter,BOM-LKO,615,2969,20.7,False
+Akasa Air,2024,winter,BOM-MAA,307,5631,5.5,False
+Akasa Air,2024,winter,BOM-SXR,718,1676,42.8,False
+Akasa Air,2024,winter,BOM-TRV,60,1138,5.3,False
+Akasa Air,2024,winter,BOM-UDR,145,1705,8.5,False
+Akasa Air,2024,winter,BOM-VNS,616,2372,26.0,False
+Akasa Air,2024,winter,CCU-IXZ,273,2649,10.3,False
+Akasa Air,2024,winter,CCU-PNQ,285,1186,24.0,False
+Akasa Air,2024,winter,DBR-DEL,154,770,20.0,False
+Akasa Air,2024,winter,DEL-GOP,302,1750,17.3,False
+Akasa Air,2024,winter,DEL-GOX,1180,3697,31.9,False
+Akasa Air,2024,winter,DEL-HYD,616,8941,6.9,False
+Akasa Air,2024,winter,DEL-IXB,125,3310,3.8,False
+Akasa Air,2024,winter,DEL-IXD,154,858,17.9,False
+Akasa Air,2024,winter,DEL-JSA,148,456,32.5,False
+Akasa Air,2024,winter,DEL-NAG,125,1973,6.3,False
+Akasa Air,2024,winter,DEL-PNQ,308,7347,4.2,False
+Akasa Air,2024,winter,DEL-VNS,154,2772,5.6,False
+Akasa Air,2024,winter,GAU-IXA,308,924,33.3,False
+Akasa Air,2024,winter,GAU-IXB,154,557,27.6,False
+Akasa Air,2024,winter,GOX-HYD,1,2048,0.0,False
+Akasa Air,2024,winter,GOX-LKO,1,1,100.0,False
+Akasa Air,2024,winter,GOX-MAA,2,354,0.6,False
+Akasa Air,2024,winter,GOX-PNQ,273,1420,19.2,False
+Akasa Air,2024,winter,HYD-UDR,2,330,0.6,False
+Akasa Air,2024,winter,HYD-VNS,327,1885,17.3,False
+Akasa Air,2024,winter,IXZ-MAA,308,2244,13.7,False
+Akasa Air,2024,winter,JAI-PNQ,154,1010,15.2,False
+Fly91,2024,winter,AGX-GOX,308,308,100.0,False
+Fly91,2024,winter,AGX-HBX,236,236,100.0,False
+Fly91,2024,winter,BLR-GOX,269,1382,19.5,False
+Fly91,2024,winter,BLR-KLH,154,616,25.0,False
+Fly91,2024,winter,BLR-NDC,154,154,100.0,False
+Fly91,2024,winter,BLR-SDW,134,134,100.0,False
+Fly91,2024,winter,GOI-NDC,154,154,100.0,False
+Fly91,2024,winter,GOX-HBX,233,233,100.0,False
+Fly91,2024,winter,GOX-HYD,442,2048,21.6,False
+Fly91,2024,winter,GOX-IXG,154,154,100.0,False
+Fly91,2024,winter,GOX-JLG,308,308,100.0,False
+Fly91,2024,winter,GOX-KLH,268,268,100.0,False
+Fly91,2024,winter,GOX-PNQ,575,1420,40.5,False
+Fly91,2024,winter,HBX-HYD,134,442,30.3,False
+Fly91,2024,winter,HBX-IXG,556,556,100.0,False
+Fly91,2024,winter,HYD-IXG,268,576,46.5,False
+Fly91,2024,winter,HYD-JLG,308,308,100.0,False
+Fly91,2024,winter,HYD-KLH,268,576,46.5,False
+Fly91,2024,winter,HYD-SDW,134,134,100.0,False
+Fly91,2024,winter,JLG-PNQ,307,307,100.0,False
+Fly91,2024,winter,PNQ-SDW,88,88,100.0,False
+Akasa Air,2025,summer,AMD-BLR,840,4829,17.4,False
+Akasa Air,2025,summer,AMD-BOM,960,7640,12.6,False
+Akasa Air,2025,summer,AMD-CCU,420,2100,20.0,False
+Akasa Air,2025,summer,AMD-DEL,840,9184,9.1,False
+Akasa Air,2025,summer,AMD-GOX,406,926,43.8,False
+Akasa Air,2025,summer,AMD-GWL,26,26,100.0,False
+Akasa Air,2025,summer,AMD-IXB,396,816,48.5,False
+Akasa Air,2025,summer,AMD-IXC,180,1173,15.3,False
+Akasa Air,2025,summer,AMD-LKO,163,990,16.5,False
+Akasa Air,2025,summer,AMD-PNQ,840,2008,41.8,False
+Akasa Air,2025,summer,AMD-VNS,210,630,33.3,False
+Akasa Air,2025,summer,AYJ-BLR,419,1679,25.0,False
+Akasa Air,2025,summer,AYJ-BOM,512,932,54.9,False
+Akasa Air,2025,summer,AYJ-DEL,420,2112,19.9,False
+Akasa Air,2025,summer,BBI-BLR,420,3165,13.3,False
+Akasa Air,2025,summer,BLR-BOM,1814,14194,12.8,False
+Akasa Air,2025,summer,BLR-CCU,1020,8634,11.8,False
+Akasa Air,2025,summer,BLR-DBR,153,573,26.7,False
+Akasa Air,2025,summer,BLR-DEL,480,16404,2.9,False
+Akasa Air,2025,summer,BLR-GAU,910,3220,28.3,False
+Akasa Air,2025,summer,BLR-GOP,420,842,49.9,False
+Akasa Air,2025,summer,BLR-GOX,178,2158,8.2,False
+Akasa Air,2025,summer,BLR-HYD,420,10976,3.8,False
+Akasa Air,2025,summer,BLR-IXB,922,3020,30.5,False
+Akasa Air,2025,summer,BLR-IXC,210,2250,9.3,False
+Akasa Air,2025,summer,BLR-LKO,687,4051,17.0,False
+Akasa Air,2025,summer,BLR-PNQ,1729,6157,28.1,False
+Akasa Air,2025,summer,BLR-VNS,840,3571,23.5,False
+Akasa Air,2025,summer,BOM-CCU,1464,7763,18.9,False
+Akasa Air,2025,summer,BOM-COK,480,4140,11.6,False
+Akasa Air,2025,summer,BOM-DBR,210,750,28.0,False
+Akasa Air,2025,summer,BOM-DEL,1260,23991,5.3,False
+Akasa Air,2025,summer,BOM-GAU,420,1261,33.3,False
+Akasa Air,2025,summer,BOM-GOI,79,5689,1.4,False
+Akasa Air,2025,summer,BOM-GOP,210,1050,20.0,False
+Akasa Air,2025,summer,BOM-GOX,621,3342,18.6,False
+Akasa Air,2025,summer,BOM-IXB,420,1470,28.6,False
+Akasa Air,2025,summer,BOM-IXC,180,2940,6.1,False
+Akasa Air,2025,summer,BOM-IXD,420,840,50.0,False
+Akasa Air,2025,summer,BOM-KNU,210,630,33.3,False
+Akasa Air,2025,summer,BOM-LKO,1105,3505,31.5,False
+Akasa Air,2025,summer,BOM-MAA,420,7140,5.9,False
+Akasa Air,2025,summer,BOM-SXR,780,2666,29.3,False
+Akasa Air,2025,summer,BOM-TRV,210,1470,14.3,False
+Akasa Air,2025,summer,BOM-UDR,2,2093,0.1,False
+Akasa Air,2025,summer,BOM-VNS,1260,3167,39.8,False
+Akasa Air,2025,summer,CCU-IXZ,300,2609,11.5,False
+Akasa Air,2025,summer,CCU-PNQ,390,1650,23.6,False
+Akasa Air,2025,summer,DBR-DEL,625,1675,37.3,False
+Akasa Air,2025,summer,DEL-GAU,411,4914,8.4,False
+Akasa Air,2025,summer,DEL-GOP,420,1920,21.9,False
+Akasa Air,2025,summer,DEL-GOX,1620,5157,31.4,False
+Akasa Air,2025,summer,DEL-HYD,840,11129,7.5,False
+Akasa Air,2025,summer,DEL-PNQ,420,9960,4.2,False
+Akasa Air,2025,summer,GAU-IXA,420,1260,33.3,False
+Akasa Air,2025,summer,GAU-IXB,339,879,38.6,False
+Akasa Air,2025,summer,GOX-PNQ,390,810,48.1,False
+Akasa Air,2025,summer,HYD-VNS,420,2916,14.4,False
+Akasa Air,2025,summer,IXC-SXR,180,1152,15.6,False
+Akasa Air,2025,summer,IXZ-MAA,420,1890,22.2,False
+Star Air,2025,summer,AIP-HDO,420,420,100.0,False
+Star Air,2025,summer,AMD-BHJ,420,420,100.0,False
+Star Air,2025,summer,AMD-DIU,210,1050,20.0,False
+Star Air,2025,summer,AMD-IDR,210,1436,14.6,False
+Star Air,2025,summer,AMD-IXG,210,210,100.0,False
+Star Air,2025,summer,AMD-JGA,210,210,100.0,False
+Star Air,2025,summer,AMD-KLH,359,359,100.0,False
+Star Air,2025,summer,AMD-NDC,210,210,100.0,False
+Star Air,2025,summer,AMD-RAJ,210,210,100.0,False
+Star Air,2025,summer,BDQ-BHJ,210,210,100.0,False
+Star Air,2025,summer,BDQ-HSR,210,210,100.0,False
+Star Air,2025,summer,BDQ-RAJ,210,210,100.0,False
+Star Air,2025,summer,BHJ-STV,210,210,100.0,False
+Star Air,2025,summer,BLR-GBI,420,420,100.0,False
+Star Air,2025,summer,BLR-GOX,210,2158,9.7,False
+Star Air,2025,summer,BLR-HYD,539,10976,4.9,False
+Star Air,2025,summer,BLR-IXX,404,404,100.0,False
+Star Air,2025,summer,BLR-JGA,210,210,100.0,False
+Star Air,2025,summer,BLR-KLH,210,630,33.3,False
+Star Air,2025,summer,BLR-NAG,360,1620,22.2,False
+Star Air,2025,summer,BLR-NDC,420,420,100.0,False
+Star Air,2025,summer,BOM-IXG,419,419,100.0,False
+Star Air,2025,summer,BOM-KLH,420,420,100.0,False
+Star Air,2025,summer,DIU-GOX,420,420,100.0,False
+Star Air,2025,summer,GDB-IDR,420,420,100.0,False
+Star Air,2025,summer,GOX-HYD,210,2216,9.5,False
+Star Air,2025,summer,GOX-NDC,420,420,100.0,False
+Star Air,2025,summer,GOX-RQY,420,420,100.0,False
+Star Air,2025,summer,HDO-KQH,300,300,100.0,False
+Star Air,2025,summer,HDO-NDC,420,420,100.0,False
+Star Air,2025,summer,HYD-IDR,209,2099,10.0,False
+Star Air,2025,summer,HYD-JGA,210,210,100.0,False
+Star Air,2025,summer,HYD-JRG,420,420,100.0,False
+Star Air,2025,summer,HYD-NAG,330,1170,28.2,False
+Star Air,2025,summer,HYD-NDC,328,328,100.0,False
+Star Air,2025,summer,HYD-PNQ,299,3541,8.4,False
+Star Air,2025,summer,HYD-RQY,420,840,50.0,False
+Star Air,2025,summer,IXG-JAI,180,180,100.0,False
+Star Air,2025,summer,IXG-NAG,180,180,100.0,False
+Star Air,2025,summer,JGA-STV,420,420,100.0,False
+Star Air,2025,summer,JRG-LKO,240,240,100.0,False
+Star Air,2025,summer,JRG-RPR,180,180,100.0,False
+Star Air,2025,summer,KLH-TIR,180,180,100.0,False
+Star Air,2025,summer,KQH-LKO,360,360,100.0,False
+Star Air,2025,summer,KQH-NAG,360,360,100.0,False
+Star Air,2025,summer,KQH-PNQ,300,300,100.0,False
+Star Air,2025,summer,NAG-NDC,420,420,100.0,False
+Star Air,2025,summer,NDC-PNQ,360,360,100.0,False
+Star Air,2025,summer,RQY-TIR,420,420,100.0,False
+India One Air,2025,summer,BBI-IXW,419,419,100.0,False
+India One Air,2025,summer,BBI-PYB,839,839,100.0,False
+India One Air,2025,summer,BBI-UKE,596,596,100.0,False
+India One Air,2025,summer,CCU-COH,420,420,100.0,False
+India One Air,2025,summer,CCU-IXW,420,420,100.0,False
+India One Air,2025,summer,PYB-VTZ,420,420,100.0,False
+India One Air,2025,summer,RPR-UKE,298,298,100.0,False
+Akasa Air,2025,winter,AMD-BLR,615,3736,16.5,False
+Akasa Air,2025,winter,AMD-BOM,768,5653,13.6,False
+Akasa Air,2025,winter,AMD-CCU,308,2002,15.4,False
+Akasa Air,2025,winter,AMD-COK,161,557,28.9,False
+Akasa Air,2025,winter,AMD-DEL,351,6532,5.4,False
+Akasa Air,2025,winter,AMD-GOX,296,1263,23.4,False
+Akasa Air,2025,winter,AMD-GWL,22,22,100.0,False
+Akasa Air,2025,winter,AMD-IXB,241,834,28.9,False
+Akasa Air,2025,winter,AMD-PNQ,616,1629,37.8,False
+Akasa Air,2025,winter,AMD-SXR,127,545,23.3,False
+Akasa Air,2025,winter,AYJ-BLR,128,458,27.9,False
+Akasa Air,2025,winter,AYJ-DEL,308,1109,27.8,False
+Akasa Air,2025,winter,BBI-BLR,414,2262,18.3,False
+Akasa Air,2025,winter,BLR-BOM,1174,9642,12.2,False
+Akasa Air,2025,winter,BLR-CCJ,58,1265,4.6,False
+Akasa Air,2025,winter,BLR-CCU,594,5566,10.7,False
+Akasa Air,2025,winter,BLR-CJB,154,2184,7.1,False
+Akasa Air,2025,winter,BLR-COK,308,3824,8.1,False
+Akasa Air,2025,winter,BLR-DBR,88,220,40.0,False
+Akasa Air,2025,winter,BLR-DEL,1584,13706,11.6,False
+Akasa Air,2025,winter,BLR-GAU,755,2600,29.0,False
+Akasa Air,2025,winter,BLR-GOP,306,768,39.8,False
+Akasa Air,2025,winter,BLR-HYD,271,7107,3.8,False
+Akasa Air,2025,winter,BLR-IXB,588,1666,35.3,False
+Akasa Air,2025,winter,BLR-LKO,263,2526,10.4,False
+Akasa Air,2025,winter,BLR-MAA,43,5123,0.8,False
+Akasa Air,2025,winter,BLR-PNQ,944,4023,23.5,False
+Akasa Air,2025,winter,BLR-VNS,587,3139,18.7,False
+Akasa Air,2025,winter,BOM-CCJ,154,550,28.0,False
+Akasa Air,2025,winter,BOM-CCU,1010,6027,16.8,False
+Akasa Air,2025,winter,BOM-COK,335,3137,10.7,False
+Akasa Air,2025,winter,BOM-DBR,390,940,41.5,False
+Akasa Air,2025,winter,BOM-DEL,1232,17541,7.0,False
+Akasa Air,2025,winter,BOM-GAU,308,924,33.3,False
+Akasa Air,2025,winter,BOM-GOP,128,590,21.7,False
+Akasa Air,2025,winter,BOM-GOX,497,2762,18.0,False
+Akasa Air,2025,winter,BOM-IXB,616,1254,49.1,False
+Akasa Air,2025,winter,BOM-IXD,308,594,51.9,False
+Akasa Air,2025,winter,BOM-LKO,320,1858,17.2,False
+Akasa Air,2025,winter,BOM-MAA,308,6160,5.0,False
+Akasa Air,2025,winter,BOM-SXR,308,606,50.8,False
+Akasa Air,2025,winter,BOM-UDR,154,2608,5.9,False
+Akasa Air,2025,winter,BOM-VNS,616,2155,28.6,False
+Akasa Air,2025,winter,CCU-DEL,617,7798,7.9,False
+Akasa Air,2025,winter,CCU-IXZ,220,2705,8.1,False
+Akasa Air,2025,winter,CCU-PNQ,286,1385,20.6,False
+Akasa Air,2025,winter,DBR-DEL,264,1327,19.9,False
+Akasa Air,2025,winter,DBR-HDO,88,88,100.0,False
+Akasa Air,2025,winter,DEL-GOP,308,1870,16.5,False
+Akasa Air,2025,winter,DEL-GOX,880,3419,25.7,False
+Akasa Air,2025,winter,DEL-HYD,614,8624,7.1,False
+Akasa Air,2025,winter,DEL-IXB,308,4157,7.4,False
+Akasa Air,2025,winter,DEL-PNQ,616,7479,8.2,False
+Akasa Air,2025,winter,DEL-SXR,546,6349,8.6,False
+Akasa Air,2025,winter,DIB-GAU,154,1078,14.3,False
+Akasa Air,2025,winter,GAU-IXA,308,770,40.0,False
+Akasa Air,2025,winter,GAU-IXB,154,462,33.3,False
+Akasa Air,2025,winter,GOX-PNQ,308,879,35.0,False
+Akasa Air,2025,winter,HYD-UDR,4,640,0.6,False
+Akasa Air,2025,winter,HYD-VNS,308,2311,13.3,False
+Akasa Air,2025,winter,IXZ-MAA,308,1847,16.7,False
+Akasa Air,2025,winter,MAA-PNQ,134,2443,5.5,False
+Akasa Air,2025,winter,PNQ-VNS,115,662,17.4,False
+Star Air,2025,winter,AIP-HDO,308,308,100.0,False
+Star Air,2025,winter,AMD-BHJ,242,242,100.0,False
+Star Air,2025,winter,AMD-DIU,220,682,32.3,False
+Star Air,2025,winter,AMD-IXG,110,110,100.0,False
+Star Air,2025,winter,AMD-JAI,66,1936,3.4,False
+Star Air,2025,winter,AMD-JDH,88,396,22.2,False
+Star Air,2025,winter,AMD-JGA,308,308,100.0,False
+Star Air,2025,winter,AMD-KLH,308,308,100.0,False
+Star Air,2025,winter,AMD-NDC,220,220,100.0,False
+Star Air,2025,winter,AMD-PNQ,132,1629,8.1,False
+Star Air,2025,winter,AMD-PXN,154,154,100.0,False
+Star Air,2025,winter,BBI-JRG,308,483,63.8,False
+Star Air,2025,winter,BHJ-STV,307,307,100.0,False
+Star Air,2025,winter,BLR-COK,240,3824,6.3,False
+Star Air,2025,winter,BLR-GBI,307,307,100.0,False
+Star Air,2025,winter,BLR-GOX,330,1913,17.3,False
+Star Air,2025,winter,BLR-HYD,329,7107,4.6,False
+Star Air,2025,winter,BLR-IXG,44,660,6.7,False
+Star Air,2025,winter,BLR-IXX,306,306,100.0,False
+Star Air,2025,winter,BLR-JRG,44,352,12.5,False
+Star Air,2025,winter,BLR-KLH,88,396,22.2,False
+Star Air,2025,winter,BLR-NAG,132,1588,8.3,False
+Star Air,2025,winter,BLR-NDC,308,308,100.0,False
+Star Air,2025,winter,BLR-SSE,308,308,100.0,False
+Star Air,2025,winter,BLR-VDY,129,195,66.2,False
+Star Air,2025,winter,BOM-IXG,308,462,66.7,False
+Star Air,2025,winter,BOM-KLH,308,616,50.0,False
+Star Air,2025,winter,BOM-SSE,308,308,100.0,False
+Star Air,2025,winter,CCU-PXN,308,616,50.0,False
+Star Air,2025,winter,DIU-GOX,220,220,100.0,False
+Star Air,2025,winter,GDB-IDR,220,220,100.0,False
+Star Air,2025,winter,GOX-NDC,154,154,100.0,False
+Star Air,2025,winter,GOX-RQY,308,308,100.0,False
+Star Air,2025,winter,HDO-KQH,176,176,100.0,False
+Star Air,2025,winter,HDO-NDC,308,308,100.0,False
+Star Air,2025,winter,HYD-JRG,308,308,100.0,False
+Star Air,2025,winter,HYD-NAG,154,1078,14.3,False
+Star Air,2025,winter,HYD-NDC,198,198,100.0,False
+Star Air,2025,winter,HYD-PNQ,286,2398,11.9,False
+Star Air,2025,winter,HYD-RQY,308,616,50.0,False
+Star Air,2025,winter,HYD-TIR,154,3651,4.2,False
+Star Air,2025,winter,IXG-JAI,132,132,100.0,False
+Star Air,2025,winter,JGA-STV,308,308,100.0,False
+Star Air,2025,winter,JRG-LKO,176,176,100.0,False
+Star Air,2025,winter,JRG-RPR,132,132,100.0,False
+Star Air,2025,winter,KLH-NAG,154,154,100.0,False
+Star Air,2025,winter,KLH-TIR,110,110,100.0,False
+Star Air,2025,winter,KQH-LKO,176,176,100.0,False
+Star Air,2025,winter,KQH-NAG,240,240,100.0,False
+Star Air,2025,winter,KQH-PNQ,218,218,100.0,False
+Star Air,2025,winter,NAG-NDC,154,154,100.0,False
+Star Air,2025,winter,NAG-PNQ,132,1055,12.5,False
+Star Air,2025,winter,NDC-PNQ,220,220,100.0,False
+Star Air,2025,winter,PNQ-SSE,154,154,100.0,False
+Star Air,2025,winter,RQY-TIR,308,308,100.0,False
+India One Air,2025,winter,BBI-IXW,307,307,100.0,False
+India One Air,2025,winter,BBI-PYB,615,615,100.0,False
+India One Air,2025,winter,BBI-UKE,615,615,100.0,False
+India One Air,2025,winter,CCU-COH,308,308,100.0,False
+India One Air,2025,winter,CCU-IXW,308,308,100.0,False
+India One Air,2025,winter,PYB-VTZ,308,308,100.0,False
+India One Air,2025,winter,RPR-UKE,308,308,100.0,False
+Akasa Air,2026,summer,AMD-BLR,929,4744,19.6,True
+Akasa Air,2026,summer,AMD-BOM,206,6264,3.3,True
+Akasa Air,2026,summer,AMD-CCU,420,3090,13.6,True
+Akasa Air,2026,summer,AMD-DEL,60,8010,0.7,True
+Akasa Air,2026,summer,AMD-GOX,98,518,18.9,True
+Akasa Air,2026,summer,AMD-IXB,360,360,100.0,True
+Akasa Air,2026,summer,AMD-MAA,60,1889,3.2,True
+Akasa Air,2026,summer,AMD-PNQ,840,2010,41.8,True
+Akasa Air,2026,summer,AYJ-DEL,420,1260,33.3,True
+Akasa Air,2026,summer,BBI-BLR,840,3341,25.1,True
+Akasa Air,2026,summer,BLR-BOM,1440,13358,10.8,True
+Akasa Air,2026,summer,BLR-CCJ,420,1810,23.2,True
+Akasa Air,2026,summer,BLR-CCU,810,6869,11.8,True
+Akasa Air,2026,summer,BLR-COK,540,5180,10.4,True
+Akasa Air,2026,summer,BLR-DBR,413,413,100.0,True
+Akasa Air,2026,summer,BLR-DEL,1447,18232,7.9,True
+Akasa Air,2026,summer,BLR-GAU,629,2729,23.0,True
+Akasa Air,2026,summer,BLR-GOP,420,833,50.4,True
+Akasa Air,2026,summer,BLR-GWL,30,450,6.7,True
+Akasa Air,2026,summer,BLR-IXB,566,1765,32.1,True
+Akasa Air,2026,summer,BLR-LKO,420,3332,12.6,True
+Akasa Air,2026,summer,BLR-NMI,421,2505,16.8,True
+Akasa Air,2026,summer,BLR-PNQ,1287,6105,21.1,True
+Akasa Air,2026,summer,BLR-VNS,1114,3212,34.7,True
+Akasa Air,2026,summer,BOM-CCU,956,7255,13.2,True
+Akasa Air,2026,summer,BOM-COK,420,4110,10.2,True
+Akasa Air,2026,summer,BOM-DBR,420,1050,40.0,True
+Akasa Air,2026,summer,BOM-DEL,2160,24629,8.8,True
+Akasa Air,2026,summer,BOM-GAU,420,1260,33.3,True
+Akasa Air,2026,summer,BOM-GOX,522,2982,17.5,True
+Akasa Air,2026,summer,BOM-IXB,720,1950,36.9,True
+Akasa Air,2026,summer,BOM-IXD,420,780,53.8,True
+Akasa Air,2026,summer,BOM-LKO,360,2881,12.5,True
+Akasa Air,2026,summer,BOM-MAA,420,7560,5.6,True
+Akasa Air,2026,summer,BOM-SXR,357,1135,31.5,True
+Akasa Air,2026,summer,BOM-VNS,840,2940,28.6,True
+Akasa Air,2026,summer,CCU-DEL,839,10919,7.7,True
+Akasa Air,2026,summer,CCU-IXZ,240,1617,14.8,True
+Akasa Air,2026,summer,CCU-NMI,420,840,50.0,True
+Akasa Air,2026,summer,CCU-PNQ,390,1859,21.0,True
+Akasa Air,2026,summer,COK-NMI,420,1200,35.0,True
+Akasa Air,2026,summer,DBR-DEL,360,1200,30.0,True
+Akasa Air,2026,summer,DBR-HYD,180,600,30.0,True
+Akasa Air,2026,summer,DEL-GOP,420,1845,22.8,True
+Akasa Air,2026,summer,DEL-GOX,1200,3840,31.2,True
+Akasa Air,2026,summer,DEL-HYD,659,12000,5.5,True
+Akasa Air,2026,summer,DEL-IXB,360,4770,7.5,True
+Akasa Air,2026,summer,DEL-NMI,419,2219,18.9,True
+Akasa Air,2026,summer,DEL-PNQ,840,9985,8.4,True
+Akasa Air,2026,summer,DEL-SXR,358,7338,4.9,True
+Akasa Air,2026,summer,DIB-IXB,330,720,45.8,True
+Akasa Air,2026,summer,GAU-IXA,150,630,23.8,True
+Akasa Air,2026,summer,GAU-IXB,90,300,30.0,True
+Akasa Air,2026,summer,GOX-PNQ,420,1020,41.2,True
+Akasa Air,2026,summer,IXZ-MAA,420,1260,33.3,True
+Akasa Air,2026,summer,LKO-NMI,780,1440,54.2,True
+Akasa Air,2026,summer,NMI-VNS,840,1260,66.7,True
+Star Air,2026,summer,AIP-HDO,420,420,100.0,True
+Star Air,2026,summer,AMD-DIU,120,540,22.2,True
+Star Air,2026,summer,AMD-JGA,360,360,100.0,True
+Star Air,2026,summer,AMD-NDC,330,330,100.0,True
+Star Air,2026,summer,AMD-PXN,420,420,100.0,True
+Star Air,2026,summer,BBI-JRG,210,210,100.0,True
+Star Air,2026,summer,BHJ-STV,360,360,100.0,True
+Star Air,2026,summer,BLR-GOX,295,1884,15.7,True
+Star Air,2026,summer,BLR-HYD,480,7234,6.6,True
+Star Air,2026,summer,BLR-IXX,416,416,100.0,True
+Star Air,2026,summer,BLR-NDC,417,417,100.0,True
+Star Air,2026,summer,BLR-VDY,420,420,100.0,True
+Star Air,2026,summer,BOM-HYD,420,7980,5.3,True
+Star Air,2026,summer,BOM-IDR,60,2849,2.1,True
+Star Air,2026,summer,BOM-KLH,420,420,100.0,True
+Star Air,2026,summer,BOM-NDC,60,60,100.0,True
+Star Air,2026,summer,BOM-SSE,420,420,100.0,True
+Star Air,2026,summer,CCU-PXN,414,834,49.6,True
+Star Air,2026,summer,DIU-GOX,120,120,100.0,True
+Star Air,2026,summer,GDB-IDR,418,418,100.0,True
+Star Air,2026,summer,GOX-NDC,299,299,100.0,True
+Star Air,2026,summer,GOX-RQY,420,420,100.0,True
+Star Air,2026,summer,HDO-KQH,240,240,100.0,True
+Star Air,2026,summer,HDO-NDC,420,420,100.0,True
+Star Air,2026,summer,HYD-NDC,180,180,100.0,True
+Star Air,2026,summer,HYD-PNQ,300,3029,9.9,True
+Star Air,2026,summer,HYD-RQY,210,630,33.3,True
+Star Air,2026,summer,JGA-NMI,420,605,69.4,True
+Star Air,2026,summer,JGA-STV,420,420,100.0,True
+Star Air,2026,summer,KQH-LKO,300,300,100.0,True
+Star Air,2026,summer,KQH-NAG,300,300,100.0,True
+Star Air,2026,summer,KQH-NMI,60,60,100.0,True
+Star Air,2026,summer,KQH-PNQ,150,150,100.0,True
+Star Air,2026,summer,NAG-NDC,300,300,100.0,True
+Star Air,2026,summer,PNQ-SSE,150,150,100.0,True
+Star Air,2026,summer,RQY-TIR,420,420,100.0,True
+Star Air,2026,summer,SSE-TIR,420,420,100.0,True
+Fly91,2026,summer,AGX-COK,420,1169,35.9,True
+Fly91,2026,summer,AGX-GOX,419,419,100.0,True
+Fly91,2026,summer,BLR-HBX,20,859,2.3,True
+Fly91,2026,summer,BLR-SDW,420,420,100.0,True
+Fly91,2026,summer,GOI-PNQ,539,899,60.0,True
+Fly91,2026,summer,GOI-SSE,420,420,100.0,True
+Fly91,2026,summer,GOX-HYD,228,2448,9.3,True
+Fly91,2026,summer,GOX-JLG,420,420,100.0,True
+Fly91,2026,summer,HBX-HYD,420,1020,41.2,True
+Fly91,2026,summer,HYD-JLG,420,420,100.0,True
+Fly91,2026,summer,HYD-RJA,1259,3779,33.3,True
+Fly91,2026,summer,HYD-SDW,419,419,100.0,True
+Fly91,2026,summer,HYD-VGA,1259,4197,30.0,True
+Fly91,2026,summer,JLG-PNQ,420,420,100.0,True
+Fly91,2026,summer,PNQ-SDW,420,420,100.0,True
+India One Air,2026,summer,BBI-IXW,419,419,100.0,True
+India One Air,2026,summer,BBI-PYB,839,839,100.0,True
+India One Air,2026,summer,BBI-RRK,420,420,100.0,True
+India One Air,2026,summer,BBI-UKE,839,839,100.0,True
+India One Air,2026,summer,CCU-COH,420,420,100.0,True
+India One Air,2026,summer,CCU-IXW,420,420,100.0,True
+India One Air,2026,summer,PYB-VTZ,420,420,100.0,True

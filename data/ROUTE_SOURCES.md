@@ -65,3 +65,48 @@ The EDA histogram pools pair-months with equal weight. It does not weight by pas
 The additional heatmap retains these same 1,150 values by pair and calendar month. Its matrix has 20 rows ordered by 2025 passenger rank and 90 columns from April 2019 through September 2026. All cells share the same 0-10,000 colour scale; 650 unavailable cells are grey. The matrix is saved to `O4/output/tables/route_hhi_heatmap.csv`, with one `route` identifier and 90 monthly value columns. Unavailable values are empty CSV cells. No row is rescaled separately and no missing value is interpolated.
 
 Approved schedules can differ from operation. Whole missing carrier filings can escape the endpoint comparison, and the chosen major routes do not represent India's entire network. Frequency shares cannot recover route airline passenger shares. This step describes sample coverage and concentration; it does not assess H6 or establish market power.
+
+## O3 entrant route inputs
+
+`source/prepare_o3_routes.py` reads the same 228 PDFs through the extractor
+above, but keeps rows for every airline and airport pair, not only the 20
+selected pairs. It writes:
+
+| File | Contents |
+|---|---|
+| `interim/routes/o3_schedule_rows.csv` | 95,035 departure rows: publication, airline, flight, weekday mask, origin, destination, validity dates, IATA season |
+| `interim/routes/o3_station_codes.csv` | Station name, inferred IATA code, and the votes supporting it |
+
+The PDFs name each station by city. A station's IATA code is the most frequent
+code among its one-to-one matches: the same flight, publication and validity
+dates appearing once as a departure and once as an arrival. Cities with a code in
+the shared extractor use that code. The nine rows at stations without a code are
+dropped. A city served by two airports, such as Rajkot, receives its most
+frequent code.
+
+O3 removes exact duplicate rows, clips each row to its IATA season and counts
+the dates within its validity whose weekday it operates. An entrant's share is its
+departures divided by all recorded departures on the airport pair, with both
+directions combined. Only pairs served by an entrant in that season are measured.
+
+Each entrant's selected season is its latest recovered season before closure or
+merger, or its latest recovered season if it still operates. For a ceased airline
+this excludes seasons that start after its last traffic month; for Vistara it
+excludes seasons ending on or after the 12 November 2024 merger. The selected
+seasons give 229 airline-pair records.
+
+The monthly check covers TruJet in November 2019. A pair is screened in when the
+departures of all airlines differ by direction by at most 3% of its departures;
+this tolerance is a study choice, tighter than the 5% national route screen above.
+The Chennai-Salem example takes its passengers from `raw/domestic_route_monthly.csv`.
+
+Shares describe recovered filings only. A season with no recovered entrant
+filing has no row, and publications in the unsupported legacy table format are
+not used. Vistara flights are not relabelled as Air India flights after
+November 2024. Approved schedules can differ from operation.
+
+`raw/o3_financial_records.csv` holds the operating income and profit after tax,
+in Rs crore, of Vistara (FY2023-FY2024, ICRA 2024) and Akasa Air (FY2025-FY2026,
+ICRA 2026). O3 calculates revenue growth and net margins from it, with operating
+income as revenue. Other financial evidence cited in the report is reported, not
+calculated, and is not held in this repository.
