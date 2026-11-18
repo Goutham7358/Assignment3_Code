@@ -51,3 +51,12 @@ The file also contains passenger-kilometres, seat-kilometres, load factors and f
 `processed/capacity_airline_monthly.csv` has `date`, `airline`, `ownership_group` and `passengers`, plus `ask_thousand_seat_km`, `rpk_thousand_passenger_km` and `capacity_status`. There are 1,577 records: 1,575 valid and two flagged `zero_ask_and_rpk_with_positive_passengers`. Negative/non-finite or inconsistent capacity values are not treated as usable. The EDA script stops if a selected comparison-month record is flagged, rather than silently dropping it.
 
 This file has no airline-by-route breakdown, fares or marginal costs. National concentration measures cannot establish route passenger shares, pricing power or consumer harm.
+
+## O3 use
+
+O3 filters `raw/carrier_monthly.csv` to the same scheduled-domestic,
+positive-passenger records within its own script. It measures each of nine
+entrant brands' share of national passengers by months since first passenger
+month, without ownership grouping. Its route evidence and the financial records
+it uses are described in
+[ROUTE_SOURCES.md](ROUTE_SOURCES.md#o3-entrant-route-inputs).

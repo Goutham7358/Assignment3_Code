@@ -25,9 +25,14 @@ flight/date/direction records, combines directions and applies the documented
 coverage checks and exclusions. The resulting counts describe scheduled flights,
 not actual operations or route-level airline passenger shares.
 
-These preparation steps supply O4. O1 and O2 apply their own study filters to
+These preparation steps supply O4. O1, O2 and O3 apply their own study filters to
 the same national source CSV within their analysis workflows. Rerun the relevant
 analysis commands after rebuilding its inputs.
+
+O3 also needs departure rows for all airlines and routes, which
+`python data/source/prepare_o3_routes.py` extracts from the same PDFs into
+[o3_schedule_rows.csv](../interim/routes/o3_schedule_rows.csv).
+`python O3/run_analysis.py` runs it when that file is missing.
 
 Source versions, units and ownership conventions are in
 [SOURCE.md](../SOURCE.md). Schedule sources, selection rules and exclusions are
