@@ -1,119 +1,50 @@
-# Assignment 3 - O1, O2 and O4 analysis code
+# From Fragmentation to Duopoly - Code
 
-Code and data for O1, O2 and O4 of the DA241o Managerial Economics project on Indian domestic aviation.
+**Team Macro Matrix · DA241O: Managerial Economics**
 
-The report is maintained separately in [Economics_Assignment3_Template](https://github.com/Goutham7358/Economics_Assignment3_Template), which is linked to Overleaf.
+Data preparation and analysis for the study of market concentration and major
+consolidation events in Indian domestic aviation, 2015–2026.
 
-## O1: concentration and ownership effects
+## Setup
 
-Use Python 3.11 or newer. The root `requirements.txt` includes the plotting,
-data-processing and regression packages needed for O1, O2 and O4. Rebuilding
-route CSVs from PDFs also needs Poppler's `pdftotext` on your PATH.
-
-Values may be rounded again when placed in the report, so displayed entries
-and totals can differ slightly from the generated CSVs.
-
-From the repository root:
+Use Python 3.11 or newer. From the repository root:
 
 ```sh
-python3 -m pip install -r requirements.txt
-python3 O1/data_cleansing.py
-python3 O1/HHI_Index_calculation.py
-python3 O1/export_results_tables.py
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
-O1 reads `data/raw/carrier_monthly.csv`, applies its cleaning rules and saves
-`data/processed/o1_airline_monthly_clean.csv`. Its calculation and export
-commands repeat that preparation before computing the results. Numerical
-outputs are in `O1/results/` and the chart is in `O1/figures/`.
+Use this environment for the commands in all guides below. Rebuilding route
+CSVs from PDFs also requires Poppler's `pdftotext` on your PATH.
 
-## O2: airline exits and Tata consolidation
+## Analyses and results
 
-The `O2/` folder separates exploratory summaries and charts in
-`EDA/` from H3, H4 and supporting Tata calculations in `Main_Analysis/`.
-Numerical outputs are in `output/tables/`, and charts are in `output/figures/`.
-O2 reads the shared `data/raw/carrier_monthly.csv`; it has no separate data
-folder. Its plotting requirements are listed in `O2/requirements.txt`.
+| Analysis | Run from the repository root | Results |
+|---|---|---|
+| [O1: Concentration and ownership](O1/README.md) | `python O1/export_results_tables.py` | [Numerical tables](O1/results/) and [chart](O1/figures/) |
+| [O2: Airline exits and Tata consolidation](O2/README.md) | `python O2/run_analysis.py` | [Numerical tables](O2/output/tables/) and [share-path chart](O2/output/figures/exit_share_paths.png) |
+| [O4: Concentration and rivals' capacity](O4/README.md) | `python O4/run_analysis.py` | [Numerical tables](O4/output/tables/) and [figures](O4/output/figures/) |
 
-```sh
-python3 -m pip install -r O2/requirements.txt
-python3 O2/run_analysis.py
-```
+The guides identify the command and output files for each calculation.
+Report values may be rounded further than the CSV outputs, producing small
+differences in displayed entries and totals.
 
-See [O2/README.md](O2/README.md) for individual run commands and output definitions.
-The O4 workflow is documented below and in [O4/README.md](O4/README.md).
+No cleanup is needed between runs. Commands overwrite their generated results.
+The O4 runner creates missing prepared inputs and otherwise reuses them. After
+changing source data or preparation rules, run
+`python O4/run_analysis.py --rebuild-data` to rebuild those inputs as well.
 
-## Current status
+## Data
 
-O4's individual EDA, three main-analysis units, economic interpretation and hypothesis assessment are drafted for review. The main units cover national concentration, route concentration and IndiGo dependence, and the December capacity-buffer comparison. Each has numerical outputs, report tables and appendix workings. Compact national and route tables are generated alongside the complete appendix tables, with the underlying numerical results preserved. Route outputs include matched focus-period comparisons, monthly exposure, leading pairs with ties identified, and subset comparisons. A separate script generates the H5-H7 outcome table. The O4 limitations and variable dictionary are also drafted. Final team integration and closing statements remain to be completed. Preparation code and prepared CSVs are included; the route workflow can rebuild its CSVs from the saved original DGCA PDFs. See [O4's instructions and checklist](O4/README.md) for run commands.
+The [national source CSV](data/raw/carrier_monthly.csv) preserves the
+DGCA-derived data distributed by [Marek Kubicek](https://github.com/mkubicek/india-aviation-stats).
+O1 and O2 filter this file within their workflows. O4 reads the included
+[prepared CSVs](data/processed/).
 
-The first figure has two panels:
-
-1. **CR2:** the combined passenger share of the two largest airline ownership groups each month.
-2. **Share gap:** the largest group's passenger share minus the second-largest group's share, in percentage points.
-
-The figure and a short description belong in Section 4, Descriptive and Exploratory Analysis, of the report.
-
-![National CR2 and the share gap, January 2015-July 2026](O4/output/figures/national_cr2_share_gap.png)
-
-The second figure shows available airport pairs by month and the distribution of ownership-group frequency HHI. It covers 1,150 retained route-months after the two documented TruJet-related exclusions. These are scheduled-frequency measures; the national figure uses passenger shares.
-
-![Route coverage and the distribution of ownership-group frequency HHI](O4/output/figures/route_coverage_hhi.png)
-
-The third figure uses those same HHI values to show each airport pair over time. Grey cells indicate unavailable observations. It complements the pooled histogram, which is retained.
-
-![Ownership-group frequency HHI by airport pair and month](O4/output/figures/route_hhi_heatmap.png)
-
-## Files
-
-Generate all EDA figures and tables from the included prepared CSVs:
-
-```sh
-python3 O4/EDA/generate_figures.py
-```
-
-Install the packages in `requirements.txt` first if needed. PDF extraction and cleaning are separate steps in `data/source/`; plotting scripts are grouped in `O4/EDA/`.
-
-| File or folder | Contents |
-|---|---|
-| `data/raw/carrier_monthly.csv` | Unchanged DGCA-derived airline traffic snapshot |
-| `data/source/` | Data preparation code and workflow notes |
-| `data/raw/route_schedules/` | Original DGCA schedule PDFs, with a separate fingerprint/URL manifest |
-| `data/interim/routes/` | Extracted schedule rows and extraction audit |
-| `data/processed/` | Prepared CSV and preparation audit |
-| `data/SOURCE.md` | Source, version, fingerprint, variables and study filtering |
-| `data/ROUTE_SOURCES.md` | Route sources, preparation, sample changes and data dictionary |
-| `data/LICENSE.txt` | Upstream licence accompanying the dataset |
-| `O4/EDA/eda_national.py` | Monthly group calculations, summary statistics and chart |
-| `O4/EDA/eda_routes.py` | Route coverage, HHI distribution and pair-by-month heatmap |
-| `O4/EDA/eda_capacity.py` | December 2024/2025 capacity-input table and its airline-level inputs |
-| `O4/EDA/generate_figures.py` | One command to generate all EDA figures and tables from prepared CSVs |
-| `O4/Main_Analysis/national_concentration.py` | National concentration results, monthly condition flags and appendix worked example |
-| `O4/Main_Analysis/route_concentration.py` | Route concentration, IndiGo exposure, leading pairs, subset comparisons and appendix worked example |
-| `O4/Main_Analysis/route_focus_period.py` | Matched December 2024-July 2026 comparison for national data and the busiest 10/20 pairs |
-| `O4/Main_Analysis/capacity_buffer.py` | Rivals' unused-capacity ratios for December 2024/2025, their changes and appendix workings |
-| `O4/Main_Analysis/hypothesis_summary.py` | H5-H7 condition checks and the Section 6.2 outcome table |
-| `O4/Main_Analysis/report_table.py` | Full-grid LaTeX table writer shared by the four main result tables |
-| `O4/output/` | Figure, numerical tables and software versions |
-| `requirements.txt` | Shared plotting, data-processing and regression dependencies |
-
-Run instructions and output definitions are in [O4/README.md](O4/README.md).
-Source data are preserved. O4's analysis scripts read prepared CSVs. O1 and
-O2 read the included raw national CSV and apply their cleaning or filtering
-rules within their workflows.
-
-## How we will write the code
-
-- Use descriptive names and ordinary steps that can be read from top to bottom.
-- Give each script one clear purpose. Add functions only when they make the calculation easier to follow.
-- Explain economic definitions and important choices, such as ownership grouping, beside the relevant code.
-- Keep dependencies small. Avoid unnecessary frameworks, configuration files and command-line options.
-- Include the inputs needed to run the script without the surrounding economics-project folder. Use paths relative to the script's location.
-- Save the numerical table behind each figure, so the plotted values can be checked.
-- Document missing observations, exclusions, units, grouping dates and formulas. Preserve the source data.
-- Record the software versions and run instructions used to generate submitted results.
-- Check calculations against the underlying data before using them in the report.
-
-## AI assistance
-
-OpenAI Codex assisted with repository setup, documentation, national and route preparation/EDA code, adaptation of the existing PDF parser, national, route and capacity-buffer main-analysis code and tables, calculation checks, and report text. The analysis follows the method submitted in Assignment 2, with the two TruJet-related route-month exclusions documented in the route source notes. The team must review the calculations and interpretations before submission and include the methods-and-tools disclosure required by the course.
+The 228 DGCA schedule PDFs in [data/raw/route_schedules/](data/raw/route_schedules/)
+have been processed into [airline_route_monthly.csv](data/processed/routes/airline_route_monthly.csv)
+for monthly flight counts by airline and airport pair, and
+[route_monthly.csv](data/processed/routes/route_monthly.csv) for route-level
+concentration measures. These CSVs use scheduled flights, rather than actual
+flights operated or passengers carried.

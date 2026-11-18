@@ -1,4 +1,4 @@
-"""Prepare the airline-month CSV used by O4. Run with Python 3.10 or newer."""
+"""Prepare the national airline-month CSV used by O4."""
 
 import csv
 import hashlib

@@ -1,69 +1,34 @@
-# Preparing data before analysis
+# Data preparation
 
-Data preparation lives here. O4's analysis scripts read prepared CSV files, rather than reading source PDFs or downloading data.
+Prepared CSVs are included in [data/processed/](../processed/). The commands
+below rebuild them from the national source CSV and the 228 original DGCA
+schedule PDFs bundled with the repository.
 
-To generate all EDA figures and tables from the included prepared data, run `python3 O4/EDA/generate_figures.py` from the repository root. The steps below rebuild the prepared data itself.
+The O4 runner prepares missing inputs automatically. To force a complete rebuild,
+run `python O4/run_analysis.py --rebuild-data` from the repository root.
 
-## National data: implemented
+Complete the [shared Python setup](../../README.md#setup). PDF extraction also
+requires Poppler's `pdftotext` on your PATH. Run these steps from the repository
+root in the order shown.
 
-Run from the repository root:
+| Command | Output |
+|---|---|
+| `python data/source/prepare_national.py` | [National airline-month CSV](../processed/national_airline_monthly.csv) and preparation audit |
+| `python data/source/prepare_capacity.py` | [Capacity airline-month CSV](../processed/capacity_airline_monthly.csv) and validity flags |
+| `python data/source/extract_route_schedules.py` | [Extracted schedule rows](../interim/routes/schedule_rows.csv), with PDF/page/row references, and extraction audit |
+| `python data/source/prepare_routes.py` | [Route CSVs](../processed/routes/), including airline counts, ownership-group counts, concentration and coverage |
+| `python data/source/verify_routes.py` | [Verification results](../processed/routes/verification.json) for PDF fingerprints, route totals and independent SQL HHI checks |
 
-```sh
-python3 data/source/prepare_national.py
-```
+National preparation selects positive-passenger scheduled-domestic records.
+Route preparation expands service dates and operating weekdays, deduplicates
+flight/date/direction records, combines directions and applies the documented
+coverage checks and exclusions. The resulting counts describe scheduled flights,
+not actual operations or route-level airline passenger shares.
 
-Input: `data/raw/carrier_monthly.csv`, the unchanged DGCA-derived upstream snapshot.
+These preparation steps supply O4. O1 and O2 apply their own study filters to
+the same national source CSV within their analysis workflows. Rerun the relevant
+analysis commands after rebuilding its inputs.
 
-Outputs:
-
-- `data/processed/national_airline_monthly.csv`: positive scheduled-domestic airline-months, with ownership groups.
-- `data/processed/national_preparation.json`: source fingerprint, exclusions, row counts and missing months.
-
-The preparation script uses only Python's standard library. See `data/SOURCE.md` for the ownership convention, data dictionary and upstream attribution.
-
-## Capacity data: implemented
-
-```sh
-python3 data/source/prepare_capacity.py
-```
-
-This reads the same unchanged national source snapshot and writes `data/processed/capacity_airline_monthly.csv` and `capacity_preparation.json`. It preserves the source ASK/RPK decimal strings in thousand-km units. All 1,577 passenger-airline records remain; two records with zero ASK and RPK are flagged instead of imputed. `O4/EDA/eda_capacity.py` reads this prepared CSV for the December comparison.
-
-## Route data: implemented
-
-The existing project's PDF table parser has been adapted for this repository. All inputs are included. The extraction step also needs Poppler's `pdftotext` on your PATH; no extra Python package is required for preparation.
-
-Run from the repository root:
-
-```sh
-python3 data/source/extract_route_schedules.py
-python3 data/source/prepare_routes.py
-python3 data/source/verify_routes.py
-python3 O4/EDA/eda_routes.py
-```
-
-The intermediate and prepared CSVs are already included. To redraw only the chart, run the last command. To rebuild the prepared CSVs without rereading PDFs, start at `prepare_routes.py`.
-
-The preparation has two stages:
-
-1. **Extract PDF tables into CSV.** Preserve airline, flight number, airport, arrival/departure direction, weekday mask, validity dates, source URL, PDF fingerprint, page and row. Poppler's `pdftotext` is required by the existing parser.
-2. **Prepare monthly CSVs.** Expand validity dates and weekdays, deduplicate flight-date-leg records, apply documented operational adjustments, combine directions, and apply the submitted coverage and endpoint-consistency checks. Keep missing route-months missing.
-
-The top-20 selection also needs the 2025 airport-pair passenger data. That file selects routes; it does not contain airline passenger shares. The schedule PDFs yield approved flight frequencies, not operated flights or route-level airline passenger counts.
-
-The two affected HYD-MAA observations in February-March 2022 are excluded as whole route-months. The new panel has 1,150 route-months; the earlier panel had 1,152. Other retained flight totals and concentration indices agree with the earlier project. See `data/ROUTE_SOURCES.md` for the decisions, data dictionary and checks.
-
-## Example of the prepared route data
-
-Selected columns from `data/processed/routes/airline_route_monthly.csv`:
-
-```csv
-month,route,airline,scheduled_flights,route_flights
-2026-06,DEL-PNQ,Air India,472,1430
-2026-06,DEL-PNQ,Air India Express,146,1430
-2026-06,DEL-PNQ,Akasa Air,120,1430
-2026-06,DEL-PNQ,IndiGo,524,1430
-2026-06,DEL-PNQ,SpiceJet,168,1430
-```
-
-These are both-direction scheduled-departure counts for Delhi-Pune. For example, Akasa has `120 / 1430 * 100 = 8.39%` of the recorded scheduled flights. The full CSV also contains ownership groups, counts in each direction and unrounded percentage shares. `route_monthly.csv` contains the corresponding pair-month HHI, CR2 and quality fields. Extracted PDF rows, including weekdays, validity dates and page references, are kept separately in `data/interim/routes/schedule_rows.csv`.
+Source versions, units and ownership conventions are in
+[SOURCE.md](../SOURCE.md). Schedule sources, selection rules and exclusions are
+in [ROUTE_SOURCES.md](../ROUTE_SOURCES.md).
